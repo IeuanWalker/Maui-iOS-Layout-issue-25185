@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView x:Class="App.Controls.Inputs.Editor"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:App.Controls"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             Loaded="this_Loaded">
+    <ContentView.Content>
+        <toolkit:SemanticOrderView x:Name="SemanticOrderView">
+            <Grid RowDefinitions="auto,*,auto,auto" RowSpacing="5">
+                <!-- IMPORTANT: This label is always invisibe. It occupies the space ready for when the placeholder animation. Without this the layout will jump around to resize. -->
+                <Label Grid.Row="0"
+                       AutomationProperties.IsInAccessibleTree="False"
+                       FontFamily="InterRegular"
+                       FontSize="Small"
+                       IsVisible="True"
+                       Text="{Binding Placeholder, Source={RelativeSource AncestorType={x:Type ContentView}, AncestorLevel=2}}"
+                       TextColor="{DynamicResource PrimaryBackgroundColour}" />
+                <Label x:Name="HiddenLabel"
+                       Grid.Row="0"
+                       FontFamily="InterRegular"
+                       FontSize="Small"
+                       IsVisible="False"
+                       Text="{Binding Placeholder, Source={RelativeSource AncestorType={x:Type ContentView}, AncestorLevel=2}}"
+                       TextColor="{DynamicResource TextPrimaryColour}"
+                       TranslationY="75" />
+                <Border x:Name="EditorFrame"
+                        Grid.Row="1"
+                        BackgroundColor="{DynamicResource InputFieldColour}"
+                        Stroke="{DynamicResource UnfocusedColour}">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="6" />
+                    </Border.StrokeShape>
+                    <Border.Padding>
+                        <OnPlatform x:TypeArguments="Thickness">
+                            <On Platform="iOS" Value="5,9" />
+                            <On Platform="Android" Value="7,3" />
+                        </OnPlatform>
+                    </Border.Padding>
+                    <Editor x:Name="EditorField"
+                            AutoSize="{Binding AutoSize, Source={RelativeSource AncestorType={x:Type ContentView}, AncestorLevel=2}}"
+                            BackgroundColor="Transparent"
+                            Completed="Handle_OnCompleted"
+                            Focused="Handle_Focused"
+                            IsSpellCheckEnabled="True"
+                            IsTextPredictionEnabled="True"
+                            Keyboard="{Binding Keyboard, Source={RelativeSource AncestorType={x:Type ContentView}, AncestorLevel=2}}"
+                            MaxLength="{Binding MaxLength, Source={RelativeSource AncestorType={x:Type ContentView}, AncestorLevel=2}}"
+                            Placeholder="{Binding Placeholder, Source={RelativeSource AncestorType={x:Type ContentView}, AncestorLevel=2}}"
+                            PlaceholderColor="{DynamicResource TextSilverColour}"
+                            Text="{Binding Text, Source={RelativeSource AncestorType={x:Type ContentView}, AncestorLevel=2}}"
+                            TextChanged="Handle_TextChanged"
+                            TextColor="{DynamicResource TextPrimaryColour}"
+                            TextTransform="{Binding TextTransform, Source={RelativeSource AncestorType={x:Type ContentView}, AncestorLevel=2}}"
+                            Unfocused="Handle_Unfocused">
+                        <Editor.Triggers>
+                            <DataTrigger Binding="{Binding AutoSize, Source={RelativeSource AncestorType={x:Type ContentView}, AncestorLevel=2}}"
+                                         TargetType="Editor"
+                                         Value="Disabled">
+                                <Setter Property="HeightRequest" Value="180" />
+                            </DataTrigger>
+                        </Editor.Triggers>
+                    </Editor>
+                </Border>
+
+                <!-- Counter -->
+                <Label x:Name="LblCounterRepo"
+                       Grid.Row="2"
+                       FontSize="Micro"
+                       HorizontalTextAlignment="End"
+                       IsVisible="{Binding ShowCharacterCount, Source={RelativeSource AncestorType={x:Type ContentView}, AncestorLevel=2}}"
+                       Style="{DynamicResource TextNote}" />
+
+                <!-- Error message -->
+                <controls:ErrorLabel x:Name="LblError"
+                                     Grid.Row="3"
+                                     ErrorName="{Binding Placeholder, Source={RelativeSource AncestorType={x:Type ContentView}, AncestorLevel=2}}"
+                                     Errors="{Binding Errors, Source={RelativeSource AncestorType={x:Type ContentView}, AncestorLevel=2}}" />
+            </Grid>
+        </toolkit:SemanticOrderView>
+    </ContentView.Content>
+</ContentView>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="true" ?>
+<ResourceDictionary x:Class="App.Resources.Styles.BaseStyles"
+                    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <!-- Used in most cases -->
+    <OnPlatform x:Key="FormMargins"
+                x:TypeArguments="Thickness"
+                Default="20,0,20,15" />
+    <!-- Used when you have controls in different columns (i.e. first/ last name) -->
+    <OnPlatform x:Key="FormMarginsLeft"
+                x:TypeArguments="Thickness"
+                Default="20,0,0,15" />
+    <!-- Used when you have controls in different columns (i.e. first/ last name) -->
+    <OnPlatform x:Key="FormMarginsRight"
+                x:TypeArguments="Thickness"
+                Default="0,0,20,15" />
+    <!-- Used for titles on the summary pages -->
+    <OnPlatform x:Key="FormMarginsSummaryTitle"
+                x:TypeArguments="Thickness"
+                Default="20,25,20,15" />
+    <!-- Used when address search is on a page with other form elements, this ensure the top margin matches -->
+    <OnPlatform x:Key="FormMarginsAddressSearch"
+                x:TypeArguments="Thickness"
+                Default="20,25,20,15" />
+    <!-- Used to add a standard margin to the bottom -->
+    <OnPlatform x:Key="FormMarginsAllRound"
+                x:TypeArguments="Thickness"
+                Default="20,20,20,20" />
+    <!-- Used for the search bar above the map -->
+    <OnPlatform x:Key="MapSeachBarMargins"
+                x:TypeArguments="Thickness"
+                Default="7,0,7,15" />
+
+    <OnPlatform x:Key="DividerMargins"
+                x:TypeArguments="Thickness"
+                Default="20,20,20,5" />
+    <OnPlatform x:Key="SummaryMargins"
+                x:TypeArguments="Thickness"
+                Default="20,20,20,10" />
+
+    <Style x:Key="NoteStyle" TargetType="Border">
+        <Setter Property="Background">
+            <Setter.Value>
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Offset="0.1" Color="{DynamicResource BackgroundGradientStartColor}" />
+                    <GradientStop Offset="1.0" Color="{DynamicResource BackgroundGradientEndColor}" />
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="StrokeShape">
+            <Setter.Value>
+                <RoundRectangle CornerRadius="6" />
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Padding" Value="15,10" />
+        <Setter Property="Stroke" Value="{DynamicResource DividerGradientEndColour}" />
+    </Style>
+</ResourceDictionary>

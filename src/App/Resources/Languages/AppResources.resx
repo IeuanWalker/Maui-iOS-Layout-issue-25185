@@ -1,0 +1,3211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccAmountDueInfo" xml:space="preserve">
+    <value>More information about amount due</value>
+  </data>
+  <data name="AccBalanceOutstandingInfo" xml:space="preserve">
+    <value>More information about balance outstanding</value>
+  </data>
+  <data name="AccBookAVisitAtTime" xml:space="preserve">
+    <value>Double tap to book a visit at this time.</value>
+  </data>
+  <data name="AccBookAVisitOnDate" xml:space="preserve">
+    <value>Double tap to book a visit on this date.</value>
+  </data>
+  <data name="AccCanBeRecycledAt" xml:space="preserve">
+    <value>Can be recycled at {0}</value>
+    <comment>{0} is the name of the recycling centre.  Lamby Way or Bessemer Close</comment>
+  </data>
+  <data name="AccCannotBeRecycledAt" xml:space="preserve">
+    <value>Cannot be recycled at {0}</value>
+    <comment>{0} is the name of the recycling centre.  Lamby Way or Bessemer Close</comment>
+  </data>
+  <data name="AccClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="AccCreateReminder" xml:space="preserve">
+    <value>Create reminder</value>
+  </data>
+  <data name="AccCurrentLocation" xml:space="preserve">
+    <value>Use my current location</value>
+  </data>
+  <data name="AccessabilityAppLoading" xml:space="preserve">
+    <value>App loading</value>
+  </data>
+  <data name="AccessabilityTapToDownloadPDF" xml:space="preserve">
+    <value>Double tap to download your bill or notice</value>
+  </data>
+  <data name="AccessableMapButton" xml:space="preserve">
+    <value>Help with map</value>
+  </data>
+  <data name="AccessibilityAnnounceNotificationListClosed" xml:space="preserve">
+    <value>Notifications list closed</value>
+  </data>
+  <data name="AccessibilityAnnounceNotificationListOpened" xml:space="preserve">
+    <value>Notifications list opened</value>
+  </data>
+  <data name="AccessibilityAnnounceReminderCreated" xml:space="preserve">
+    <value>Reminder created</value>
+  </data>
+  <data name="AccessibilityAnnounceReminderDeleted" xml:space="preserve">
+    <value>Reminder deleted</value>
+  </data>
+  <data name="AccessibilityAnnounceReminderUpdated" xml:space="preserve">
+    <value>Reminder updated</value>
+  </data>
+  <data name="AccessibilityAnnouncmentAddressAutomaticallySelected" xml:space="preserve">
+    <value>Address automatically selected</value>
+  </data>
+  <data name="AccessibilityAnnouncmentAddressSelected" xml:space="preserve">
+    <value>Address selected</value>
+  </data>
+  <data name="AccessibilityAnnouncmentCollapsed" xml:space="preserve">
+    <value>Collapsed</value>
+  </data>
+  <data name="AccessibilityAnnouncmentExpanded" xml:space="preserve">
+    <value>Expanded</value>
+  </data>
+  <data name="AccessibilityAnnouncmentNoAddressSelected" xml:space="preserve">
+    <value>No address selected</value>
+  </data>
+  <data name="AccessibilityBreadcrumbDescription" xml:space="preserve">
+    <value>Breadcrumb navigation</value>
+  </data>
+  <data name="AccessibilityBreadcrumbHint" xml:space="preserve">
+    <value>This is a list of previous pages you have visited, you can jump back to any of them.</value>
+  </data>
+  <data name="AccessibilityBulyItemRemoved" xml:space="preserve">
+    <value>{0} removed</value>
+    <comment>{0} item name, i.e. chair removed</comment>
+  </data>
+  <data name="AccessibilityCharacterCount" xml:space="preserve">
+    <value>Characters remaining</value>
+  </data>
+  <data name="AccessibilityClearSearch" xml:space="preserve">
+    <value>Clear search</value>
+  </data>
+  <data name="AccessibilityClickForMoreInfo" xml:space="preserve">
+    <value>Click for more information</value>
+  </data>
+  <data name="AccessibilityEditBookingDate" xml:space="preserve">
+    <value>Edit booking for {0:dddd dd MMMM yyyy}</value>
+    <comment>{0} is the date and time of booking</comment>
+  </data>
+  <data name="AccessibilityEditBookingReg" xml:space="preserve">
+    <value>Edit vehicle registration {0}</value>
+    <comment>{0} is registration</comment>
+  </data>
+  <data name="AccessibilityEditBookingTime" xml:space="preserve">
+    <value>Edit time for {0}</value>
+    <comment>{0} time and date</comment>
+  </data>
+  <data name="AccessibilityEditOrDeleteReminder" xml:space="preserve">
+    <value>Click to edit or delete the reminder</value>
+  </data>
+  <data name="AccessibilityHelpTextPageTitle" xml:space="preserve">
+    <value>Page title</value>
+  </data>
+  <data name="AccessibilityHome" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="AccessibilityImageAdded" xml:space="preserve">
+    <value>Image Added</value>
+  </data>
+  <data name="AccessibilityImageDelete" xml:space="preserve">
+    <value>Double click to delete image</value>
+  </data>
+  <data name="AccessibilityImageRemoved" xml:space="preserve">
+    <value>Image Removed</value>
+  </data>
+  <data name="AccessibilityImageUploaded" xml:space="preserve">
+    <value>Uploaded Image {0}</value>
+    <comment>{0} is image id/count</comment>
+  </data>
+  <data name="AccessibilityMapImage" xml:space="preserve">
+    <value>Image of map at selected location</value>
+  </data>
+  <data name="AccessibilityMenu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="AccessibilityNextCollection" xml:space="preserve">
+    <value>Next week's collection</value>
+  </data>
+  <data name="AccessibilityNotifications" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="AccessibilityPreviousCollection" xml:space="preserve">
+    <value>Last week's collection</value>
+  </data>
+  <data name="AccessibilityRemoveAddress" xml:space="preserve">
+    <value>Clear address</value>
+  </data>
+  <data name="AccessibilityReportingOptions" xml:space="preserve">
+    <value>Select for reporting options</value>
+  </data>
+  <data name="AccessibilityReportMissedCollection" xml:space="preserve">
+    <value>Double tap to report a missed {0} collection</value>
+    <comment>{0} bin description e.g. food caddy</comment>
+  </data>
+  <data name="AccessibilityTagText" xml:space="preserve">
+    <value>Select to show {0} items</value>
+    <comment>{0} name of the tag</comment>
+  </data>
+  <data name="AccessibilityWhatsNewDescription" xml:space="preserve">
+    <value>What's new popup</value>
+  </data>
+  <data name="AccessibilityWhatsNewHint" xml:space="preserve">
+    <value>These are the latest updates we have made to the app</value>
+  </data>
+  <data name="AccessibleMapName" xml:space="preserve">
+    <value>Sorry our map isnt currently accessible</value>
+  </data>
+  <data name="AccessiblityCollapsedSubMenu" xml:space="preserve">
+    <value>Collapsed sub menu</value>
+  </data>
+  <data name="AccessiblityExpandedSubMenu" xml:space="preserve">
+    <value>Expanded sub menu</value>
+  </data>
+  <data name="AccExtendPaymentsMarchInfo" xml:space="preserve">
+    <value>Information on how to extend payments until March</value>
+  </data>
+  <data name="AccItemReuseInfo" xml:space="preserve">
+    <value>Information about reusing your items</value>
+  </data>
+  <data name="AccLblButton" xml:space="preserve">
+    <value>Button</value>
+  </data>
+  <data name="AccLiveInFlatInfo" xml:space="preserve">
+    <value>Information about ordering bags and caddies if you live in a flat</value>
+  </data>
+  <data name="AccMapImage" xml:space="preserve">
+    <value>Image of map showing location of report</value>
+  </data>
+  <data name="AccPayWeeklyInfo" xml:space="preserve">
+    <value>Information on how to pay weekly</value>
+  </data>
+  <data name="AccRemainingBookingsInfo" xml:space="preserve">
+    <value>Check remaining number of bookings at your property</value>
+  </data>
+  <data name="AccSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="AccSummonsedDebtInfo" xml:space="preserve">
+    <value>Information about summonsed debt</value>
+  </data>
+  <data name="AddressSelected" xml:space="preserve">
+    <value>Address selected, {0}</value>
+    <comment>{0} the selected address</comment>
+  </data>
+  <data name="AndroidChannelDescriptionCouncilTaxEbills" xml:space="preserve">
+    <value>This channel is for council tax bills, notices and other account notifications.</value>
+  </data>
+  <data name="AndroidChannelDescriptionWasteReminders" xml:space="preserve">
+    <value>This channel is for recycling and waste collection reminders.</value>
+  </data>
+  <data name="AndroidChannelNameCouncilTaxEbills" xml:space="preserve">
+    <value>Council tax</value>
+  </data>
+  <data name="AndroidChannelNameDefault" xml:space="preserve">
+    <value>Default channel</value>
+  </data>
+  <data name="AndroidChannelNameWasteReminders" xml:space="preserve">
+    <value>Recycling and waste collections</value>
+  </data>
+  <data name="AndroidNotificationChannelGroupYouNotifications" xml:space="preserve">
+    <value>Your notifications</value>
+  </data>
+  <data name="AToZNo" xml:space="preserve">
+    <value>Please do not use:</value>
+  </data>
+  <data name="AToZYes" xml:space="preserve">
+    <value>Please use:</value>
+  </data>
+  <data name="BagsAndCaddiesMapMessage" xml:space="preserve">
+    <value>Sorry, our map is not accessible. Please close the map or select get directions.</value>
+  </data>
+  <data name="BtnAccountDetails" xml:space="preserve">
+    <value>Account details</value>
+  </data>
+  <data name="BtnAddImage" xml:space="preserve">
+    <value>Add image</value>
+  </data>
+  <data name="BtnAddRegistrationNumber" xml:space="preserve">
+    <value>Add registration number</value>
+  </data>
+  <data name="BtnAddReminderNow" xml:space="preserve">
+    <value>Add a reminder</value>
+  </data>
+  <data name="BtnAlwaysSend" xml:space="preserve">
+    <value>Always send crash reports to Cardiff Council</value>
+  </data>
+  <data name="BtnApplyForPermit" xml:space="preserve">
+    <value>Apply for a permit</value>
+  </data>
+  <data name="BtnApplyOrRenewPermit" xml:space="preserve">
+    <value>Apply or renew</value>
+  </data>
+  <data name="BtnBack" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="BtnBackToBulky" xml:space="preserve">
+    <value>Back to bulky items</value>
+  </data>
+  <data name="BtnBalanceAndPayments" xml:space="preserve">
+    <value>Balance and payments</value>
+  </data>
+  <data name="BtnBulkiesAddItem" xml:space="preserve">
+    <value>Add a bulky item</value>
+  </data>
+  <data name="BtnBulkiesAddItemToCollection" xml:space="preserve">
+    <value>Add item to collection</value>
+  </data>
+  <data name="BtnBulkiesEditBooking" xml:space="preserve">
+    <value>Edit booking</value>
+  </data>
+  <data name="BtnCall" xml:space="preserve">
+    <value>Call us</value>
+  </data>
+  <data name="BtnCamera" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="BtnCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="BtnCancelBooking" xml:space="preserve">
+    <value>Cancel booking?</value>
+  </data>
+  <data name="BtnCancelHWRCBooking" xml:space="preserve">
+    <value>Are you sure you want to cancel your booking for {1} on {0} at {2}?</value>
+    <comment>{0} is the date.  {1} is the recycling centre. {2} is the time</comment>
+  </data>
+  <data name="BtnChangeEmail" xml:space="preserve">
+    <value>Change email address</value>
+  </data>
+  <data name="BtnChangeSelectedItems" xml:space="preserve">
+    <value>Change your selected items</value>
+  </data>
+  <data name="BtnChgeBankDetails" xml:space="preserve">
+    <value>Change bank details</value>
+  </data>
+  <data name="BtnChgePayDate" xml:space="preserve">
+    <value>Change payment date</value>
+  </data>
+  <data name="BtnClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="BtnCollectionCalendar" xml:space="preserve">
+    <value>Check your collection calendar</value>
+  </data>
+  <data name="BtnCollections" xml:space="preserve">
+    <value>Collections</value>
+  </data>
+  <data name="BtnContactUs" xml:space="preserve">
+    <value>Contact us</value>
+  </data>
+  <data name="BtnContinueHomeScreen" xml:space="preserve">
+    <value>Continue to the home screen</value>
+  </data>
+  <data name="BtnCouncilTax" xml:space="preserve">
+    <value>Council Tax</value>
+  </data>
+  <data name="BtnDDContinue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="BtnDDRequestCallback" xml:space="preserve">
+    <value>Request a call back</value>
+  </data>
+  <data name="BtnDDRequestCallbackToDiscuss" xml:space="preserve">
+    <value>Would you like a call back to discuss your summonsed debt?</value>
+  </data>
+  <data name="BtnDisableAppHibernation" xml:space="preserve">
+    <value>Disable app hibernation</value>
+  </data>
+  <data name="BtnDldCTAXform" xml:space="preserve">
+    <value>Direct Debit form</value>
+  </data>
+  <data name="BtnDontKnowReg" xml:space="preserve">
+    <value>Add registration later</value>
+  </data>
+  <data name="BtnDontSend" xml:space="preserve">
+    <value>Don't send</value>
+  </data>
+  <data name="BtnEbilling" xml:space="preserve">
+    <value>E-billing</value>
+  </data>
+  <data name="BtnEbillUnsubscribe" xml:space="preserve">
+    <value>Unsubscribe from e-bills</value>
+  </data>
+  <data name="BtnEnableAllNotificationChannels" xml:space="preserve">
+    <value>Enable all notification channels</value>
+  </data>
+  <data name="BtnEnterDetailsNow" xml:space="preserve">
+    <value>Enter my details now</value>
+  </data>
+  <data name="BtnGallery" xml:space="preserve">
+    <value>Gallery</value>
+  </data>
+  <data name="BtnGraffitiInformation" xml:space="preserve">
+    <value>Information about graffiti</value>
+  </data>
+  <data name="BtnGraffitiMoreInfo" xml:space="preserve">
+    <value>More information about graffiti</value>
+  </data>
+  <data name="BtnImproveNotifications" xml:space="preserve">
+    <value>How to improve notifications</value>
+  </data>
+  <data name="BtnIssue" xml:space="preserve">
+    <value>Report a technical issue</value>
+  </data>
+  <data name="BtnLookUp" xml:space="preserve">
+    <value>Look up another property</value>
+  </data>
+  <data name="BtnMakeBooking" xml:space="preserve">
+    <value>Make a new booking</value>
+  </data>
+  <data name="BtnManageReminder" xml:space="preserve">
+    <value>Manage collection reminders</value>
+  </data>
+  <data name="BtnMarkAsRead" xml:space="preserve">
+    <value>Mark all as read</value>
+  </data>
+  <data name="BtnNext" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="BtnNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="BtnNotificationsCollectionsManage" xml:space="preserve">
+    <value>Manage collection notifications</value>
+  </data>
+  <data name="BtnNotificationsCtaxManage" xml:space="preserve">
+    <value>Manage Council Tax notifications</value>
+  </data>
+  <data name="BtnNotificationsUsage" xml:space="preserve">
+    <value>Using Cardiff Gov notifications</value>
+  </data>
+  <data name="BtnNoWelshContext" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="BtnNoWelshContext2" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="BtnNoWelshContext3" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="BtnOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="BtnOpenSetting" xml:space="preserve">
+    <value>Open settings</value>
+  </data>
+  <data name="BtnOrderItemsForDelivery" xml:space="preserve">
+    <value>Order items for delivery</value>
+  </data>
+  <data name="BtnProblemParkingInformation" xml:space="preserve">
+    <value>Information about problem parking</value>
+  </data>
+  <data name="BtnRecyclingAToZ" xml:space="preserve">
+    <value>Recycling A to Z</value>
+  </data>
+  <data name="BtnRecyclingAZ" xml:space="preserve">
+    <value>Recycling A to Z</value>
+  </data>
+  <data name="BtnRenewMyPermit" xml:space="preserve">
+    <value>Renew my permit</value>
+  </data>
+  <data name="BtnReportAnotherMissedCollection" xml:space="preserve">
+    <value>Report another missed collection</value>
+  </data>
+  <data name="BtnReportIt" xml:space="preserve">
+    <value>Report it</value>
+  </data>
+  <data name="BtnReportMissedCollectionDisplayPage" xml:space="preserve">
+    <value>Report a missed collection</value>
+  </data>
+  <data name="BtnReportWebsite" xml:space="preserve">
+    <value>Report through website</value>
+  </data>
+  <data name="BtnSavePersonal" xml:space="preserve">
+    <value>Save personal details</value>
+  </data>
+  <data name="BtnSendCrash" xml:space="preserve">
+    <value>Send crash report to Cardiff Council</value>
+  </data>
+  <data name="BtnSetReminder" xml:space="preserve">
+    <value>Set a collection reminder</value>
+  </data>
+  <data name="BtnSetting" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="BtnSetUpDD" xml:space="preserve">
+    <value>Set up a Direct Debit</value>
+  </data>
+  <data name="BtnSetUpNotifications" xml:space="preserve">
+    <value>Set up notifications</value>
+  </data>
+  <data name="BtnSetUpNow" xml:space="preserve">
+    <value>Set up now</value>
+  </data>
+  <data name="BtnSignUp" xml:space="preserve">
+    <value>Sign up</value>
+  </data>
+  <data name="BtnStreetLightingInformation" xml:space="preserve">
+    <value>Information about street lighting</value>
+  </data>
+  <data name="BtnSubmit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="BtnSuggestion" xml:space="preserve">
+    <value>Suggest an improvement to the app</value>
+  </data>
+  <data name="BtnTermsandConditionsAgree" xml:space="preserve">
+    <value>I agree to the terms and conditions</value>
+  </data>
+  <data name="BtnUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="BtnUpdateEmail" xml:space="preserve">
+    <value>Update email</value>
+  </data>
+  <data name="BtnUpdateNow" xml:space="preserve">
+    <value>Update now</value>
+  </data>
+  <data name="BtnViewInstalments" xml:space="preserve">
+    <value>View instalments</value>
+  </data>
+  <data name="BtnViewStockist" xml:space="preserve">
+    <value>View stockists</value>
+  </data>
+  <data name="BtnVisitWebsite" xml:space="preserve">
+    <value>Visit our website</value>
+  </data>
+  <data name="BtnWasteCollection" xml:space="preserve">
+    <value>Recycling and Waste</value>
+  </data>
+  <data name="BtnYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="BtnYesWelshContext" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="BtnYesWelshContext2" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="BtnYesWelshContext3" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ButtonYourNotifications" xml:space="preserve">
+    <value>Your notifications</value>
+  </data>
+  <data name="CharactersRemaining" xml:space="preserve">
+    <value>{0} out of {1} characters used</value>
+  </data>
+  <data name="Checkbox" xml:space="preserve">
+    <value>Checkbox</value>
+  </data>
+  <data name="Checked" xml:space="preserve">
+    <value>Checked</value>
+  </data>
+  <data name="ContactNumber" xml:space="preserve">
+    <value>Contact number:</value>
+  </data>
+  <data name="CtaxEbilDescription" xml:space="preserve">
+    <value>{0}, sent on {1}, Account: {2}</value>
+    <comment>{0} - ebill type, {1} - sent date, {2} account number</comment>
+  </data>
+  <data name="CtaxInstalmentDescription" xml:space="preserve">
+    <value>On the {0}, for {1}</value>
+    <comment>{0} - Date, {1} amount</comment>
+  </data>
+  <data name="CtaxNextYearsPayments" xml:space="preserve">
+    <value>Next year's payments</value>
+  </data>
+  <data name="CtaxPaymentDescription" xml:space="preserve">
+    <value>Payment made on the {0}, by {1}, for {2}</value>
+    <comment>{0} - Payment date, {1} - Payment method (e.g. Direct debit), {2} - Amount paid</comment>
+  </data>
+  <data name="CtaxPreviousYearsPayments" xml:space="preserve">
+    <value>Previous years' payments</value>
+  </data>
+  <data name="DisplayActionSheetEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="DisplayActionSheetReminder" xml:space="preserve">
+    <value>Edit or delete a reminder</value>
+  </data>
+  <data name="DisplayActionSheetSelectAddress" xml:space="preserve">
+    <value>Select an address</value>
+  </data>
+  <data name="DisplayAlertCheckDetails" xml:space="preserve">
+    <value>Please check that your details are correct</value>
+  </data>
+  <data name="DisplayHWRCThankYouMessage" xml:space="preserve">
+    <value>You have made a booking for a {0}{1}{2} to visit {3} at {4}.</value>
+    <comment>{0} is the vehicle type e.g. car, van. {1} is an optional space. {2} is 'with a trailer' if appropriate.  {3} is the recycling centre.  {4} is the date and time.</comment>
+  </data>
+  <data name="DisplayMessageBookingCancelled" xml:space="preserve">
+    <value>Your booking was cancelled</value>
+  </data>
+  <data name="DisplayMessageBookingCancelledBody" xml:space="preserve">
+    <value>We did not hear from you for 20 minutes so we have cancelled your booking. Please try again.</value>
+  </data>
+  <data name="DisplayMessageDeleteReminder" xml:space="preserve">
+    <value>Are you sure you want to cancel this reminder?</value>
+  </data>
+  <data name="DisplayMessageDetailesSaved" xml:space="preserve">
+    <value>Your details have been saved</value>
+  </data>
+  <data name="DisplayMessageDownloadEnotice" xml:space="preserve">
+    <value>Would you like to download and view this document?</value>
+  </data>
+  <data name="DisplayMessageEbillSignupNote" xml:space="preserve">
+    <value>Please note that you will not receive an e-bill until the next one is generated.
+ 
+This could be the next financial year or if you tell us about a change to your circumstances.</value>
+  </data>
+  <data name="DisplayMessageEbillSignupThanks" xml:space="preserve">
+    <value>Thank you for signing up for e-bills and reminders</value>
+  </data>
+  <data name="DisplayMessageEbillUnsubscribe" xml:space="preserve">
+    <value>Are you sure you want to stop receiving bills and notices by email? If yes, your bills and notices will be sent to you by post.</value>
+  </data>
+  <data name="DisplayMessageEmptySearch" xml:space="preserve">
+    <value>No address entered</value>
+  </data>
+  <data name="DisplayMessageEmptySearchBody" xml:space="preserve">
+    <value>Please enter an address</value>
+  </data>
+  <data name="DisplayMessageError" xml:space="preserve">
+    <value>Sorry</value>
+  </data>
+  <data name="DisplayMessageFileUnsupported" xml:space="preserve">
+    <value>Sorry, we do not support this file type.</value>
+  </data>
+  <data name="DisplayMessageGpsOff" xml:space="preserve">
+    <value>Sorry, something went wrong. Check if your GPS is turned on.</value>
+  </data>
+  <data name="DisplayMessageImageAlreadyAdded" xml:space="preserve">
+    <value>Image already added</value>
+  </data>
+  <data name="DisplayMessageImageAlreadyAddedBody" xml:space="preserve">
+    <value>The selected image has already been added.</value>
+  </data>
+  <data name="DisplayMessageImageTooLarge" xml:space="preserve">
+    <value>Image too large</value>
+  </data>
+  <data name="DisplayMessageImageTooLargeBody" xml:space="preserve">
+    <value>We have reduced the size of your image but it is still too large.
+Please reduce the file size or use another image.</value>
+  </data>
+  <data name="DisplayMessageInProgress" xml:space="preserve">
+    <value>We have not yet been to your property to collect {0}. Collections take place between 6am and 3.30pm.</value>
+    <comment>{0} options are: Garden waste, General waste, Recycling, Recycling bags, Hygiene bag, Kerbside food caddy, Glass caddy</comment>
+  </data>
+  <data name="DisplayMessageLink" xml:space="preserve">
+    <value>Sorry we are unable to open this link</value>
+  </data>
+  <data name="DisplayMessageMaximumImages" xml:space="preserve">
+    <value>3 images only</value>
+  </data>
+  <data name="DisplayMessageMaximumImagesBody" xml:space="preserve">
+    <value>You can only upload {0} images.</value>
+    <comment>{0} Add the maxium number of images</comment>
+  </data>
+  <data name="DisplayMessageMissedCollection" xml:space="preserve">
+    <value>You cannot report this item as missed.</value>
+  </data>
+  <data name="DisplayMessageNoCamera" xml:space="preserve">
+    <value>No camera</value>
+  </data>
+  <data name="DisplayMessageNoCameraBody" xml:space="preserve">
+    <value>No camera available.</value>
+  </data>
+  <data name="DisplayMessageNoConnection" xml:space="preserve">
+    <value>No connection</value>
+  </data>
+  <data name="DisplayMessageNoConnectionBody" xml:space="preserve">
+    <value>You are not connected to the internet.</value>
+  </data>
+  <data name="DisplayMessageNoResultsFor" xml:space="preserve">
+    <value>Sorry, no results found for {0}</value>
+    <comment>{0} Add the search item</comment>
+  </data>
+  <data name="DisplayMessageNotFound" xml:space="preserve">
+    <value>Address not found.</value>
+  </data>
+  <data name="DisplayMessageNotificationExists" xml:space="preserve">
+    <value>This reminder already exists.</value>
+  </data>
+  <data name="DisplayMessageOptOutPaperBills" xml:space="preserve">
+    <value>Would you like to opt out of paper bills?</value>
+  </data>
+  <data name="DisplayMessagePhotoNotSupport" xml:space="preserve">
+    <value>Photos not supported</value>
+  </data>
+  <data name="DisplayMessagePhotoNotSupportBody" xml:space="preserve">
+    <value>Cannot access images on this device</value>
+  </data>
+  <data name="DisplayMessageReminderExists" xml:space="preserve">
+    <value>This reminder already exists.</value>
+  </data>
+  <data name="DisplayMessageReminderNotChanged" xml:space="preserve">
+    <value>Please change the reminder to update it</value>
+  </data>
+  <data name="DisplayMessageRemoveImage" xml:space="preserve">
+    <value>Are you sure you want to remove this image?</value>
+  </data>
+  <data name="DisplayMessageReportMissedCollection" xml:space="preserve">
+    <value>Do you want to report your {0} as a missed collection?</value>
+    <comment>{0} options are: Garden waste, General waste, Recycling, Recycling bags, Hygiene bag, Kerbside food caddy, Glass caddy</comment>
+  </data>
+  <data name="DisplayMessageSomethingWentWrong" xml:space="preserve">
+    <value>Something has gone wrong with our app.
+
+Apologies for the inconvenience.</value>
+  </data>
+  <data name="DisplayMessageSomethingWrong" xml:space="preserve">
+    <value>Sorry, something went wrong.</value>
+  </data>
+  <data name="DisplayMessageSomethingWrongDates" xml:space="preserve">
+    <value>Your property is not set up for bulky item collections. We will need to look into this. Please try again another time.
+ 
+Please note this service is for residents only and must not be used for commercial properties.</value>
+  </data>
+  <data name="DisplayMessageSuccessFly2" xml:space="preserve">
+    <value>We take this issue very seriously and aim to clear fly-tipping within {0} working days.
+
+If the fly-tipping is on private land we will investigate and contact the landowner responsible.</value>
+    <comment>{0}  Number of days</comment>
+  </data>
+  <data name="DisplayMessageSuccessflySent" xml:space="preserve">
+    <value>Thank you {0}for reporting fly-tipping to us.</value>
+    <comment>{0} Users name</comment>
+  </data>
+  <data name="DisplayMessageThankYou" xml:space="preserve">
+    <value>Thank you</value>
+  </data>
+  <data name="DisplayMessageTitleDeleteReminder" xml:space="preserve">
+    <value>Delete reminder</value>
+  </data>
+  <data name="DisplayMessageTitleDetailesSaved" xml:space="preserve">
+    <value>Saved</value>
+  </data>
+  <data name="DisplayMessageTitleFileUnsupported" xml:space="preserve">
+    <value>Unsupported file type</value>
+  </data>
+  <data name="DisplayMessageTitleGpsOff" xml:space="preserve">
+    <value>GPS off</value>
+  </data>
+  <data name="DisplayMessageTitleNotificationExists" xml:space="preserve">
+    <value>Reminder already exists</value>
+  </data>
+  <data name="DisplayMessageTitleReminderExists" xml:space="preserve">
+    <value>Reminder already exists</value>
+  </data>
+  <data name="DisplayMessageTitleReminderNotChanged" xml:space="preserve">
+    <value>Reminder not changed</value>
+  </data>
+  <data name="DisplayMessageTitleRemoveImage" xml:space="preserve">
+    <value>Remove image</value>
+  </data>
+  <data name="DisplayMessageTitleUpdateRequired" xml:space="preserve">
+    <value>Cardiff Gov app update available</value>
+  </data>
+  <data name="DisplayMessageTryAgainLater" xml:space="preserve">
+    <value> Please try again later.</value>
+  </data>
+  <data name="DisplayMessageUpdateRequired" xml:space="preserve">
+    <value>Please update to get the latest services.</value>
+  </data>
+  <data name="DisplayMessageValidationErrors" xml:space="preserve">
+    <value>Please check for errors and save again.</value>
+  </data>
+  <data name="DisplayPaymentDate" xml:space="preserve">
+    <value>Please select a payment date</value>
+  </data>
+  <data name="DisplayTitleEbillUnsubscribe" xml:space="preserve">
+    <value>Unsubscribe from e-bills</value>
+  </data>
+  <data name="DrpDnSelectOne" xml:space="preserve">
+    <value>Please select a reason</value>
+  </data>
+  <data name="EmailValidationIsRequired" xml:space="preserve">
+    <value>Confirm email address is required</value>
+  </data>
+  <data name="EnableAllNotificationChannelsDescription" xml:space="preserve">
+    <value>Some or all of your notification channels are disabled. Please enable all channels to ensure you are able to receive notifications.</value>
+  </data>
+  <data name="ErrorHWRCNoDatesAvailable" xml:space="preserve">
+    <value>There are currently no dates available at that recycling centre for that vehicle type.</value>
+    <comment>{0} location,{1} vehicle type</comment>
+  </data>
+  <data name="ErrorMessageFailedToRetrieveMapPosition" xml:space="preserve">
+    <value>We could not pick up your selected location. Please move the map and try again.</value>
+  </data>
+  <data name="ErrorPageNotFound" xml:space="preserve">
+    <value>Page not found</value>
+  </data>
+  <data name="GPSNotSupportedMessage" xml:space="preserve">
+    <value>Sorry, it doesn't look like your device supports GPS.</value>
+  </data>
+  <data name="GPSNotSupportedTitle" xml:space="preserve">
+    <value>GPS not supported</value>
+  </data>
+  <data name="HeaderAccessDenied" xml:space="preserve">
+    <value>Unable to make a booking</value>
+  </data>
+  <data name="HeaderBookingLimit" xml:space="preserve">
+    <value>Booking limit reached</value>
+  </data>
+  <data name="HeaderBulkiesDate" xml:space="preserve">
+    <value>Collection date</value>
+  </data>
+  <data name="HeaderBulkyEditCancel" xml:space="preserve">
+    <value>Edit or cancel your booking</value>
+  </data>
+  <data name="HeaderBulkyItemCollection" xml:space="preserve">
+    <value>Bulky item collections</value>
+  </data>
+  <data name="HeaderBulkyItemNotOnList" xml:space="preserve">
+    <value>Item not on the list?</value>
+  </data>
+  <data name="HeaderBulkyWelcome" xml:space="preserve">
+    <value>Book a bulky item collection</value>
+  </data>
+  <data name="HeaderCheckOrder" xml:space="preserve">
+    <value>Please check your order before sending</value>
+  </data>
+  <data name="HeaderHighspeedroutes" xml:space="preserve">
+    <value>High speed routes</value>
+  </data>
+  <data name="HeaderLiveInFlat" xml:space="preserve">
+    <value>Do you live in a flat?</value>
+  </data>
+  <data name="HeaderParkingPermits" xml:space="preserve">
+    <value>Parking permits</value>
+  </data>
+  <data name="HeaderParkingPermitsDigital" xml:space="preserve">
+    <value>Parking permits are going digital.</value>
+  </data>
+  <data name="HeaderPickUp" xml:space="preserve">
+    <value>Pick up bags or caddy liners</value>
+  </data>
+  <data name="HeaderReuseItems" xml:space="preserve">
+    <value>Could your items be reused?</value>
+  </data>
+  <data name="HeaderSelectAnItem" xml:space="preserve">
+    <value>Select an item</value>
+  </data>
+  <data name="HeaderYourDetails" xml:space="preserve">
+    <value>Your details</value>
+  </data>
+  <data name="HeadingServiceDisruption" xml:space="preserve">
+    <value>Disruption to recycling and waste collections</value>
+  </data>
+  <data name="HomepageWelcome" xml:space="preserve">
+    <value>What can we help you with?</value>
+  </data>
+  <data name="HWRCCanceledBookingMsg" xml:space="preserve">
+    <value>Your booking has been cancelled</value>
+  </data>
+  <data name="HWRCCarBookingsOnly" xml:space="preserve">
+    <value>Car bookings only</value>
+  </data>
+  <data name="HWRCNoDatesTitle" xml:space="preserve">
+    <value>No dates available</value>
+  </data>
+  <data name="HWRCPaymentRequired" xml:space="preserve">
+    <value>Payment required</value>
+  </data>
+  <data name="HWRCPaymentUpdateMessage" xml:space="preserve">
+    <value>There is a charge to bring this vehicle type to a recycling centre. To make a payment you will need to update to the latest version of the app.</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="IntroNotificationsAbout" xml:space="preserve">
+    <value>Notifications sent from this app to your device can sometimes be affected by changes to software or your use of this app.
+
+To get the best from notifications while using this app please read our advice on using Cardiff Gov notifications.</value>
+  </data>
+  <data name="Lbl2AppVersion" xml:space="preserve">
+    <value>App Version</value>
+  </data>
+  <data name="Lbl48Hours" xml:space="preserve">
+    <value>Balance details may not include payments made within the last 48 hours.</value>
+  </data>
+  <data name="lbl48hrProgress" xml:space="preserve">
+    <value>Any payments due in the next 48 hours may already be in progress.</value>
+  </data>
+  <data name="LblAboutNotifications" xml:space="preserve">
+    <value>About notifications</value>
+  </data>
+  <data name="LblAccessDenied" xml:space="preserve">
+    <value>You are unable to make an online booking to use a recycling centre.</value>
+  </data>
+  <data name="LblAccessDeniedContact" xml:space="preserve">
+    <value>If you would like to talk to someone about this please contact 02920872087.</value>
+  </data>
+  <data name="LblAccessDeniedEditContact" xml:space="preserve">
+    <value>If you would like to talk to someone about this please contact C2C on 02920872087.</value>
+  </data>
+  <data name="LblAccessDeniedRegEdit" xml:space="preserve">
+    <value>You are unable to use this registration number to make a booking.</value>
+  </data>
+  <data name="LblAccountEndDate" xml:space="preserve">
+    <value>Account end date:</value>
+  </data>
+  <data name="LblAccountHolder" xml:space="preserve">
+    <value>Name(s) of account holder:</value>
+  </data>
+  <data name="LblAccountInCredit" xml:space="preserve">
+    <value>Your account is in credit: £{0}</value>
+    <comment>{0} total amount</comment>
+  </data>
+  <data name="LblAccountNumber" xml:space="preserve">
+    <value>Account number:</value>
+  </data>
+  <data name="LblAccountOverview" xml:space="preserve">
+    <value>Account overview</value>
+  </data>
+  <data name="LblAccountStartDate" xml:space="preserve">
+    <value>Account start date:</value>
+  </data>
+  <data name="LblAdd3" xml:space="preserve">
+    <value>You can add up to 3 images to help us assess the problem.</value>
+  </data>
+  <data name="LblAdd3LocationProblem" xml:space="preserve">
+    <value>You can add up to 3 images to help us identify the location and the problem</value>
+  </data>
+  <data name="LblAddAnotherTime" xml:space="preserve">
+    <value>You can add this another time.</value>
+  </data>
+  <data name="LblAdditionalInfo" xml:space="preserve">
+    <value>For example please mention any nearby landmark or building, house number or road marking.</value>
+  </data>
+  <data name="LblAdditionalInfoStreetLighting" xml:space="preserve">
+    <value>For example please mention any nearby landmark or building, house number or road marking.
+
+If you can see a number on the post please make a note of it here.</value>
+  </data>
+  <data name="LblAddReminder" xml:space="preserve">
+    <value>Add a reminder</value>
+  </data>
+  <data name="LblAddress" xml:space="preserve">
+    <value>Address:</value>
+  </data>
+  <data name="LblAddressManually" xml:space="preserve">
+    <value>Enter your address manually</value>
+  </data>
+  <data name="LblAdvertisingBillboard" xml:space="preserve">
+    <value>Advertising billboard</value>
+  </data>
+  <data name="LblAll" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="LblAmDue" xml:space="preserve">
+    <value>Amount due</value>
+  </data>
+  <data name="lblAmendDD" xml:space="preserve">
+    <value>Amend your Direct Debit</value>
+  </data>
+  <data name="LblAmount" xml:space="preserve">
+    <value>Amount (£):</value>
+  </data>
+  <data name="LblAmountDue" xml:space="preserve">
+    <value>Amount Due:</value>
+  </data>
+  <data name="lblAnyPaymentsDD" xml:space="preserve">
+    <value>Any payments due in the next 48 hours may already be in progress.</value>
+  </data>
+  <data name="LblAppBuild" xml:space="preserve">
+    <value>Build number:</value>
+  </data>
+  <data name="LblAppModule" xml:space="preserve">
+    <value>App Module</value>
+  </data>
+  <data name="LblAppVersion" xml:space="preserve">
+    <value>App version:</value>
+  </data>
+  <data name="LblAppVersion2" xml:space="preserve">
+    <value>Version {0}</value>
+  </data>
+  <data name="LblArrearsMessage" xml:space="preserve">
+    <value>If you would like to talk to us about any arrears that are subject to court action please contact us.</value>
+  </data>
+  <data name="LblAssessSituation" xml:space="preserve">
+    <value>We will need to assess the situation to ensure the least amount of disruption to traffic flow and risk to public safety.</value>
+  </data>
+  <data name="LblAt" xml:space="preserve">
+    <value>at</value>
+  </data>
+  <data name="LblAuthorisation" xml:space="preserve">
+    <value>Authorisation</value>
+  </data>
+  <data name="LblBagsCaddies" xml:space="preserve">
+    <value>Bags and caddies</value>
+  </data>
+  <data name="LblBagsCaddiesHeading" xml:space="preserve">
+    <value>You can pick up your chosen items at your local stockist.</value>
+  </data>
+  <data name="LblBagsCaddiesHeading2" xml:space="preserve">
+    <value>Try searching each item in turn to find stock near you.</value>
+  </data>
+  <data name="LblBagsCaddiesLimitReached" xml:space="preserve">
+    <value>You have reached the limit of bags or caddies you can order to this property. Please contact C2C on 02920872087</value>
+  </data>
+  <data name="LblBagsCaddiesLiveInFlat" xml:space="preserve">
+    <value>There are no bags or caddies associated with this property.
+
+Check the address and try again.​
+​
+If you live in a flat please contact your landlord or housing association.​ They may be able to provide what you need.</value>
+  </data>
+  <data name="LblBalanceBroughtForward" xml:space="preserve">
+    <value>Balance brought forward:</value>
+  </data>
+  <data name="LblBalanceOut" xml:space="preserve">
+    <value>Balance outstanding:</value>
+  </data>
+  <data name="LblBalancePopup" xml:space="preserve">
+    <value>The total amount outstanding for the account. During March this may include the charge for the next financial year.</value>
+  </data>
+  <data name="LblBankAccountNumber" xml:space="preserve">
+    <value>Bank or Building Society account number:</value>
+  </data>
+  <data name="lblBankSoicetyAccHolder" xml:space="preserve">
+    <value>I am the bank or building society account holder</value>
+  </data>
+  <data name="LblBasketItems1" xml:space="preserve">
+    <value>You can add up to 6 items to your order.</value>
+  </data>
+  <data name="LblBasketItems2" xml:space="preserve">
+    <value>Collection charges</value>
+  </data>
+  <data name="LblBenafits" xml:space="preserve">
+    <value>Benefits:</value>
+  </data>
+  <data name="LblBessemerClose" xml:space="preserve">
+    <value>Bessemer Close</value>
+  </data>
+  <data name="LblBilingual" xml:space="preserve">
+    <value>This app is fully bilingual.</value>
+  </data>
+  <data name="LblBilingualDescription" xml:space="preserve">
+    <value>Send anonymous data</value>
+  </data>
+  <data name="LblBillAccount" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="LblBinCollection" xml:space="preserve">
+    <value>Collection type</value>
+  </data>
+  <data name="LblBinDayIs" xml:space="preserve">
+    <value>Collection day</value>
+  </data>
+  <data name="LblBinLookup" xml:space="preserve">
+    <value>Enter a house number and postcode to see your next recycling and waste collection dates.</value>
+  </data>
+  <data name="LblBlueSack" xml:space="preserve">
+    <value>Blue sack</value>
+  </data>
+  <data name="LblBookingDateTime" xml:space="preserve">
+    <value>booking date and time</value>
+  </data>
+  <data name="LblBookingDetails" xml:space="preserve">
+    <value>Please check your booking details</value>
+  </data>
+  <data name="LblBookingFee" xml:space="preserve">
+    <value>Booking fee</value>
+  </data>
+  <data name="LblBulkiesNoOfItems" xml:space="preserve">
+    <value>You can book a collection for up to 6 bulky items from a residential property in Cardiff.</value>
+  </data>
+  <data name="LblBulkiesTotalCharge" xml:space="preserve">
+    <value>Total cost:</value>
+  </data>
+  <data name="LblBulkyBooked" xml:space="preserve">
+    <value>Your bulky item collection is booked for:</value>
+  </data>
+  <data name="LblBulkyBookedInfo" xml:space="preserve">
+    <value>You will receive a confirmation email with details of your booking and instructions on how to present your items.
+
+Please make sure you have read our terms and conditions for bulky item collections.</value>
+  </data>
+  <data name="LblBulkyEditCancel" xml:space="preserve">
+    <value>Edit or cancel booking</value>
+  </data>
+  <data name="LblBulkyEmail" xml:space="preserve">
+    <value>We need your contact details to confirm your booking or to contact you about collection arrangements.</value>
+  </data>
+  <data name="LblBulkyHeading" xml:space="preserve">
+    <value>Arrange a bulky item collection to this address:</value>
+  </data>
+  <data name="LblBulkyItemCount" xml:space="preserve">
+    <value>of 6 items</value>
+  </data>
+  <data name="LblBulkyItemLocation" xml:space="preserve">
+    <value>Please select where you will be leaving the item or items for collection.</value>
+  </data>
+  <data name="LblBulkyItemLocationPickerHeader" xml:space="preserve">
+    <value>Please select a location:</value>
+  </data>
+  <data name="LblBulkyItemNotOnList" xml:space="preserve">
+    <value>Sorry, we can't find this item on our list.
+
+You may need to check spelling or enter a different phrase.
+
+Try using the tags to help you find items by room or garden.
+
+Don't forget a bulky item is classed as an item that will not fit in a car boot and cannot be carried safely by one person.
+
+For more information about getting rid of household waste please see our Recycling A to Z.</value>
+  </data>
+  <data name="LblBulkyItemRequestImageMessage" xml:space="preserve">
+    <value>You can add up to 3 images to help us identify the item.</value>
+  </data>
+  <data name="LblBulkyItemReuseInfo" xml:space="preserve">
+    <value>If your item can be used again, we recommend donating it to a local charity. Some charities offer a collections service. You will need to check with individual charities to see what they accept.</value>
+  </data>
+  <data name="LblBulkyItems" xml:space="preserve">
+    <value>Bulky items</value>
+  </data>
+  <data name="LblBulkyItemSelectMaterial" xml:space="preserve">
+    <value>Select the material</value>
+  </data>
+  <data name="LblBulkyKnockAssistRequested" xml:space="preserve">
+    <value>You have requested a knock and assist collection.
+
+A member of our team will be in touch shortly.
+
+You will receive a confirmation email with details of your request. 
+
+Please make sure you have read our terms and conditions for bulky item collections.</value>
+  </data>
+  <data name="LblBulkyPay1" xml:space="preserve">
+    <value>You will need to make a payment to secure your booking.</value>
+  </data>
+  <data name="LblBulkyPay2" xml:space="preserve">
+    <value>You will be redirected to our payment system to secure your booking.</value>
+  </data>
+  <data name="LblBulkyPleaseNote1" xml:space="preserve">
+    <value>Please note, if you choose to edit your booking, you will receive a cancellation email.  This confirms the cancellation of your original booking.  You will also receive an email to confirm your new booking details.</value>
+  </data>
+  <data name="LblBulkyPopularItems" xml:space="preserve">
+    <value>Popular items</value>
+  </data>
+  <data name="LblBulkyPropertyDays" xml:space="preserve">
+    <value>Collections for your area are on a {0}.</value>
+    <comment>{0} gets replaced with the specific property days</comment>
+  </data>
+  <data name="LblBulkyRefundMessage" xml:space="preserve">
+    <value>Please note: If you book a collection that is less than {0} working days away, you will not be entitled to a refund.</value>
+    <comment>place {0} where you want the number of days to display</comment>
+  </data>
+  <data name="LblBulkySearch" xml:space="preserve">
+    <value>Search or select a popular item from the list.</value>
+  </data>
+  <data name="LblBulkySelectDate" xml:space="preserve">
+    <value>Please select a date for your collection:</value>
+  </data>
+  <data name="LblBusShelters" xml:space="preserve">
+    <value>Bus shelter</value>
+  </data>
+  <data name="LblCanBeCollected" xml:space="preserve">
+    <value>Can be collected</value>
+  </data>
+  <data name="LblCancelBooking" xml:space="preserve">
+    <value>Cancel booking</value>
+  </data>
+  <data name="LblCancelled" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="LblCanGoInFoodBin" xml:space="preserve">
+    <value>Can go in your food bin.</value>
+  </data>
+  <data name="LblCanGoInGardenWaste" xml:space="preserve">
+    <value>Can go in your garden waste.</value>
+  </data>
+  <data name="LblCanGoInGeneralWaste" xml:space="preserve">
+    <value>Can go in your general waste.</value>
+  </data>
+  <data name="LblCanGoInRecyclingBags" xml:space="preserve">
+    <value>You can use your recycling collection</value>
+  </data>
+  <data name="LblCanGoPodback" xml:space="preserve">
+    <value>You can use your Podback collection</value>
+  </data>
+  <data name="LblCanGoRecyclingZones" xml:space="preserve">
+    <value>Can be taken to a recycling zone</value>
+  </data>
+  <data name="LblCannotBeCollected" xml:space="preserve">
+    <value>We cannot collect this item</value>
+  </data>
+  <data name="LblCannotGoInFoodBin" xml:space="preserve">
+    <value>Cannot go in your food bin</value>
+  </data>
+  <data name="LblCannotGoInGardenWaste" xml:space="preserve">
+    <value>Cannot go in your garden waste.</value>
+  </data>
+  <data name="LblCannotGoInGeneralWaste" xml:space="preserve">
+    <value>Cannot go in your general waste</value>
+  </data>
+  <data name="LblCannotGoInRecyclingBags" xml:space="preserve">
+    <value>You cannot use your recycling collection</value>
+  </data>
+  <data name="LblCannotGoRecyclingZones" xml:space="preserve">
+    <value>Cannot be taken to a recycling zone</value>
+  </data>
+  <data name="LblCannotReportMC" xml:space="preserve">
+    <value>You cannot report a missed collection</value>
+  </data>
+  <data name="Lblcanyouhelpusimprove" xml:space="preserve">
+    <value>You can help us improve and develop this app by sending us your feedback.</value>
+  </data>
+  <data name="lblCardiffCo" xml:space="preserve">
+    <value>Please note: Direct Debits for Council Tax will show up on your bank statement as 'Cardiff Co'.</value>
+  </data>
+  <data name="LblCash" xml:space="preserve">
+    <value>Cash</value>
+  </data>
+  <data name="lblchangeBDetails" xml:space="preserve">
+    <value>Change your bank details</value>
+  </data>
+  <data name="LblChangeBooking" xml:space="preserve">
+    <value>You can edit your registration number and change your booking date and time. 
+
+You cannot amend your vehicle type.</value>
+  </data>
+  <data name="LblChangeColour" xml:space="preserve">
+    <value>This will change the colour scheme of the app.</value>
+  </data>
+  <data name="LblChargeable" xml:space="preserve">
+    <value>Chargeable</value>
+  </data>
+  <data name="LblCharges" xml:space="preserve">
+    <value>Charges</value>
+  </data>
+  <data name="LblCheckBankDetails" xml:space="preserve">
+    <value>Please check you have entered your bank details correctly.</value>
+  </data>
+  <data name="LblCheckCollectionCalendar" xml:space="preserve">
+    <value>Please check your collection calendar.</value>
+  </data>
+  <data name="LblCheckReport" xml:space="preserve">
+    <value>Please check your report before you send</value>
+  </data>
+  <data name="LblChequeCleared" xml:space="preserve">
+    <value>Date cheque cleared</value>
+  </data>
+  <data name="lblChkAmendmentsC" xml:space="preserve">
+    <value>Please check your amendments before sending</value>
+  </data>
+  <data name="lblChkAmndmnts" xml:space="preserve">
+    <value>Please check your amendments before sending</value>
+  </data>
+  <data name="lblChkDetailsBeforeSend" xml:space="preserve">
+    <value>Please check your details before sending</value>
+  </data>
+  <data name="lblChngeDDdate" xml:space="preserve">
+    <value>Change your Direct Debit payment date</value>
+  </data>
+  <data name="lblCityTown" xml:space="preserve">
+    <value>City or town:</value>
+  </data>
+  <data name="LblCollected" xml:space="preserve">
+    <value>Street collected</value>
+  </data>
+  <data name="LblCollectionAddress" xml:space="preserve">
+    <value>Collection address</value>
+  </data>
+  <data name="LblCollectionCalendar" xml:space="preserve">
+    <value>Collection calendar</value>
+  </data>
+  <data name="LblCollectionDate" xml:space="preserve">
+    <value>Collection date:</value>
+  </data>
+  <data name="LblCollectionDates" xml:space="preserve">
+    <value>Collection dates</value>
+  </data>
+  <data name="LblConfirmAddressandEmail" xml:space="preserve">
+    <value>Please confirm your address and email</value>
+  </data>
+  <data name="LblConfirmAgree" xml:space="preserve">
+    <value>I have read and agree</value>
+  </data>
+  <data name="LblConfirmation" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+  <data name="LblConfirmEmail" xml:space="preserve">
+    <value>Confirm email address</value>
+  </data>
+  <data name="LblConfirmYourEmail" xml:space="preserve">
+    <value>Please confirm your email address.</value>
+  </data>
+  <data name="LblContactDeets" xml:space="preserve">
+    <value>Your contact details</value>
+  </data>
+  <data name="LblContactDetails2" xml:space="preserve">
+    <value>What are your contact details?</value>
+  </data>
+  <data name="LblContacted" xml:space="preserve">
+    <value>When would you like to be contacted?</value>
+  </data>
+  <data name="LblContactInfo" xml:space="preserve">
+    <value>Contact information</value>
+  </data>
+  <data name="LblContactNumber" xml:space="preserve">
+    <value>Contact number:</value>
+  </data>
+  <data name="LblContactPreference" xml:space="preserve">
+    <value>Phone call time preference</value>
+  </data>
+  <data name="LblContactUs" xml:space="preserve">
+    <value>Are you happy for us to contact you?</value>
+  </data>
+  <data name="LblContactYou" xml:space="preserve">
+    <value>In case we need any more information, can we contact you?</value>
+  </data>
+  <data name="LblCost" xml:space="preserve">
+    <value>Cost:</value>
+  </data>
+  <data name="LblCost1" xml:space="preserve">
+    <value>Cost</value>
+  </data>
+  <data name="lblCountry" xml:space="preserve">
+    <value>Country:</value>
+  </data>
+  <data name="lblCountry1" xml:space="preserve">
+    <value>Country:</value>
+  </data>
+  <data name="LblCourtSummonsAmountWarning" xml:space="preserve">
+    <value>Arrears subject to court action : {0:C}.</value>
+    <comment>{0:C} : Amount for summons </comment>
+  </data>
+  <data name="LblCourtSummonsIssued" xml:space="preserve">
+    <value>Court action</value>
+  </data>
+  <data name="LblCrashApoligy" xml:space="preserve">
+    <value>Sorry, our app has crashed.</value>
+  </data>
+  <data name="LblCTAX" xml:space="preserve">
+    <value>What is your Council Tax number?</value>
+  </data>
+  <data name="LblCtaxAccClosed" xml:space="preserve">
+    <value>This account was closed on {0:d}.</value>
+    <comment>{0} closed date</comment>
+  </data>
+  <data name="LblCtaxAccClosedTop" xml:space="preserve">
+    <value>Account closed</value>
+  </data>
+  <data name="LblCtaxAccDue" xml:space="preserve">
+    <value>Please pay remaining amount due.</value>
+  </data>
+  <data name="LblCtaxAmendThankYou" xml:space="preserve">
+    <value>Thank you for amending your Council Tax Direct Debit.</value>
+  </data>
+  <data name="LblCtaxConfirmViaEmail" xml:space="preserve">
+    <value>You will receive confirmation of these changes by email. We will send you a bill showing your instalments.</value>
+  </data>
+  <data name="LblCtaxDDConfirmEmailMsg" xml:space="preserve">
+    <value>You will receive confirmation of your Direct Debit instruction by email. We will send you a bill showing your instalments.</value>
+  </data>
+  <data name="LblCtaxDDConfirmEmailMsg2" xml:space="preserve">
+    <value>You will receive confirmation of these changes by email.</value>
+  </data>
+  <data name="LblCtaxDDThankYou" xml:space="preserve">
+    <value>Thank you for setting up a Direct Debit to pay your Council Tax.</value>
+  </data>
+  <data name="LblCtaxDDThankYouAmending" xml:space="preserve">
+    <value>Thank you for amending your Council Tax Direct Debit.</value>
+  </data>
+  <data name="LblCTaxNo" xml:space="preserve">
+    <value>Council Tax no:</value>
+  </data>
+  <data name="LblCTaxUserInfo" xml:space="preserve">
+    <value>You will find your 8 digit account number on your Council Tax bill.
+
+Please make sure you enter your first name, last name and postcode exactly how they appear on your bill.</value>
+  </data>
+  <data name="lblCTaxValidatePage" xml:space="preserve">
+    <value>Please enter your Council Tax details to access your account information</value>
+  </data>
+  <data name="LblCurrentAddressDeets" xml:space="preserve">
+    <value>Please enter the postcode of your current home address.</value>
+  </data>
+  <data name="LblDangerousParking" xml:space="preserve">
+    <value>parking that is likely to be dangerous.</value>
+  </data>
+  <data name="LblDateandTime" xml:space="preserve">
+    <value>Date and time</value>
+  </data>
+  <data name="LblDatePaid" xml:space="preserve">
+    <value>Date paid</value>
+  </data>
+  <data name="LblDateTimeSlotNotAvailable" xml:space="preserve">
+    <value>The date and time you selected is no longer available. Please select a new date and time for your booking.</value>
+  </data>
+  <data name="LblDDbillconfirmation" xml:space="preserve">
+    <value>We will send you a bill showing your instalments.</value>
+  </data>
+  <data name="LblDDCallbackCouncilTaxThankyou2" xml:space="preserve">
+    <value>A member of the Council Tax team will contact you as soon as possible.</value>
+  </data>
+  <data name="LblDDCallbackRecoveryThankyou2" xml:space="preserve">
+    <value>A member of the recovery team will contact you as soon as possible.</value>
+  </data>
+  <data name="LblDDCallbackThankyou" xml:space="preserve">
+    <value>Thank you for requesting a call back</value>
+  </data>
+  <data name="LblDDconfirmation" xml:space="preserve">
+    <value>You will receive confirmation of your Direct Debit instruction by email.</value>
+  </data>
+  <data name="LblDDConfirmPhoneNumber" xml:space="preserve">
+    <value>Confirm phone number</value>
+  </data>
+  <data name="LblDDEnterPhoneNumber" xml:space="preserve">
+    <value>Enter phone number</value>
+  </data>
+  <data name="lblDDGuarnteeP1" xml:space="preserve">
+    <value>This Guarantee is offered by all banks and building societies that accept instructions to pay Direct Debits.</value>
+  </data>
+  <data name="lblDDGuarnteeP2" xml:space="preserve">
+    <value>If there are any changes to the amount, date or frequency of your Direct Debit, Cardiff Council will notify you 10 working days before your account is debited or as otherwise agreed.</value>
+  </data>
+  <data name="lblDDGuarnteeP3" xml:space="preserve">
+    <value>If you request Cardiff Council to collect a payment, confirmation of the amount and date will be given to you at the time of the request.</value>
+  </data>
+  <data name="lblDDGuarnteeP4" xml:space="preserve">
+    <value>If Cardiff Council or your bank or building society make an error in the payment of your Direct Debit, you are entitled to a full and immediate refund of the amount paid from your bank or building society.</value>
+  </data>
+  <data name="lblDDGuarnteeP5" xml:space="preserve">
+    <value>If you receive a refund you are not entitled to, you must pay it back when Cardiff Council asks you to.</value>
+  </data>
+  <data name="lblDDGuarnteeP6" xml:space="preserve">
+    <value>You can cancel a Direct Debit at any time by simply contacting your bank or building society. Written confirmation may be required. Please also notify us.</value>
+  </data>
+  <data name="LblDDRefusal" xml:space="preserve">
+    <value>You are unable to set up a Direct Debit for this council tax account during this financial year as you have not paid all your previous Direct Debit instalments.
+    
+Find out about other ways to pay your council tax.</value>
+  </data>
+  <data name="LblDDSummonsedDebt" xml:space="preserve">
+    <value>You have summonsed debt on this account.</value>
+  </data>
+  <data name="LblDDSummonsedDebtCannotPay" xml:space="preserve">
+    <value>Please be aware that you cannot set up a Direct Debit online to pay summonsed debt.</value>
+  </data>
+  <data name="LblDDSummonsedDebtContact" xml:space="preserve">
+    <value>Please provide your phone number if you would like to discuss this issue.</value>
+  </data>
+  <data name="LblDDSummonsedDebtSetUp" xml:space="preserve">
+    <value>You can still set up a Direct Debit to manage future Council Tax payments.</value>
+  </data>
+  <data name="LblDebugNotificationAllChannelsAreEnabled" xml:space="preserve">
+    <value>All notifications channels are enabled.</value>
+  </data>
+  <data name="LblDebugNotificationDeviceToken" xml:space="preserve">
+    <value>Device token:</value>
+  </data>
+  <data name="LblDebugNotificationHasPushPermission" xml:space="preserve">
+    <value>App has permission to send notifications.</value>
+  </data>
+  <data name="LblDebugNotificationHasRegistrationId" xml:space="preserve">
+    <value>Device is registered with our system.</value>
+  </data>
+  <data name="LblDebugNotificationHibernationIsDisabled" xml:space="preserve">
+    <value>App hibernation feature has been disabled.</value>
+  </data>
+  <data name="LblDebugNotificationHibernationIsNotDisabled" xml:space="preserve">
+    <value>App hibernation feature has not been disabled.</value>
+  </data>
+  <data name="LblDebugNotificationIsRegisteredWithOs" xml:space="preserve">
+    <value>Device is registered with {0}.</value>
+  </data>
+  <data name="LblDebugNotificationNoRegistrationId" xml:space="preserve">
+    <value>Device is not registered with system.</value>
+  </data>
+  <data name="LblDebugNotificationNotAllChannelsAreEnabled" xml:space="preserve">
+    <value>Not all of the notifications channels are enabled.</value>
+  </data>
+  <data name="LblDebugNotificationNotHavePushPermission" xml:space="preserve">
+    <value>App does not have permission to send notifications.</value>
+  </data>
+  <data name="LblDebugNotificationNotRegisteredWithOs" xml:space="preserve">
+    <value>Device is not registered with {0}.</value>
+  </data>
+  <data name="LblDebugNotificationRegistrationId" xml:space="preserve">
+    <value>Registration ID:</value>
+  </data>
+  <data name="LblDebugNotificationTitle" xml:space="preserve">
+    <value>Notification set up status</value>
+  </data>
+  <data name="LblDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="LblDeliveryAddress" xml:space="preserve">
+    <value>Delivery address</value>
+  </data>
+  <data name="LblDescribeFlyTipLocation" xml:space="preserve">
+    <value>Please tell us anything that could help us locate the fly-tipping.</value>
+  </data>
+  <data name="LblDescribeItem" xml:space="preserve">
+    <value>Please give as much detail as possible, for example approximate measurements and material of item.</value>
+  </data>
+  <data name="LblDeviceinfo" xml:space="preserve">
+    <value>Device Info</value>
+  </data>
+  <data name="LblDeviceManufacturer" xml:space="preserve">
+    <value>Manufacturer:</value>
+  </data>
+  <data name="LblDeviceModel" xml:space="preserve">
+    <value>Model:</value>
+  </data>
+  <data name="LblDeviceOS" xml:space="preserve">
+    <value>OS version:</value>
+  </data>
+  <data name="LblDevicePlatform" xml:space="preserve">
+    <value>Platform:</value>
+  </data>
+  <data name="LblDeviceType" xml:space="preserve">
+    <value>Device:</value>
+  </data>
+  <data name="LblDirectDebit" xml:space="preserve">
+    <value>Direct Debit</value>
+  </data>
+  <data name="LblDirectDebit1" xml:space="preserve">
+    <value>Direct Debit 1st</value>
+  </data>
+  <data name="LblDirectDebit15" xml:space="preserve">
+    <value>Direct Debit 15th</value>
+  </data>
+  <data name="LblDirectDebit22" xml:space="preserve">
+    <value>Direct Debit 22nd</value>
+  </data>
+  <data name="LblDirectDebit8" xml:space="preserve">
+    <value>Direct Debit 8th</value>
+  </data>
+  <data name="LblDirectDebitAddress1" xml:space="preserve">
+    <value>We need your home address to set up or amend a Direct Debit.</value>
+  </data>
+  <data name="LblDirectDebitAddress2" xml:space="preserve">
+    <value>Please confirm that you live at this property</value>
+  </data>
+  <data name="LblDirectDebitAuth" xml:space="preserve">
+    <value>Please confirm you are authorised to set up or amend a Direct Debit.</value>
+  </data>
+  <data name="LblDirectDebitBlocked" xml:space="preserve">
+    <value>Direct Debit blocked</value>
+  </data>
+  <data name="LblDirectDebitInstruction" xml:space="preserve">
+    <value>Direct Debit Instruction</value>
+  </data>
+  <data name="LblDirectDebitPaymentDeets" xml:space="preserve">
+    <value>Your payment details</value>
+  </data>
+  <data name="LblDisabled" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="LblDisabledBandReduction" xml:space="preserve">
+    <value>Disabled band reduction:</value>
+  </data>
+  <data name="LblDiscounts" xml:space="preserve">
+    <value>Discounts:</value>
+  </data>
+  <data name="LblDoItLater2" xml:space="preserve">
+    <value>I'll do this later</value>
+  </data>
+  <data name="LblDownload" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="lblDownloadDD" xml:space="preserve">
+    <value>Please download our Direct Debit form to make an amendment and send by post.</value>
+  </data>
+  <data name="LblDueToBeCollected" xml:space="preserve">
+    <value>Due to be collected today</value>
+  </data>
+  <data name="lblDwnldCTAX" xml:space="preserve">
+    <value>Download Council Tax DD form</value>
+  </data>
+  <data name="LblDwnldDD" xml:space="preserve">
+    <value>Unfortunately we are unable to proceed with your request online. Please download our Direct Debit form and apply by post.</value>
+  </data>
+  <data name="LblEbillAllowNotifcations" xml:space="preserve">
+    <value>Allow billing notifications?</value>
+  </data>
+  <data name="LblEbillDisabled" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="LblEbilling" xml:space="preserve">
+    <value>E-billing:</value>
+  </data>
+  <data name="LblEbillNotifications" xml:space="preserve">
+    <value>We will send a notification to your phone or device when your bill or reminder is sent out.
+
+You can switch off notifications at any time. We will still send your bills and reminders by email unless you unsubscribe from the e-bills service.</value>
+  </data>
+  <data name="LblEbillPushNotifications" xml:space="preserve">
+    <value>Would you like to receive a notification to your phone or device when your bill or reminder email is sent out?</value>
+  </data>
+  <data name="LblEbillSignUpMessage" xml:space="preserve">
+    <value>Opt out of paper bills and start receiving your Council Tax bills by email.</value>
+  </data>
+  <data name="LblEbillSignUpTitle" xml:space="preserve">
+    <value>Sign up for e-billing</value>
+  </data>
+  <data name="LblEbillStatusMessage" xml:space="preserve">
+    <value>Your e-bill notifications are currently {0}</value>
+    <comment>{0} - On / Off</comment>
+  </data>
+  <data name="LblEbillTitle" xml:space="preserve">
+    <value>Please enter an email address for your e-bills and notices.</value>
+  </data>
+  <data name="LblEditReminder" xml:space="preserve">
+    <value>Edit reminder</value>
+  </data>
+  <data name="LblElectricityBoxes" xml:space="preserve">
+    <value>Electricity box</value>
+  </data>
+  <data name="LblEmail" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="LblEmailAddress" xml:space="preserve">
+    <value>Email address</value>
+  </data>
+  <data name="LblEmailConfirm" xml:space="preserve">
+    <value>Please enter your email address:</value>
+  </data>
+  <data name="LblEmailReceipt" xml:space="preserve">
+    <value>Would you like an email receipt for this report?</value>
+  </data>
+  <data name="LblEmailReciept" xml:space="preserve">
+    <value>Would you like an email receipt for this report?</value>
+  </data>
+  <data name="LblEmailRecieptOrder" xml:space="preserve">
+    <value>Would you like an email receipt for this order?</value>
+  </data>
+  <data name="LblEnabled" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="LblENoticeEbill" xml:space="preserve">
+    <value>E-bill</value>
+  </data>
+  <data name="LblENoticeFinal" xml:space="preserve">
+    <value>Final</value>
+  </data>
+  <data name="LblENoticeReminder" xml:space="preserve">
+    <value>Reminder</value>
+  </data>
+  <data name="lblEnterBDetails" xml:space="preserve">
+    <value>Please enter your bank details</value>
+  </data>
+  <data name="LblErrVehicleColour" xml:space="preserve">
+    <value>Vehicle colour is required</value>
+  </data>
+  <data name="LblErrVehicleDetails" xml:space="preserve">
+    <value>Registration or make and colour are required</value>
+  </data>
+  <data name="LblErrVehicleMake" xml:space="preserve">
+    <value>Vehicle make is required</value>
+  </data>
+  <data name="Lbleverymonth" xml:space="preserve">
+    <value>of every month</value>
+  </data>
+  <data name="LblExcemptions" xml:space="preserve">
+    <value>Exemptions:</value>
+  </data>
+  <data name="LblFaultsToHelpUs" xml:space="preserve">
+    <value>Please select one or more options to help us identify the problem:</value>
+  </data>
+  <data name="LblFeatureRescheduled" xml:space="preserve">
+    <value>Your {0} collection has been rescheduled for {1}. 
+  
+We will update your collection calendar.</value>
+    <comment> { 0 } is type of missed collection (Garden waste, General waste, Recycling, Recycling bags, Hygiene bag, Kerbside food caddy, Glass caddy). { 1 } is the date.</comment>
+  </data>
+  <data name="LblFeedbackdeviceinfo" xml:space="preserve">
+    <value>To help us look at your feedback we have captured some information about your device and system.</value>
+  </data>
+  <data name="LblFeedbackScreenshot" xml:space="preserve">
+    <value>You can add up to 3 screenshots to help us assess the problem.</value>
+  </data>
+  <data name="LblFirstName" xml:space="preserve">
+    <value>First name:</value>
+  </data>
+  <data name="LblFlatWarning" xml:space="preserve">
+    <value>Contact your landlord or housing association before placing an order. 
+
+They may be able to provide what you need.</value>
+  </data>
+  <data name="LblForExample" xml:space="preserve">
+    <value>For example:</value>
+  </data>
+  <data name="LblFree" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="LblGetDirections" xml:space="preserve">
+    <value>Get directions</value>
+  </data>
+  <data name="LblGettingLocation" xml:space="preserve">
+    <value>Getting your location</value>
+  </data>
+  <data name="LblGlassCaddy" xml:space="preserve">
+    <value>Glass caddy</value>
+  </data>
+  <data name="LblGraffiti" xml:space="preserve">
+    <value>Graffiti</value>
+  </data>
+  <data name="LblGraffitiApproximateSize" xml:space="preserve">
+    <value>What is the approximate size of the graffiti?</value>
+  </data>
+  <data name="LblGraffitiHeight" xml:space="preserve">
+    <value>Is it higher than 1.5m?</value>
+  </data>
+  <data name="LblGraffitiHigher" xml:space="preserve">
+    <value>Graffiti is more than 1.5 metres off the ground</value>
+  </data>
+  <data name="LblGraffitiHigher2" xml:space="preserve">
+    <value>More than 1.5 metres off the ground:</value>
+  </data>
+  <data name="LblGraffitiMillennumWalkWay" xml:space="preserve">
+    <value>Millennium Walkway is a designated area for street art in the city.</value>
+  </data>
+  <data name="LblGraffitiNotResponsible" xml:space="preserve">
+    <value>Some surfaces in the city are not our responsibility.  If you find graffiti on one of the following for example, you will need to contact the company responsible.</value>
+  </data>
+  <data name="LblGraffitiRacistAbusive" xml:space="preserve">
+    <value>Racist or abusive:</value>
+  </data>
+  <data name="LblGraffitiRacistAbusiveQuestion" xml:space="preserve">
+    <value>Do you think the graffiti is racist or abusive?</value>
+  </data>
+  <data name="LblGraffitiSerious" xml:space="preserve">
+    <value>We take racist or abusive graffiti very seriously and will make it our priority to remove it.</value>
+  </data>
+  <data name="LblGraffitiSize" xml:space="preserve">
+    <value>Graffiti size</value>
+  </data>
+  <data name="LblGraffitiSurface" xml:space="preserve">
+    <value>Please select one or more of the following to help us identify the surface:</value>
+  </data>
+  <data name="LblGraffitiSurfaceSingle" xml:space="preserve">
+    <value>Describe the surface:</value>
+  </data>
+  <data name="LblGraffitiToHelpUs" xml:space="preserve">
+    <value>To help us assess the problem we need to know about the affected surface.</value>
+  </data>
+  <data name="LblGraffitiWebsite" xml:space="preserve">
+    <value>Find out more about how we deal with graffiti on our website &lt;a href="https://www.cardiff.gov.uk/graffiti"&gt;www.cardiff.gov.uk/graffiti&lt;/a&gt;</value>
+  </data>
+  <data name="LblGreenBags" xml:space="preserve">
+    <value>Recycling bags</value>
+  </data>
+  <data name="LblHappy2B" xml:space="preserve">
+    <value>Are you happy for us to contact you?</value>
+  </data>
+  <data name="LblHello" xml:space="preserve">
+    <value>Hello</value>
+  </data>
+  <data name="LblHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="Lblhelpuswithissue" xml:space="preserve">
+    <value>To help us with the issue you are reporting we have captured some information about your device and system.</value>
+  </data>
+  <data name="LblHi" xml:space="preserve">
+    <value>Hi</value>
+  </data>
+  <data name="LblHighwaysEmergencyContinue" xml:space="preserve">
+    <value>If the issue is not an emergency please click next to continue.</value>
+  </data>
+  <data name="LblHighwaysEmergencyNew" xml:space="preserve">
+    <value>If you see a problem on the road or pavement that is likely to cause a serious accident or injury please call to speak to our emergency team 02920872087</value>
+  </data>
+  <data name="LblHowdid" xml:space="preserve">
+    <value>How the issue occurred</value>
+  </data>
+  <data name="LblHowManyTimes" xml:space="preserve">
+    <value>For example how many times has this happened</value>
+  </data>
+  <data name="LblHowToPayCouncilTax" xml:space="preserve">
+    <value>How to pay Council Tax</value>
+  </data>
+  <data name="LblHWRCAddress" xml:space="preserve">
+    <value>Please provide the address where your items will be coming from:</value>
+  </data>
+  <data name="LblHWRCBooking2" xml:space="preserve">
+    <value>Find information about items you can bring and vehicle access at &lt;a href="https://www.cardiff.gov.uk/recyclingcentres"&gt;www.cardiff.gov.uk/recyclingcentres&lt;/a&gt;</value>
+  </data>
+  <data name="LblHWRCBookingInfo" xml:space="preserve">
+    <value>You will receive a confirmation email with details of your booking.
+
+Please bring proof of booking and proof of address when you visit</value>
+  </data>
+  <data name="LblHWRCBookingRemainingInfo" xml:space="preserve">
+    <value>Recycling centre bookings can be made by more than one resident at the property.</value>
+  </data>
+  <data name="LblHWRCBookings" xml:space="preserve">
+    <value>Recycling centres</value>
+  </data>
+  <data name="LblHWRCCannotEditTimeSlot" xml:space="preserve">
+    <value>You cannot edit this booking as the time slot has passed. Please make another booking.</value>
+  </data>
+  <data name="LblHygieneBags" xml:space="preserve">
+    <value>Hygiene bags</value>
+  </data>
+  <data name="LblIamgeMax" xml:space="preserve">
+    <value>You can add up to 3 images to help us identify the location and type of waste that has been dumped.</value>
+  </data>
+  <data name="LblIncludesBookingFee" xml:space="preserve">
+    <value>Includes £{0:F2} non-refundable booking fee</value>
+  </data>
+  <data name="LblInstalments" xml:space="preserve">
+    <value>Do you want your instalments extended to March?</value>
+  </data>
+  <data name="LblInstalmentsMarch" xml:space="preserve">
+    <value>Do you want your instalments extended to March?</value>
+  </data>
+  <data name="LblIsOngoingProblem" xml:space="preserve">
+    <value>Has this happened before or is it an ongoing problem?</value>
+  </data>
+  <data name="LblIsOngoingProblem2" xml:space="preserve">
+    <value>Has this happened before or is it an ongoing problem?:</value>
+  </data>
+  <data name="LblIssueOccur" xml:space="preserve">
+    <value>How did the issue occur?</value>
+  </data>
+  <data name="LblIssueOccur2" xml:space="preserve">
+    <value>How did the issue occur</value>
+  </data>
+  <data name="LblItemLocation" xml:space="preserve">
+    <value>Item location</value>
+  </data>
+  <data name="LblItems" xml:space="preserve">
+    <value>Items</value>
+  </data>
+  <data name="LblKerbsideFoodCaddy" xml:space="preserve">
+    <value>Kerbside food caddy</value>
+  </data>
+  <data name="LblKitchenCaddyLiners" xml:space="preserve">
+    <value>Kitchen caddy liners</value>
+  </data>
+  <data name="LblKitchenFoodCaddies" xml:space="preserve">
+    <value>Kitchen caddy</value>
+  </data>
+  <data name="LblLambyWay" xml:space="preserve">
+    <value>Lamby Way</value>
+  </data>
+  <data name="LblLastName" xml:space="preserve">
+    <value>Last name:</value>
+  </data>
+  <data name="LblLastPaymentMade" xml:space="preserve">
+    <value>Last payment received on {0:dd/MM/yyyy}:  {1:C}</value>
+    <comment>{0:dd/MM/yyyy} - Date of payment, {1:C} - Amount paid</comment>
+  </data>
+  <data name="LblLikedToBeContacted" xml:space="preserve">
+    <value>If you saw who committed the fly-tipping, can we contact you?</value>
+  </data>
+  <data name="LblLoading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="LblLoadingAccessibility" xml:space="preserve">
+    <value>Loading</value>
+  </data>
+  <data name="LblLoadingCollections" xml:space="preserve">
+    <value>We are getting the latest collection information for your property.
+This may take a little while. Please bear with us.</value>
+  </data>
+  <data name="LblLocateProblem" xml:space="preserve">
+    <value>Please tell us anything else you think could help us locate and deal with this problem.</value>
+  </data>
+  <data name="LblLocationOfVehicle" xml:space="preserve">
+    <value>Location of vehicle:</value>
+  </data>
+  <data name="LblLocatioOfPost" xml:space="preserve">
+    <value>Location of Post Office or Paypoint</value>
+  </data>
+  <data name="LblMakeAPayment" xml:space="preserve">
+    <value>Make a payment</value>
+  </data>
+  <data name="LblMakeBooking" xml:space="preserve">
+    <value>Make a new booking</value>
+  </data>
+  <data name="LblMapKey" xml:space="preserve">
+    <value>Map key</value>
+  </data>
+  <data name="LblMaxBooking" xml:space="preserve">
+    <value>Maximum number of bookings reached</value>
+  </data>
+  <data name="LblMaxBookingExplanation" xml:space="preserve">
+    <value>You have reached the maximum number of bookings for this property.
+
+Recycling centre bookings can be made by more than one resident at the property.
+
+If you have a query about your booking limit please contact us on 02920872087.</value>
+  </data>
+  <data name="Lblmaxthreeimages" xml:space="preserve">
+    <value>If you are reporting a technical issue you may want to attach screenshots. Please have the images ready before starting the form. You can add a maximum of 3 images.</value>
+  </data>
+  <data name="LblMenuClosed" xml:space="preserve">
+    <value>Menu closed</value>
+  </data>
+  <data name="LblMenuOpen" xml:space="preserve">
+    <value>Menu open</value>
+  </data>
+  <data name="LblMessageAndroidHibernation" xml:space="preserve">
+    <value>To make sure you receive important notifications, please disable the setting &lt;strong&gt;"{0}"&lt;/strong&gt; in &lt;strong&gt;"{1}"&lt;/strong&gt;.
+
+This setting automatically removes permission from apps that go unused for a length of time. By disabling this you will continue to receive notifications even if you don't actively use the app.
+
+You can learn more about this setting here - &lt;a href='https://developer.android.com/topic/performance/app-hibernation'&gt;Android App Hibernation&lt;/a&gt;</value>
+  </data>
+  <data name="LblMessageNotSetupForNotifications" xml:space="preserve">
+    <value>Your device and app are not set up for notifications.</value>
+  </data>
+  <data name="LblMessageSetupButNotReliable" xml:space="preserve">
+    <value>Your device and app are set up to receive notifications, but they could be improved.</value>
+  </data>
+  <data name="LblMessageSetupForNotifications" xml:space="preserve">
+    <value>Your device and app are set up to receive notifications.</value>
+  </data>
+  <data name="LblMissCollRejected" xml:space="preserve">
+    <value>We have reviewed your report and we will not be returning to collect this item.
+
+Please put it out on your next scheduled collection date.</value>
+  </data>
+  <data name="LblMissedCollectionAddress" xml:space="preserve">
+    <value>Please provide the address where a collection has been missed.</value>
+  </data>
+  <data name="LblMissedCollectionAlreadyReported" xml:space="preserve">
+    <value>This item has already been reported as missed on {0} at {1}.
+
+If you made this report we will contact you by email with instructions.</value>
+    <comment>{0} is the date and {1} is the time</comment>
+  </data>
+  <data name="LblMissedCollectionEmail" xml:space="preserve">
+    <value>We will send you instructions via email so your email address is very important.</value>
+  </data>
+  <data name="LblMissedCollectionLatestCollection" xml:space="preserve">
+    <value>Your latest collection date</value>
+  </data>
+  <data name="LblMissedCollectionNoPreviousCollection" xml:space="preserve">
+    <value>We cannot find information about your last collection.</value>
+  </data>
+  <data name="LblMissedCollectionNoPreviousCollectionLink" xml:space="preserve">
+    <value>Please check your next collection date.</value>
+  </data>
+  <data name="LblMissedCollectionNoPreviousCollectionTitle" xml:space="preserve">
+    <value>You cannot report a missed collection</value>
+  </data>
+  <data name="LblMissedCollectionReported" xml:space="preserve">
+    <value>This item has been reported as missed</value>
+  </data>
+  <data name="LblMissedCollectionsEscalate" xml:space="preserve">
+    <value>We notice that you have reported a number of missed collections from this property. 
+
+Our team will review and contact you if necessary.</value>
+  </data>
+  <data name="LblMissedCollectionThankYou" xml:space="preserve">
+    <value>You have reported a missed {0} collection at {1} on {2}.
+    
+You will receive an email with instructions on what to do with your recycling or waste within {3}.</value>
+    <comment>{0} is type of missed collection (Garden waste, General waste, Recycling, Recycling bags, Hygiene bag, Kerbside food caddy, Glass caddy).  {1} is the time reported.  {2} is the date reported.  {3} is the number of days the customer will receive an email by.</comment>
+  </data>
+  <data name="LblMissingPaymentThanks" xml:space="preserve">
+    <value>Thank you for reporting a missing payment.</value>
+  </data>
+  <data name="LblMissPayCTAX" xml:space="preserve">
+    <value>We will send a confirmation email to you.</value>
+  </data>
+  <data name="LblMonthlyDateDD" xml:space="preserve">
+    <value>You would like to change your Direct Debit payment date to the</value>
+  </data>
+  <data name="LblMoreInfo" xml:space="preserve">
+    <value>We may need some more information from you in order to locate and deal with the problem you are reporting.</value>
+  </data>
+  <data name="LblMoveMap" xml:space="preserve">
+    <value>Move the map until pin marks correct location</value>
+  </data>
+  <data name="LblName2" xml:space="preserve">
+    <value>What is your name?</value>
+  </data>
+  <data name="LblNewBillNotReady" xml:space="preserve">
+    <value>Your new bill is being calculated</value>
+  </data>
+  <data name="LblNoAppReport" xml:space="preserve">
+    <value>Unfortunately you cannot report this issue to us via our app. Please use our website.</value>
+  </data>
+  <data name="LblNoBookings" xml:space="preserve">
+    <value>You do not have any bookings</value>
+  </data>
+  <data name="LblNoCalendarAssosiated" xml:space="preserve">
+    <value>We are unable to return collection dates for this property. If you live at this address please contact C2C on 02920872087.</value>
+  </data>
+  <data name="LblNoCollection" xml:space="preserve">
+    <value>No collection dates for this property</value>
+  </data>
+  <data name="LblNoENotices" xml:space="preserve">
+    <value>No bills or notices to view.</value>
+  </data>
+  <data name="LblNoENoticesYet" xml:space="preserve">
+    <value>(New bills and notices will appear here)</value>
+  </data>
+  <data name="LblNoNearestStockists" xml:space="preserve">
+    <value>Unfortunately, your nearest stockist does not have all the items you need.</value>
+  </data>
+  <data name="LblNoPaymentsForYear" xml:space="preserve">
+    <value>No payments have been made for this financial year</value>
+  </data>
+  <data name="LblNoPaymentsFound" xml:space="preserve">
+    <value>No payments found</value>
+  </data>
+  <data name="LblNoRecentNotifications" xml:space="preserve">
+    <value>No recent notifications</value>
+  </data>
+  <data name="LblNoReg" xml:space="preserve">
+    <value>You can continue with your booking but you must update your registration number before you visit.
+
+If you do not provide your registration number you will be refused entry to the site.</value>
+  </data>
+  <data name="LblNoResults" xml:space="preserve">
+    <value>Unfortunately there are no results that match your search.</value>
+  </data>
+  <data name="LblNotCollected" xml:space="preserve">
+    <value>Not collected</value>
+  </data>
+  <data name="LblNotCollectedMessage" xml:space="preserve">
+    <value>We did not collect your {0} because {1}
+
+For information on what to put in your bags and bins go to &lt;a href="https://www.cardiff.gov.uk/collectiontypes"&gt;www.cardiff.gov.uk/collectiontypes&lt;/a&gt;</value>
+    <comment>{0} is the waste type (general, garden etc) and {1} is the event/reason why it was not collected</comment>
+  </data>
+  <data name="LblNotCollectedMessagePilot" xml:space="preserve">
+    <value>We did not collect your {0} because {1}</value>
+    <comment>{0} is the waste type (general, garden etc) and {1} is the event/reason why it was {0} is the waste type (general, garden etc) and {1} is the event/reason why it was not collected</comment>
+  </data>
+  <data name="LblNotice" xml:space="preserve">
+    <value>Notice</value>
+  </data>
+  <data name="LblNotifcationsIssueText" xml:space="preserve">
+    <value>If you have tried to resolve a notification issue using the advice we have provided, but you are still not receiving your notifications, please report this issue to us.</value>
+  </data>
+  <data name="LblNotificationGuidance" xml:space="preserve">
+    <value>Notification guidance</value>
+  </data>
+  <data name="LblNotificationIssues" xml:space="preserve">
+    <value>Having issues receiving notifications?</value>
+  </data>
+  <data name="LblNotProvided" xml:space="preserve">
+    <value>Not provided</value>
+  </data>
+  <data name="LblOngoing" xml:space="preserve">
+    <value>Ongoing</value>
+  </data>
+  <data name="LblOngoingProblem" xml:space="preserve">
+    <value>Ongoing problem?</value>
+  </data>
+  <data name="LblOptionTip" xml:space="preserve">
+    <value>If you set up a Direct Debit it will run until January. You can choose to spread the payments up until March.</value>
+  </data>
+  <data name="LblOrderItemsForDelivery" xml:space="preserve">
+    <value>Kerbside food caddies and glass caddies are only available for delivery.</value>
+  </data>
+  <data name="LblOther" xml:space="preserve">
+    <value>Please describe the item or items:</value>
+  </data>
+  <data name="LblOtherProperty" xml:space="preserve">
+    <value>Look up another property</value>
+  </data>
+  <data name="LblParkingPermitsAddressSearch" xml:space="preserve">
+    <value>Find out if your property is eligible for a resident parking permit and which permit you need to apply for.</value>
+  </data>
+  <data name="LblParkingProblem" xml:space="preserve">
+    <value>Parking problem</value>
+  </data>
+  <data name="LblPay" xml:space="preserve">
+    <value>Pay</value>
+  </data>
+  <data name="LblPayment" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="LblPaymentDate" xml:space="preserve">
+    <value>Payment Date:</value>
+  </data>
+  <data name="LblPaymentMethod" xml:space="preserve">
+    <value>Payment method:</value>
+  </data>
+  <data name="LblPaymentRecievedPopup" xml:space="preserve">
+    <value>Payment needed to bring your account up to date. This does not include any arrears subject to court action.</value>
+  </data>
+  <data name="LblPaymentsrecieved" xml:space="preserve">
+    <value>Payments received:</value>
+  </data>
+  <data name="LblPaymentType" xml:space="preserve">
+    <value>Payment type</value>
+  </data>
+  <data name="LblPayWeekly" xml:space="preserve">
+    <value>I would like to pay weekly</value>
+  </data>
+  <data name="LblPayWeeklyBankDetails" xml:space="preserve">
+    <value>I would like to pay weekly</value>
+  </data>
+  <data name="lblpayweeklyDD" xml:space="preserve">
+    <value>I would like to pay weekly</value>
+  </data>
+  <data name="lblPc" xml:space="preserve">
+    <value>Postcode:</value>
+  </data>
+  <data name="LblPersonalDetails" xml:space="preserve">
+    <value>Personal details</value>
+  </data>
+  <data name="LblPersonalDetailsMessageNew" xml:space="preserve">
+    <value>You can enter your personal details to be stored securely and reused across the different services within this app. 
+
+This means you won't have to re-enter your details for every service. 
+
+We will not use your details for any other purpose.</value>
+  </data>
+  <data name="LblPhone" xml:space="preserve">
+    <value>Phone number:</value>
+  </data>
+  <data name="LblPickUpAtLocalStockist" xml:space="preserve">
+    <value>You can pick up recycling and waste containers at your local stockists.</value>
+  </data>
+  <data name="LblPleaseNote" xml:space="preserve">
+    <value>Please note:</value>
+  </data>
+  <data name="lblPleaseProvideDetails" xml:space="preserve">
+    <value>Sorry, we cannot find that address. Please provide details.</value>
+  </data>
+  <data name="LblPleaseSelectADate" xml:space="preserve">
+    <value>Please select a date</value>
+  </data>
+  <data name="LblPleaseTellUsVehicle" xml:space="preserve">
+    <value>Please tell us about the vehicle</value>
+  </data>
+  <data name="LblPleaseTryAgain" xml:space="preserve">
+    <value>Please try again.</value>
+  </data>
+  <data name="LblPositionOfGraffiti" xml:space="preserve">
+    <value>Position of the graffiti</value>
+  </data>
+  <data name="LblPostBoxes" xml:space="preserve">
+    <value>Post box</value>
+  </data>
+  <data name="LblPostCode" xml:space="preserve">
+    <value>Postcode:</value>
+  </data>
+  <data name="LblPreferPhone" xml:space="preserve">
+    <value>If you would prefer to be contacted by phone please enter your number:</value>
+  </data>
+  <data name="LblPrivateLand" xml:space="preserve">
+    <value>This is private land. The land owner is responsible for dealing with this issue.</value>
+  </data>
+  <data name="LblProblemParking2" xml:space="preserve">
+    <value>We deal with parking problems that are covered by parking restrictions, such as yellow lines or other markings on the road.</value>
+  </data>
+  <data name="LblProblemParkingFindOutMore" xml:space="preserve">
+    <value>Find out more about how we deal with problem parking on our website 
+&lt;a href="https://www.cardiff.gov.uk/problemparking"&gt;www.cardiff.gov.uk/problemparking&lt;/a&gt;</value>
+  </data>
+  <data name="LblProblemParkingServiceInformation" xml:space="preserve">
+    <value>Some parking problems in the city are not our responsibility. Please call 101 to report:</value>
+  </data>
+  <data name="LblProperty" xml:space="preserve">
+    <value>Set a reminder for this property</value>
+  </data>
+  <data name="LblPropParkingPleaseTellUs" xml:space="preserve">
+    <value>Please tell us anything else that could help us assess the situation.</value>
+  </data>
+  <data name="LblProvideContactDetails" xml:space="preserve">
+    <value>We need your contact details to confirm your booking.</value>
+  </data>
+  <data name="LblProvideImage" xml:space="preserve">
+    <value>Please provide images that show location, nature and severity of the problem.</value>
+  </data>
+  <data name="LblPutOutNextCollection" xml:space="preserve">
+    <value>Please put this out for your next collection.</value>
+  </data>
+  <data name="LblQuantity" xml:space="preserve">
+    <value>Quantity:</value>
+  </data>
+  <data name="LblReceiveReminders" xml:space="preserve">
+    <value>Set up a recycling and waste collection reminder to receive notifications to your phone.</value>
+  </data>
+  <data name="LblRecyclingAZ" xml:space="preserve">
+    <value>Recycling A to Z</value>
+  </data>
+  <data name="LblRecyclingTargets" xml:space="preserve">
+    <value>Help us meet our recycling targets by using bags and caddies correctly. &lt;a href="https://www.cardiff.gov.uk/collectiontypes" target="_blank"&gt;More information about bins and bags&lt;/a&gt;</value>
+  </data>
+  <data name="LblRedSack" xml:space="preserve">
+    <value>Red sack</value>
+  </data>
+  <data name="LblRefunds" xml:space="preserve">
+    <value>Refunds:</value>
+  </data>
+  <data name="LblReminders" xml:space="preserve">
+    <value>Reminders</value>
+  </data>
+  <data name="LblRemoveItem" xml:space="preserve">
+    <value>Remove Item</value>
+  </data>
+  <data name="LblReport1" xml:space="preserve">
+    <value>You have reported a</value>
+  </data>
+  <data name="LblReport2" xml:space="preserve">
+    <value>problem to us on one of Cardiff's high speed routes.</value>
+  </data>
+  <data name="LblReportAMissingPayment" xml:space="preserve">
+    <value>Report a missing payment</value>
+  </data>
+  <data name="LblReportGraffiti" xml:space="preserve">
+    <value>Report graffiti</value>
+  </data>
+  <data name="LblReportProblemParking" xml:space="preserve">
+    <value>Report problem parking</value>
+  </data>
+  <data name="LblRescheduled" xml:space="preserve">
+    <value>Rescheduled</value>
+  </data>
+  <data name="LblRescheduledFor" xml:space="preserve">
+    <value>Rescheduled for</value>
+  </data>
+  <data name="LblRoadsANDPavements" xml:space="preserve">
+    <value>Roads and Pavements</value>
+  </data>
+  <data name="LblSchoolLand" xml:space="preserve">
+    <value>This is school land. You will need to report this issue to the school itself.</value>
+  </data>
+  <data name="lblSecondSign" xml:space="preserve">
+    <value>I need a second signature to authorise a Direct Debit from this account</value>
+  </data>
+  <data name="LblSelectBagOrBin" xml:space="preserve">
+    <value>Select a bag or bin status for more information.</value>
+  </data>
+  <data name="LblSelectedTrailer" xml:space="preserve">
+    <value>with a trailer</value>
+  </data>
+  <data name="LblSelectItemsFromList" xml:space="preserve">
+    <value>Please select the items you need from the list:</value>
+  </data>
+  <data name="LblSelectLocation" xml:space="preserve">
+    <value>Please select a surface</value>
+  </data>
+  <data name="LblSelectProblemType" xml:space="preserve">
+    <value>Please select a problem type</value>
+  </data>
+  <data name="LblSelectVehicleType" xml:space="preserve">
+    <value>Please select your vehicle type:</value>
+  </data>
+  <data name="LblServiceDisruption" xml:space="preserve">
+    <value>Please visit our website for further advice on what to do with your bags and bins.
+
+Thank you for your cooperation.</value>
+  </data>
+  <data name="LblServiceUnavailable" xml:space="preserve">
+    <value>Unfortunately this service is not available. Apologies for any inconvenience caused.</value>
+  </data>
+  <data name="LblServiceUnavailble" xml:space="preserve">
+    <value>Sorry this service is unavailable at the moment. Please try again later.</value>
+  </data>
+  <data name="LblSetUp" xml:space="preserve">
+    <value>Your Direct Debit is set up for the</value>
+  </data>
+  <data name="LblSetupADirectDebit" xml:space="preserve">
+    <value>Direct Debits</value>
+  </data>
+  <data name="lblsetupDD" xml:space="preserve">
+    <value>You can set up a Direct Debit to pay your Council Tax directly from your bank account every month.</value>
+  </data>
+  <data name="LblSize" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="LblSize2" xml:space="preserve">
+    <value>Size:</value>
+  </data>
+  <data name="LblSizeOptions" xml:space="preserve">
+    <value>Please select a size</value>
+  </data>
+  <data name="LblSizePosition" xml:space="preserve">
+    <value>Size and position:</value>
+  </data>
+  <data name="LblSmallLitter" xml:space="preserve">
+    <value>Small amounts of litter</value>
+  </data>
+  <data name="LblSortCode" xml:space="preserve">
+    <value>Sort Code:</value>
+  </data>
+  <data name="LblSortCodeNo" xml:space="preserve">
+    <value>Sort code not recognised</value>
+  </data>
+  <data name="LblSpecificDay" xml:space="preserve">
+    <value>Your weekly payments will be taken on the 1st, 8th, 15th and 22nd of each month.</value>
+  </data>
+  <data name="LblSpecificDayBankDetails" xml:space="preserve">
+    <value>Your weekly payments will be taken on the 1st, 8th, 15th and 22nd of each month.</value>
+  </data>
+  <data name="LblStreetCleansingMoreInfoEntry" xml:space="preserve">
+    <value>Please describe the item or items:</value>
+  </data>
+  <data name="LblStreetLightingExposedWires" xml:space="preserve">
+    <value>exposed wires</value>
+  </data>
+  <data name="LblStreetLightingLooseParts" xml:space="preserve">
+    <value>loose parts</value>
+  </data>
+  <data name="LblStreetLightingUnstablePost" xml:space="preserve">
+    <value>unstable post</value>
+  </data>
+  <data name="LblStreetLightingWarningInformation" xml:space="preserve">
+    <value>If you see a problem with a street light that is likely to cause a serious accident or injury, such as:</value>
+  </data>
+  <data name="LblStreetLightingWarningInformation2" xml:space="preserve">
+    <value>Please call 02920872087 to speak to our emergency team.</value>
+  </data>
+  <data name="LblStretName" xml:space="preserve">
+    <value>Street name and number:</value>
+  </data>
+  <data name="LblSubTotal" xml:space="preserve">
+    <value>Item total</value>
+  </data>
+  <data name="LblSuccMissingPayment" xml:space="preserve">
+    <value>Your case has been sent to the Council Tax team. We will contact you within 72 hours.</value>
+  </data>
+  <data name="LblSuggestion" xml:space="preserve">
+    <value>Thank you for taking the time to suggest improvements to our app. Please use the comments box:</value>
+  </data>
+  <data name="LblSummonsDDBlock" xml:space="preserve">
+    <value>You are unable to set up a Direct Debit for this Council tax account. Please get in touch to make alternative payment arrangements.</value>
+  </data>
+  <data name="LblSurface" xml:space="preserve">
+    <value>Surface:</value>
+  </data>
+  <data name="LblSwitchTheme" xml:space="preserve">
+    <value>Change theme</value>
+  </data>
+  <data name="LblTelephoneBox" xml:space="preserve">
+    <value>Telephone box</value>
+  </data>
+  <data name="LblTellAboutIssue" xml:space="preserve">
+    <value>Tell us about the issue:</value>
+  </data>
+  <data name="Lbltellusaboutissue" xml:space="preserve">
+    <value>About the issue</value>
+  </data>
+  <data name="LblTellUsFaults" xml:space="preserve">
+    <value>Please tell us about the street light problem.</value>
+  </data>
+  <data name="LblTellUsParkingProblem" xml:space="preserve">
+    <value>Please tell us about the parking problem</value>
+  </data>
+  <data name="LblTellUsVehicle" xml:space="preserve">
+    <value>Tell us about the vehicle</value>
+  </data>
+  <data name="LblTermsandConditions" xml:space="preserve">
+    <value>Terms and Conditions</value>
+  </data>
+  <data name="LblThankYouFeedbackMessage" xml:space="preserve">
+    <value>Thank you for your feedback.</value>
+  </data>
+  <data name="LblThankYouPersonalDetails" xml:space="preserve">
+    <value>Thank you for entering your personal details.</value>
+  </data>
+  <data name="LblThnkYou1" xml:space="preserve">
+    <value>Your order is being processed.</value>
+  </data>
+  <data name="LblThnkYou4" xml:space="preserve">
+    <value>Items will be left outside your selected property.</value>
+  </data>
+  <data name="LblTime" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="LblTimeDate" xml:space="preserve">
+    <value>{0} on {1}</value>
+  </data>
+  <data name="LblTimeSlot" xml:space="preserve">
+    <value>Select a date to see available time slots.</value>
+  </data>
+  <data name="LblTimeSlotAlternative" xml:space="preserve">
+    <value>Select an alternative date to see available time slots.</value>
+  </data>
+  <data name="LblTimeSlotFullyBooked" xml:space="preserve">
+    <value>The time slot you selected is now fully booked. Please select another time slot.</value>
+  </data>
+  <data name="LblTimeSlotsAvailable" xml:space="preserve">
+    <value>Available time slots for </value>
+  </data>
+  <data name="LblTimeSlotsNotAvailable" xml:space="preserve">
+    <value>There are no more time slots available on this date. Please select another date.</value>
+  </data>
+  <data name="LblTitleAndroidHibernation" xml:space="preserve">
+    <value>Improve notification reliability</value>
+  </data>
+  <data name="LblTitleNotSetupForNotifications" xml:space="preserve">
+    <value>Notifications not set up</value>
+  </data>
+  <data name="LblTitleSetupButNotReliable" xml:space="preserve">
+    <value>Notifications could be improved</value>
+  </data>
+  <data name="LblTitleSetupForNotifications" xml:space="preserve">
+    <value>Notifications set up</value>
+  </data>
+  <data name="LblTotalCost" xml:space="preserve">
+    <value>Total cost</value>
+  </data>
+  <data name="LblTransitionalRelief" xml:space="preserve">
+    <value>Transitional relief:</value>
+  </data>
+  <data name="LblType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="LblTypeOfProblem" xml:space="preserve">
+    <value>Type of problem reported</value>
+  </data>
+  <data name="lblUnableProceed" xml:space="preserve">
+    <value>Unfortunately we are unable to proceed with your request online.</value>
+  </data>
+  <data name="LblUnableToReturnBagInfo" xml:space="preserve">
+    <value>We are unable to return bag and bin information for this property.
+
+If you live at this address please contact C2C on 02920872087 for further advice about collections at this property.</value>
+  </data>
+  <data name="LblUnCollectable" xml:space="preserve">
+    <value>Uncollectable</value>
+  </data>
+  <data name="Lblunder16" xml:space="preserve">
+    <value>If you are under 16 you will need your parent or guardian's permission before providing your email address.</value>
+  </data>
+  <data name="LblUsage" xml:space="preserve">
+    <value>This data will show us how you use the app and on which device and operating system. It helps us make improvements to the app in future releases. 
+
+We do not store any of your personal details.</value>
+  </data>
+  <data name="LblUsingApp" xml:space="preserve">
+    <value>We hope that you enjoy using this app.</value>
+  </data>
+  <data name="LblUsuallyEmail" xml:space="preserve">
+    <value>We will usually contact you via email.</value>
+  </data>
+  <data name="LblValuationBand" xml:space="preserve">
+    <value>Valuation Band:</value>
+  </data>
+  <data name="LblVanMessage" xml:space="preserve">
+    <value>Find out about the vehicles you can bring to a recycling centre at &lt;a href="https://www.cardiff.gov.uk/vehicleaccess" target="_blank"&gt;www.cardiff.gov.uk/vehicleaccess&lt;/a&gt;.</value>
+  </data>
+  <data name="LblVehicleColour" xml:space="preserve">
+    <value>Vehicle colour</value>
+  </data>
+  <data name="LblVehicleColour2" xml:space="preserve">
+    <value>Vehicle colour:</value>
+  </data>
+  <data name="LblVehicleDetails" xml:space="preserve">
+    <value>Vehicle type</value>
+  </data>
+  <data name="LblVehicleLocation" xml:space="preserve">
+    <value>Your {0} {1}{3}is booked in at {2} recycling centre.</value>
+    <comment>{0} gets replaced with the specific vehicle type e.g. car, van etc.  {1} gets replaced with trailer if appropriate.  {2} gets replaced with the specific recycling centre location. {3} is a space if required</comment>
+  </data>
+  <data name="LblVehicleMake" xml:space="preserve">
+    <value>Vehicle make</value>
+  </data>
+  <data name="LblVehicleMake2" xml:space="preserve">
+    <value>Vehicle make:</value>
+  </data>
+  <data name="LblVehicleModel" xml:space="preserve">
+    <value>Vehicle model</value>
+  </data>
+  <data name="LblVehicleModel2" xml:space="preserve">
+    <value>Vehicle model:</value>
+  </data>
+  <data name="LblVehicleRegIfKnown" xml:space="preserve">
+    <value>Vehicle registration number (if known)</value>
+  </data>
+  <data name="LblVehicleRegistration" xml:space="preserve">
+    <value>Vehicle registration:</value>
+  </data>
+  <data name="LblVehicleRegistrationNumber" xml:space="preserve">
+    <value>Vehicle registration number</value>
+  </data>
+  <data name="LblVehicleRegNeededInfo" xml:space="preserve">
+    <value>You must provide your registration number before your visit or you will not be able to access the site.</value>
+  </data>
+  <data name="LblVehicleRegUpdate" xml:space="preserve">
+    <value>Your registration has been changed to {0}</value>
+  </data>
+  <data name="LblVehicleSlotUpdate" xml:space="preserve">
+    <value>Your booking date and time have been updated to {0}</value>
+    <comment>{0} is the datetime</comment>
+  </data>
+  <data name="LblVehiclesOnThePavement" xml:space="preserve">
+    <value>vehicles on the pavement, or</value>
+  </data>
+  <data name="LblVehicleToHelpUs" xml:space="preserve">
+    <value>Is the vehicle parked on one of the following?</value>
+  </data>
+  <data name="LblVehicleTrailer" xml:space="preserve">
+    <value>Are you bringing a trailer with your vehicle?</value>
+  </data>
+  <data name="LblVehicleTrailerExplanation" xml:space="preserve">
+    <value>If you are bringing a trailer with your vehicle we will class your vehicle as a van due to its size.</value>
+  </data>
+  <data name="LblVehicleTypeNote" xml:space="preserve">
+    <value>Please note if your vehicle is not as described at time of booking you may be refused entry to the centre.</value>
+  </data>
+  <data name="LblVersion" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="LblViewBooking" xml:space="preserve">
+    <value>View bookings</value>
+  </data>
+  <data name="LblViewInstalments" xml:space="preserve">
+    <value>View instalments</value>
+  </data>
+  <data name="LblViewOurTermsAndConditions" xml:space="preserve">
+    <value>View our Terms and Conditions</value>
+  </data>
+  <data name="LblWarning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="LblWeekly" xml:space="preserve">
+    <value>You pay weekly by Direct Debit</value>
+  </data>
+  <data name="lblWeeklyDD" xml:space="preserve">
+    <value>You would like to change to a weekly Direct Debit</value>
+  </data>
+  <data name="LblWelshLang" xml:space="preserve">
+    <value>View the app in Welsh</value>
+  </data>
+  <data name="LblWhatIsTheProblem" xml:space="preserve">
+    <value>What is the problem?</value>
+  </data>
+  <data name="LblWhatToReport" xml:space="preserve">
+    <value>What would you like to report?</value>
+  </data>
+  <data name="LblWhen" xml:space="preserve">
+    <value>When</value>
+  </data>
+  <data name="LblWhenPhone" xml:space="preserve">
+    <value>When would you like us to phone you?</value>
+  </data>
+  <data name="LblWhereDoYouLive" xml:space="preserve">
+    <value>Where do you live?</value>
+  </data>
+  <data name="LblWhereGraffiti" xml:space="preserve">
+    <value>Please tell us where you have seen the graffiti</value>
+  </data>
+  <data name="LblWhereissue" xml:space="preserve">
+    <value>Where did you find the issue?</value>
+  </data>
+  <data name="LblWhereissue2" xml:space="preserve">
+    <value>Where did you find the issue</value>
+  </data>
+  <data name="LblWhiteBags" xml:space="preserve">
+    <value>White bags</value>
+  </data>
+  <data name="LblWouldPayWeeklyTick" xml:space="preserve">
+    <value>I would like to pay weekly</value>
+  </data>
+  <data name="LblWriteOffOn" xml:space="preserve">
+    <value>Write offs or ons:</value>
+  </data>
+  <data name="LblYear" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="LblYearlyCharge" xml:space="preserve">
+    <value>Yearly charge:</value>
+  </data>
+  <data name="LblYourAccount" xml:space="preserve">
+    <value>Your account</value>
+  </data>
+  <data name="LblYourAddress" xml:space="preserve">
+    <value>Your address</value>
+  </data>
+  <data name="LblYourCollectionReminders" xml:space="preserve">
+    <value>Your collection reminders</value>
+  </data>
+  <data name="LblYourItems" xml:space="preserve">
+    <value>Your items</value>
+  </data>
+  <data name="List2DaysBefore" xml:space="preserve">
+    <value>2 days before</value>
+  </data>
+  <data name="List3DaysBefore" xml:space="preserve">
+    <value>3 days before</value>
+  </data>
+  <data name="List4DaysBefore" xml:space="preserve">
+    <value>4 days before</value>
+  </data>
+  <data name="List5DaysBefore" xml:space="preserve">
+    <value>5 days before</value>
+  </data>
+  <data name="ListADayBefore" xml:space="preserve">
+    <value>A day before</value>
+  </data>
+  <data name="ListAfternoon" xml:space="preserve">
+    <value>12pm - 6pm</value>
+  </data>
+  <data name="ListAllDay" xml:space="preserve">
+    <value>Anytime</value>
+  </data>
+  <data name="ListItemPrivacy" xml:space="preserve">
+    <value>Privacy</value>
+  </data>
+  <data name="ListItemReportIssue" xml:space="preserve">
+    <value>Report an issue</value>
+  </data>
+  <data name="ListItemSettings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="ListLiveAtPropertyNo" xml:space="preserve">
+    <value>I do not live at this property</value>
+  </data>
+  <data name="ListLiveAtPropertyYes" xml:space="preserve">
+    <value>I live at this property</value>
+  </data>
+  <data name="ListMorning" xml:space="preserve">
+    <value>8am - 12pm</value>
+  </data>
+  <data name="ListOnTheDay" xml:space="preserve">
+    <value>On the day</value>
+  </data>
+  <data name="LoaderCheckingPayment" xml:space="preserve">
+    <value>Checking payment</value>
+  </data>
+  <data name="MapHelpMessage" xml:space="preserve">
+    <value>Use the map to show us the location of the issue.
+
+Drag the map around with your finger until the pin is pointing at the correct location. Use two fingers to pinch and zoom in or out of the map.
+
+You can also search for an address or use the GPS button to focus on a location.</value>
+  </data>
+  <data name="MapHelpTitle" xml:space="preserve">
+    <value>How to use the map</value>
+  </data>
+  <data name="MapKeyBulky" xml:space="preserve">
+    <value>Bulky item collection booked for this property</value>
+  </data>
+  <data name="MapKeyFlyTip" xml:space="preserve">
+    <value>Fly-tipping report has already been logged</value>
+  </data>
+  <data name="MapM4Message" xml:space="preserve">
+    <value>M4 motorway is not managed by Cardiff Council.</value>
+  </data>
+  <data name="MaybeLater" xml:space="preserve">
+    <value>Maybe later</value>
+  </data>
+  <data name="MenuAccessibility" xml:space="preserve">
+    <value>Accessibility</value>
+  </data>
+  <data name="MenuGroupAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="MenuPrivacy" xml:space="preserve">
+    <value>Privacy</value>
+  </data>
+  <data name="MissingMapsApp" xml:space="preserve">
+    <value>To get directions you will need to enable maps on your device.</value>
+  </data>
+  <data name="NoInternet" xml:space="preserve">
+    <value>You don't seem to be connected to the internet.
+Please connect and try again.</value>
+  </data>
+  <data name="NotChecked" xml:space="preserve">
+    <value>Not checked</value>
+  </data>
+  <data name="NoThanks" xml:space="preserve">
+    <value>No thanks</value>
+  </data>
+  <data name="NotificationsEbill" xml:space="preserve">
+    <value>E-bill notifications</value>
+  </data>
+  <data name="PageHeaderCouncilTax" xml:space="preserve">
+    <value>Council Tax</value>
+  </data>
+  <data name="PageHeaderDDCallback" xml:space="preserve">
+    <value>Request call back</value>
+  </data>
+  <data name="PageHeadingBulkiesSummary" xml:space="preserve">
+    <value>Please check your order before making your booking.</value>
+  </data>
+  <data name="PageHeadingCheckYourReport" xml:space="preserve">
+    <value>Please check your report before sending</value>
+  </data>
+  <data name="PageHeadingImages" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="PageHeadingTypeofFlytipping" xml:space="preserve">
+    <value>Type of fly-tipping</value>
+  </data>
+  <data name="PageTitleAccessibilityStatement" xml:space="preserve">
+    <value>Accessibility Statement</value>
+  </data>
+  <data name="PageTitleAccountDetails" xml:space="preserve">
+    <value>Account details</value>
+  </data>
+  <data name="PageTitleAdditionalInformation" xml:space="preserve">
+    <value>Additional Information</value>
+  </data>
+  <data name="PageTitleAppSettings" xml:space="preserve">
+    <value>App settings</value>
+  </data>
+  <data name="PageTitleBalanceAndPayments" xml:space="preserve">
+    <value>Balance and payments</value>
+  </data>
+  <data name="PageTitleByPost" xml:space="preserve">
+    <value>Apply by post</value>
+  </data>
+  <data name="PageTitleConProp" xml:space="preserve">
+    <value>Confirm property</value>
+  </data>
+  <data name="PageTitleDD" xml:space="preserve">
+    <value>Direct Debit</value>
+  </data>
+  <data name="PageTitleDetailsPage" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="PageTitleDirectDebit" xml:space="preserve">
+    <value>Direct Debit</value>
+  </data>
+  <data name="PageTitleEbills" xml:space="preserve">
+    <value>E-bills</value>
+  </data>
+  <data name="PageTitleEbillsSettings" xml:space="preserve">
+    <value>E-bills settings</value>
+  </data>
+  <data name="PageTitleEbillsSignup" xml:space="preserve">
+    <value>E-bills sign up</value>
+  </data>
+  <data name="PageTitleEnterAddress" xml:space="preserve">
+    <value>Enter address</value>
+  </data>
+  <data name="PageTitleFlyTippingContactDetails" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="PageTitleFlyTippingDump" xml:space="preserve">
+    <value>What items have been dumped?</value>
+  </data>
+  <data name="PageTitleFlyTippingDumpItems" xml:space="preserve">
+    <value>Dumped items</value>
+  </data>
+  <data name="PageTitleFlyTippingMap" xml:space="preserve">
+    <value>Where is the fly-tipping?</value>
+  </data>
+  <data name="PageTitleGraffiti" xml:space="preserve">
+    <value>Graffiti</value>
+  </data>
+  <data name="PageTitleHome" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="PageTitleHWRCEditMyBooking" xml:space="preserve">
+    <value>Edit my booking</value>
+  </data>
+  <data name="PageTitleHWRCMyBooking" xml:space="preserve">
+    <value>My bookings</value>
+  </data>
+  <data name="PageTitleImagePage" xml:space="preserve">
+    <value>Add image</value>
+  </data>
+  <data name="PageTitleInstallmentsPage" xml:space="preserve">
+    <value>Instalments</value>
+  </data>
+  <data name="PageTitleMenu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="PageTitleMissingPayments" xml:space="preserve">
+    <value>Missing payments</value>
+  </data>
+  <data name="PageTitlePaymentDateDD" xml:space="preserve">
+    <value>Payment date</value>
+  </data>
+  <data name="PageTitlePeopertyPostCode" xml:space="preserve">
+    <value>Enter postcode</value>
+  </data>
+  <data name="PageTitlePersonalDetails" xml:space="preserve">
+    <value>Personal details</value>
+  </data>
+  <data name="PageTitlePrivacyStatement" xml:space="preserve">
+    <value>Privacy statement</value>
+  </data>
+  <data name="PageTitleProblemLocation" xml:space="preserve">
+    <value>Where is the problem?</value>
+  </data>
+  <data name="PageTitleProblemParking" xml:space="preserve">
+    <value>Problem parking</value>
+  </data>
+  <data name="PageTitleReminderList" xml:space="preserve">
+    <value>Your collections</value>
+  </data>
+  <data name="PageTitleReportDetails" xml:space="preserve">
+    <value>Please check your report details</value>
+  </data>
+  <data name="PageTitleReportPayments" xml:space="preserve">
+    <value>Report a missing payment</value>
+  </data>
+  <data name="PageTitleReportReceipt" xml:space="preserve">
+    <value>Email receipt</value>
+  </data>
+  <data name="PageTitleSuggestionsForImprovement" xml:space="preserve">
+    <value>Suggestions</value>
+  </data>
+  <data name="PageTitleSummary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="PageTitleSummaryDD" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="PageTitleVehicleDetails" xml:space="preserve">
+    <value>Vehicle details</value>
+  </data>
+  <data name="PageTitleWasteCalendarReminderAdd" xml:space="preserve">
+    <value>Add reminder</value>
+  </data>
+  <data name="PermissionNeeded" xml:space="preserve">
+    <value>Permission needed</value>
+  </data>
+  <data name="PermissionNeededCamera" xml:space="preserve">
+    <value>We need your permission to access your camera and photos on this device. Please update permissions for this app.</value>
+  </data>
+  <data name="PermissionNeededGallery" xml:space="preserve">
+    <value>We need your permission to access your photos on this device. Please update permissions for this app.</value>
+  </data>
+  <data name="PermissionNeededLocation" xml:space="preserve">
+    <value>We need your permission to access your location on this device. Please update permissions for this app.</value>
+  </data>
+  <data name="PermissionNeededNotification" xml:space="preserve">
+    <value>We need your permission to send notifications. Please update your device settings.</value>
+  </data>
+  <data name="PickerDefault" xml:space="preserve">
+    <value>Please select from the list</value>
+  </data>
+  <data name="PlaceHolderAddress" xml:space="preserve">
+    <value>Enter part of an address</value>
+  </data>
+  <data name="PlaceholderDescribeItem" xml:space="preserve">
+    <value>Describe the item</value>
+  </data>
+  <data name="PlaceholderEnterReg" xml:space="preserve">
+    <value>Enter vehicle registration number</value>
+  </data>
+  <data name="PlaceholderFlyTippingDetails" xml:space="preserve">
+    <value>Enter details</value>
+  </data>
+  <data name="PlaceholderLocationInfo" xml:space="preserve">
+    <value>For example please mention any nearby landmark or building, house number or road marking.</value>
+  </data>
+  <data name="PlaceholderSearchItem" xml:space="preserve">
+    <value>Search for an item</value>
+  </data>
+  <data name="PlaceholderSuggestions" xml:space="preserve">
+    <value>Enter suggestions</value>
+  </data>
+  <data name="PopupDoNotNeedPermitHeader" xml:space="preserve">
+    <value>You cannot apply for a resident parking permit</value>
+  </data>
+  <data name="PopUpHWRCCommercialHeader" xml:space="preserve">
+    <value>Household items only</value>
+  </data>
+  <data name="PopUpHWRCCommercialMessage" xml:space="preserve">
+    <value>This service is for getting rid of household items that cannot be disposed of through kerbside collections.
+
+Businesses need to use our commercial recycling centre
+&lt;a href="https://www.cardiff.gov.uk/commercialrecycling" target="_blank"&gt;www.cardiff.gov.uk/commercialrecycling&lt;/a&gt;
+</value>
+  </data>
+  <data name="PopupNoParkingScheme" xml:space="preserve">
+    <value>Your property is not eligible for the parking permit scheme.
+
+Please visit our website for information on eligibility and more about resident parking: 
+&lt;a href="https://www.cardiff.gov.uk/parking" target="_blank"&gt;www.cardiff.gov.uk/parking&lt;/a&gt;
+</value>
+  </data>
+  <data name="PopUpThankYou" xml:space="preserve">
+    <value>Thank you for reporting this issue. Our technical team will review your feedback and contact you for more information if necessary.</value>
+  </data>
+  <data name="StoringYourData" xml:space="preserve">
+    <value>Storing your data</value>
+  </data>
+  <data name="StoringYourDataText" xml:space="preserve">
+    <value>When you use this app you do not create a user account of any kind. Any data stored across the services in this app are stored on your device. 
+
+For the Council Tax service we ask you to provide your details to access information on our council tax system. 
+
+If you choose to delete this app your personal details will not be saved or stored by Cardiff Council.
+ 
+If you decide to reinstall the app you will need to enter your personal details again (to be stored on your device).</value>
+  </data>
+  <data name="StreetCleansingItems" xml:space="preserve">
+    <value>Items:</value>
+  </data>
+  <data name="StreetCleansingItemsDescription" xml:space="preserve">
+    <value>Description of items:</value>
+  </data>
+  <data name="SubHeadAccident" xml:space="preserve">
+    <value>Danger of accident or injury</value>
+  </data>
+  <data name="SubHeaderYourOrder" xml:space="preserve">
+    <value>Your order:</value>
+  </data>
+  <data name="SubHeadTypeofProblemReported" xml:space="preserve">
+    <value>Type of problem reported</value>
+  </data>
+  <data name="SubTitleDDGte" xml:space="preserve">
+    <value>The Direct Debit Guarantee</value>
+  </data>
+  <data name="SuccessButtonTextBulkyItemRequest" xml:space="preserve">
+    <value>Back to bulky items</value>
+  </data>
+  <data name="SuccessGraffitiTitle" xml:space="preserve">
+    <value>Thank you for reporting graffiti</value>
+  </data>
+  <data name="SuccessHeaderBulkyItemRequest" xml:space="preserve">
+    <value>Item suggested</value>
+  </data>
+  <data name="SuccessMessageBulkyItemRequest" xml:space="preserve">
+    <value>Thank you for telling us about an item that is not on the list.
+
+As we will need to review your suggestion this item will not be added to your booking.
+
+We will be in touch to let you know how to dispose of your item.</value>
+  </data>
+  <data name="TextNoticiationsCollectionsNone" xml:space="preserve">
+    <value>No Collection notifications setup.</value>
+  </data>
+  <data name="TextNoticiationsCtaxNone" xml:space="preserve">
+    <value>No Council Tax notifications setup.</value>
+  </data>
+  <data name="TextNotificationIntro" xml:space="preserve">
+    <value>You can set up notifications in this app to help keep up to date with council services.</value>
+  </data>
+  <data name="TextNotificationsReportProblem" xml:space="preserve">
+    <value>Report a problem with notifications</value>
+  </data>
+  <data name="TextNotReceivingNotifications" xml:space="preserve">
+    <value>Not receiving your notifications?</value>
+  </data>
+  <data name="TitleAdditionalInfo" xml:space="preserve">
+    <value>Additional information</value>
+  </data>
+  <data name="TitleAddress" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="TitleApplyOrRenew" xml:space="preserve">
+    <value>Apply or renew</value>
+  </data>
+  <data name="TitleCentreDetails" xml:space="preserve">
+    <value>Centre details</value>
+  </data>
+  <data name="TitleCollectionCancelled" xml:space="preserve">
+    <value>Collection cancelled</value>
+  </data>
+  <data name="TitleCompleteBooking" xml:space="preserve">
+    <value>Complete Booking</value>
+  </data>
+  <data name="TitleConfirmReport" xml:space="preserve">
+    <value>Confirm your report</value>
+  </data>
+  <data name="TitleConPhoneNo" xml:space="preserve">
+    <value>Confirm phone number</value>
+  </data>
+  <data name="TitleContactDetails" xml:space="preserve">
+    <value>Contact details</value>
+  </data>
+  <data name="TitleCTAXLogin" xml:space="preserve">
+    <value>Council Tax</value>
+  </data>
+  <data name="TitleEbillNotifications" xml:space="preserve">
+    <value>E-bill notifications</value>
+  </data>
+  <data name="TitleEditDateTime" xml:space="preserve">
+    <value>Edit date and time</value>
+  </data>
+  <data name="TitleFaults" xml:space="preserve">
+    <value>What is the problem</value>
+  </data>
+  <data name="TitleGraffitiNotResponsible" xml:space="preserve">
+    <value>Graffiti we are not responsible for</value>
+  </data>
+  <data name="TitleGraffitiSizeandPosition" xml:space="preserve">
+    <value>Graffiti size and position</value>
+  </data>
+  <data name="TitleLitterBuildUp" xml:space="preserve">
+    <value>Litter build up</value>
+  </data>
+  <data name="TitleMissedCollection" xml:space="preserve">
+    <value>Missed collection</value>
+  </data>
+  <data name="TitleMissedCollectionsStatus" xml:space="preserve">
+    <value>Collection status</value>
+  </data>
+  <data name="TitleMissingPayments" xml:space="preserve">
+    <value>Missing payments</value>
+  </data>
+  <data name="TitleNoReg" xml:space="preserve">
+    <value>No registration number?</value>
+  </data>
+  <data name="TitleNotifcationCtaxYours" xml:space="preserve">
+    <value>Your Council Tax notifications:</value>
+  </data>
+  <data name="TitleNotificationCtax" xml:space="preserve">
+    <value>Set up notifications to let you know when you get a bill, a reminder or a notice on your account.</value>
+  </data>
+  <data name="TitleNotificationRecycling" xml:space="preserve">
+    <value>Set up and manage notifications to let you know when to put your bags and bins out.</value>
+  </data>
+  <data name="TitleNotificationRecylingYours" xml:space="preserve">
+    <value>Your collection notifications:</value>
+  </data>
+  <data name="TitleNotifications" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="TitleNotificationsAbout" xml:space="preserve">
+    <value>About notifications</value>
+  </data>
+  <data name="TitleOrderBagsAndCaddies" xml:space="preserve">
+    <value>Order bags and caddies</value>
+  </data>
+  <data name="TitleRacistOrAbusive" xml:space="preserve">
+    <value>Racist or abusive</value>
+  </data>
+  <data name="TitleRacistOrAbusiveGraffiti" xml:space="preserve">
+    <value>Racist or abusive graffiti</value>
+  </data>
+  <data name="TitleRecyclingCentre" xml:space="preserve">
+    <value>Recycling Centre</value>
+  </data>
+  <data name="TitleRecyclingCentreSelection" xml:space="preserve">
+    <value>You are making a booking for a {0}{1}{2}.  You can use our recycling centre at:</value>
+    <comment>{0} gets replaced with the specific vehicle type e.g. car, van etc.  {2} gets replaced with trailer if appropriate. {1} is a space if required</comment>
+  </data>
+  <data name="TitleRegOfVehicle" xml:space="preserve">
+    <value>Please enter the registration number:</value>
+  </data>
+  <data name="TitleRegOfVehicle2" xml:space="preserve">
+    <value>Please enter the registration number of the vehicle you will be bringing:</value>
+  </data>
+  <data name="TitleRegOfVehicleUnknown" xml:space="preserve">
+    <value>You can make a booking even if you do not know the vehicle registration number yet.</value>
+  </data>
+  <data name="TitleReportAProblem" xml:space="preserve">
+    <value>Report a problem</value>
+  </data>
+  <data name="TitleReportIssue" xml:space="preserve">
+    <value>Report an issue to us</value>
+  </data>
+  <data name="TitleReportTechIssue" xml:space="preserve">
+    <value>Report technical issue</value>
+  </data>
+  <data name="TitleRoads" xml:space="preserve">
+    <value>Roads and Pavements</value>
+  </data>
+  <data name="TitleSendFeedback" xml:space="preserve">
+    <value>Send feedback</value>
+  </data>
+  <data name="TitleSizePosition" xml:space="preserve">
+    <value>Size and position</value>
+  </data>
+  <data name="TitleStreetLighting" xml:space="preserve">
+    <value>Street lighting</value>
+  </data>
+  <data name="TitleSummaryBags" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="TitleSurface" xml:space="preserve">
+    <value>Surface</value>
+  </data>
+  <data name="TitleVehicleReg" xml:space="preserve">
+    <value>Vehicle registration</value>
+  </data>
+  <data name="TitleVehicleType" xml:space="preserve">
+    <value>Vehicle type</value>
+  </data>
+  <data name="TitleVehicleWhatIsTheProblem" xml:space="preserve">
+    <value>What is the problem?</value>
+  </data>
+  <data name="TitleWarningPage" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="TitleWhereProblem" xml:space="preserve">
+    <value>Where is the problem?</value>
+  </data>
+  <data name="ValidateEmailandContactNumber" xml:space="preserve">
+    <value>Email or contact number is required</value>
+  </data>
+  <data name="ValidationAmount1To1m" xml:space="preserve">
+    <value>Amount must be within 1 to 1,000,000</value>
+  </data>
+  <data name="ValidationBankNumber" xml:space="preserve">
+    <value>Bank account number must be 8 digits</value>
+  </data>
+  <data name="ValidationContactNumber" xml:space="preserve">
+    <value>Contact number is required</value>
+  </data>
+  <data name="ValidationCTaxNumber" xml:space="preserve">
+    <value>Council Tax number must be 8 digits</value>
+  </data>
+  <data name="ValidationEmail" xml:space="preserve">
+    <value>Invalid email address</value>
+  </data>
+  <data name="ValidationEmailMatch" xml:space="preserve">
+    <value>Emails do not match</value>
+  </data>
+  <data name="ValidationInvalidCharacters" xml:space="preserve">
+    <value>Invalid characters</value>
+  </data>
+  <data name="ValidationInvalidRegistration" xml:space="preserve">
+    <value>Invalid vehicle registration number</value>
+  </data>
+  <data name="ValidationIsRequired" xml:space="preserve">
+    <value>is required</value>
+  </data>
+  <data name="ValidationMaxCharacters" xml:space="preserve">
+    <value>You have exceeded the maximum character limit</value>
+  </data>
+  <data name="ValidationMultiSelect1IsRequired" xml:space="preserve">
+    <value>Please select at least 1 item</value>
+  </data>
+  <data name="ValidationNumbersOnly" xml:space="preserve">
+    <value>Use numbers only</value>
+  </data>
+  <data name="ValidationOutsideCardiff" xml:space="preserve">
+    <value>This area is outside Cardiff</value>
+  </data>
+  <data name="ValidationPaymentDate" xml:space="preserve">
+    <value>Please select a payment date.</value>
+  </data>
+  <data name="ValidationPhoneNumber" xml:space="preserve">
+    <value>Invalid phone number</value>
+  </data>
+  <data name="ValidationPhoneNumberMatch" xml:space="preserve">
+    <value>Phone numbers do not match</value>
+  </data>
+  <data name="ValidationPrivateLand" xml:space="preserve">
+    <value>This is private land. The land owner is likely to be responsible for dealing with this issue.</value>
+  </data>
+  <data name="ValidationSelectLocation" xml:space="preserve">
+    <value>Tap a location to pin the map</value>
+  </data>
+  <data name="ValidationVehicleTypeRequired" xml:space="preserve">
+    <value>Please select a vehicle type</value>
+  </data>
+  <data name="YourBankDetailsPage" xml:space="preserve">
+    <value>Your bank details</value>
+  </data>
+</root>

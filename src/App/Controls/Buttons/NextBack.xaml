@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView x:Class="App.Controls.Buttons.NextBack"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:resx="clr-namespace:App.Resources.Languages;assembly=App"
+             xmlns:sections="clr-namespace:App.Controls.Sections"
+             xmlns:stateButton="clr-namespace:IeuanWalker.Maui.StateButton;assembly=IeuanWalker.Maui.StateButton"
+             xmlns:styles="clr-namespace:App.Resources.Styles;assembly=App">
+    <ContentView.ControlTemplate>
+        <ControlTemplate>
+            <Border StrokeThickness="0">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Offset="0.1" Color="{DynamicResource BackgroundGradientStartColor}" />
+                        <GradientStop Offset="1.0" Color="{DynamicResource BackgroundGradientEndColor}" />
+                    </LinearGradientBrush>
+                </Border.Background>
+                <Grid ColumnDefinitions="*,*" RowDefinitions="1,auto">
+                    <sections:Divider Grid.Row="0" Grid.ColumnSpan="2" />
+
+                    <!-- Back -->
+                    <stateButton:StateButton Grid.Row="1"
+                                             Grid.Column="0"
+                                             Margin="8"
+                                             Padding="8"
+                                             Clicked="BtnBack_Clicked"
+                                             HorizontalOptions="Start"
+                                             IsVisible="{TemplateBinding HasBackButton}"
+                                             SemanticProperties.Description="{x:Static resx:AppResources.BtnBack}"
+                                             StrokeThickness="0">
+                        <stateButton:StateButton.StrokeShape>
+                            <RoundRectangle CornerRadius="6" />
+                        </stateButton:StateButton.StrokeShape>
+                        <stateButton:StateButton.Triggers>
+                            <Trigger TargetType="stateButton:StateButton" Property="State" Value="Pressed">
+                                <Setter Property="BackgroundColor" Value="{DynamicResource AccentColour}" />
+                            </Trigger>
+                        </stateButton:StateButton.Triggers>
+                        <stateButton:StateButton.Content>
+                            <Grid ColumnDefinitions="auto,*" ColumnSpacing="10">
+                                <Label Grid.Column="0"
+                                       FontFamily="FontAwesomeLight"
+                                       FontSize="28"
+                                       Text="{x:Static styles:IconFont.ChevronLeftCircle}"
+                                       TextColor="{DynamicResource HomepageIcon}"
+                                       VerticalTextAlignment="Center">
+                                    <Label.Triggers>
+                                        <DataTrigger Binding="{Binding Source={RelativeSource AncestorType={x:Type stateButton:StateButton}}, Path=State}"
+                                                     TargetType="Label"
+                                                     Value="Pressed">
+                                            <Setter Property="TextColor" Value="{DynamicResource TextButtonColour}" />
+                                        </DataTrigger>
+                                    </Label.Triggers>
+                                </Label>
+                                <Label Grid.Column="1"
+                                       FontFamily="InterRegular"
+                                       Text="{x:Static resx:AppResources.BtnBack}"
+                                       TextColor="{DynamicResource TextPrimaryColour}"
+                                       VerticalTextAlignment="Center">
+                                    <Label.Triggers>
+                                        <DataTrigger Binding="{Binding Source={RelativeSource AncestorType={x:Type stateButton:StateButton}}, Path=State}"
+                                                     TargetType="Label"
+                                                     Value="Pressed">
+                                            <Setter Property="TextColor" Value="{DynamicResource TextButtonColour}" />
+                                        </DataTrigger>
+                                    </Label.Triggers>
+                                </Label>
+                            </Grid>
+                        </stateButton:StateButton.Content>
+                    </stateButton:StateButton>
+
+                    <!-- Next -->
+                    <stateButton:StateButton Grid.Row="1"
+                                             Grid.Column="1"
+                                             Margin="10"
+                                             Padding="10"
+                                             BackgroundColor="Transparent"
+                                             Clicked="ContinueButton_Clicked"
+                                             HorizontalOptions="End"
+                                             IsVisible="{TemplateBinding HasContinueButton}"
+                                             StrokeThickness="0">
+                        <stateButton:StateButton.StrokeShape>
+                            <RoundRectangle CornerRadius="6" />
+                        </stateButton:StateButton.StrokeShape>
+                        <stateButton:StateButton.Triggers>
+                            <DataTrigger Binding="{TemplateBinding IsSubmit}"
+                                         TargetType="stateButton:StateButton"
+                                         Value="false">
+                                <Setter Property="SemanticProperties.Description" Value="{x:Static resx:AppResources.BtnNext}" />
+                            </DataTrigger>
+                            <DataTrigger Binding="{TemplateBinding IsSubmit}"
+                                         TargetType="stateButton:StateButton"
+                                         Value="true">
+                                <Setter Property="SemanticProperties.Description" Value="{x:Static resx:AppResources.BtnSubmit}" />
+                            </DataTrigger>
+
+                            <Trigger TargetType="stateButton:StateButton" Property="State" Value="Pressed">
+                                <Setter Property="BackgroundColor" Value="{DynamicResource AccentColour}" />
+                            </Trigger>
+                        </stateButton:StateButton.Triggers>
+                        <stateButton:StateButton.Content>
+                            <Grid ColumnDefinitions="*,auto" ColumnSpacing="10">
+                                <Label Grid.Column="0"
+                                       FontFamily="InterRegular"
+                                       TextColor="{DynamicResource TextPrimaryColour}"
+                                       VerticalTextAlignment="Center">
+                                    <Label.Triggers>
+                                        <DataTrigger Binding="{TemplateBinding IsSubmit}"
+                                                     TargetType="Label"
+                                                     Value="false">
+                                            <Setter Property="Text" Value="{x:Static resx:AppResources.BtnNext}" />
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{TemplateBinding IsSubmit}"
+                                                     TargetType="Label"
+                                                     Value="true">
+                                            <Setter Property="Text" Value="{x:Static resx:AppResources.BtnSubmit}" />
+                                        </DataTrigger>
+
+                                        <DataTrigger Binding="{Binding Source={RelativeSource AncestorType={x:Type stateButton:StateButton}}, Path=State}"
+                                                     TargetType="Label"
+                                                     Value="Pressed">
+                                            <Setter Property="TextColor" Value="{DynamicResource TextButtonColour}" />
+                                        </DataTrigger>
+                                    </Label.Triggers>
+                                </Label>
+                                <Label Grid.Column="1"
+                                       FontAutoScalingEnabled="False"
+                                       FontFamily="FontAwesomeLight"
+                                       FontSize="28"
+                                       Text="{x:Static styles:IconFont.ChevronRightCircle}"
+                                       TextColor="{DynamicResource HomepageIcon}"
+                                       VerticalTextAlignment="Center">
+                                    <Label.Triggers>
+                                        <DataTrigger Binding="{Binding Source={RelativeSource AncestorType={x:Type stateButton:StateButton}}, Path=State}"
+                                                     TargetType="Label"
+                                                     Value="Pressed">
+                                            <Setter Property="TextColor" Value="{DynamicResource TextButtonColour}" />
+                                        </DataTrigger>
+                                    </Label.Triggers>
+                                </Label>
+                            </Grid>
+                        </stateButton:StateButton.Content>
+                    </stateButton:StateButton>
+                </Grid>
+            </Border>
+        </ControlTemplate>
+    </ContentView.ControlTemplate>
+</ContentView>

@@ -1,0 +1,3104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccAmountDueInfo" xml:space="preserve">
+    <value>Mwy o wybodaeth am y swm sy'n ddyledus</value>
+  </data>
+  <data name="AccBalanceOutstandingInfo" xml:space="preserve">
+    <value>Mwy o wybodaeth am y balans sy'n weddill</value>
+  </data>
+  <data name="AccBookAVisitAtTime" xml:space="preserve">
+    <value>Tapio ddwywaith i archebu ymweliad ar yr amser hwn.</value>
+  </data>
+  <data name="AccBookAVisitOnDate" xml:space="preserve">
+    <value>Tapio ddwywaith i archebu ymweliad ar y dyddiad hwn.</value>
+  </data>
+  <data name="AccCanBeRecycledAt" xml:space="preserve">
+    <value>Gellir ei ailgylchu yn {0}</value>
+    <comment>{0} is the name of the recycling centre.  Lamby Way or Bessemer Close</comment>
+  </data>
+  <data name="AccCannotBeRecycledAt" xml:space="preserve">
+    <value>Ni ellir ei ailgylchu yn {0}</value>
+    <comment>{0} is the name of the recycling centre.  Lamby Way or Bessemer Close</comment>
+  </data>
+  <data name="AccClose" xml:space="preserve">
+    <value>Cau</value>
+  </data>
+  <data name="AccCreateReminder" xml:space="preserve">
+    <value>Creu neges atgoffa</value>
+  </data>
+  <data name="AccCurrentLocation" xml:space="preserve">
+    <value>Defnyddiwch fy lleoliad presennol</value>
+  </data>
+  <data name="AccessabilityAppLoading" xml:space="preserve">
+    <value>Ap yn llwytho</value>
+  </data>
+  <data name="AccessabilityTapToDownloadPDF" xml:space="preserve">
+    <value>Tapiwch ddwywaith i lawrlwytho eich bil neu hysbysiad</value>
+  </data>
+  <data name="AccessableMapButton" xml:space="preserve">
+    <value>Help gyda’r map</value>
+  </data>
+  <data name="AccessibilityAnnounceNotificationListClosed" xml:space="preserve">
+    <value>Rhestr hysbysiadau ar gau</value>
+  </data>
+  <data name="AccessibilityAnnounceNotificationListOpened" xml:space="preserve">
+    <value>Rhestr hysbysiadau wedi'i hagor</value>
+  </data>
+  <data name="AccessibilityAnnounceReminderCreated" xml:space="preserve">
+    <value>Nodyn atgoffa wedi’i greu</value>
+  </data>
+  <data name="AccessibilityAnnounceReminderDeleted" xml:space="preserve">
+    <value>Nodyn atgoffa wedi’i ddileu</value>
+  </data>
+  <data name="AccessibilityAnnounceReminderUpdated" xml:space="preserve">
+    <value>Nodyn atgoffa wedi’i ddiweddaru</value>
+  </data>
+  <data name="AccessibilityAnnouncmentAddressAutomaticallySelected" xml:space="preserve">
+    <value>Cyfeiriad wedi'i ddewis yn awtomatig</value>
+  </data>
+  <data name="AccessibilityAnnouncmentAddressSelected" xml:space="preserve">
+    <value>Cyfeiriad wedi'i ddewis</value>
+  </data>
+  <data name="AccessibilityAnnouncmentCollapsed" xml:space="preserve">
+    <value>Wedi'i gau</value>
+  </data>
+  <data name="AccessibilityAnnouncmentExpanded" xml:space="preserve">
+    <value>Wedi'i ehangu</value>
+  </data>
+  <data name="AccessibilityAnnouncmentNoAddressSelected" xml:space="preserve">
+    <value>Dim cyfeiriad wedi'i ddewis</value>
+  </data>
+  <data name="AccessibilityBreadcrumbDescription" xml:space="preserve">
+    <value>Llwybr</value>
+  </data>
+  <data name="AccessibilityBreadcrumbHint" xml:space="preserve">
+    <value>Mae hon yn rhestr o'ch tudalennau blaenorol, gallwch chi neidio'n ôl i unrhyw un ohonyn nhw.</value>
+  </data>
+  <data name="AccessibilityBulyItemRemoved" xml:space="preserve">
+    <value>{0} tynnwyd</value>
+    <comment>{0} item name, i.e. chair removed</comment>
+  </data>
+  <data name="AccessibilityCharacterCount" xml:space="preserve">
+    <value>nod yn weddill</value>
+  </data>
+  <data name="AccessibilityClearSearch" xml:space="preserve">
+    <value>Clirio’r chwiliad</value>
+  </data>
+  <data name="AccessibilityClickForMoreInfo" xml:space="preserve">
+    <value>Cliciwch yma am fwy o wybodaeth</value>
+  </data>
+  <data name="AccessibilityEditBookingDate" xml:space="preserve">
+    <value>Golygu archeb ar gyfer {0:dddd dd MMMM yyyy}</value>
+    <comment>{0} is the date and time of booking</comment>
+  </data>
+  <data name="AccessibilityEditBookingReg" xml:space="preserve">
+    <value>Golygu cofrestriad cerbyd {0}</value>
+    <comment>{0} is registration</comment>
+  </data>
+  <data name="AccessibilityEditBookingTime" xml:space="preserve">
+    <value>Golygu amser ar gyfer {0}</value>
+    <comment>{0} time and date</comment>
+  </data>
+  <data name="AccessibilityEditOrDeleteReminder" xml:space="preserve">
+    <value>Cliciwch i olygu neu ddileu y nodyn atgoffa</value>
+  </data>
+  <data name="AccessibilityHelpTextPageTitle" xml:space="preserve">
+    <value>Teitl tudalen</value>
+  </data>
+  <data name="AccessibilityHome" xml:space="preserve">
+    <value>Hafan</value>
+  </data>
+  <data name="AccessibilityImageAdded" xml:space="preserve">
+    <value>Llun wedi’i ychwanegu</value>
+  </data>
+  <data name="AccessibilityImageDelete" xml:space="preserve">
+    <value>Dwbl-gliciwch i ddileu’r llun</value>
+  </data>
+  <data name="AccessibilityImageRemoved" xml:space="preserve">
+    <value>Llun wedi’i ddileu</value>
+  </data>
+  <data name="AccessibilityImageUploaded" xml:space="preserve">
+    <value>Llun {0} wedi’i lanlwytho</value>
+    <comment>{0} is image id/count</comment>
+  </data>
+  <data name="AccessibilityMapImage" xml:space="preserve">
+    <value>Delwedd o fap y lleoliad a ddewiswyd</value>
+  </data>
+  <data name="AccessibilityMenu" xml:space="preserve">
+    <value>Dewislen</value>
+  </data>
+  <data name="AccessibilityNextCollection" xml:space="preserve">
+    <value>Casgliad wythnos nesaf</value>
+  </data>
+  <data name="AccessibilityNotifications" xml:space="preserve">
+    <value>Hysbysiadau</value>
+  </data>
+  <data name="AccessibilityPreviousCollection" xml:space="preserve">
+    <value>Casgliad wythnos diwethaf</value>
+  </data>
+  <data name="AccessibilityRemoveAddress" xml:space="preserve">
+    <value>Clirio’r cyfeiriad</value>
+  </data>
+  <data name="AccessibilityReportingOptions" xml:space="preserve">
+    <value>Dewis opsiynau adrodd</value>
+  </data>
+  <data name="AccessibilityReportMissedCollection" xml:space="preserve">
+    <value>Tapio ddwywaith i ddweud wrthym am {0} casgliad a fethwyd</value>
+    <comment>{0} bin description e.g. food caddy</comment>
+  </data>
+  <data name="AccessibilityTagText" xml:space="preserve">
+    <value>Dewis i ddangos {0} eitem</value>
+    <comment>{0} name of the tag</comment>
+  </data>
+  <data name="AccessibilityWhatsNewDescription" xml:space="preserve">
+    <value>Neges beth sy'n newydd</value>
+  </data>
+  <data name="AccessibilityWhatsNewHint" xml:space="preserve">
+    <value>Dyma'r pethau newydd sydd wedi'u hychwanegu ar yr ap</value>
+  </data>
+  <data name="AccessibleMapName" xml:space="preserve">
+    <value>Ni all pob defnyddiwr ddefnyddio’r map ar hyn o bryd. Os na allwch, cysylltwch â: AppCardiffGov@caerdydd.gov.uk</value>
+  </data>
+  <data name="AccessiblityCollapsedSubMenu" xml:space="preserve">
+    <value>Is-ddewislen wedi'i chuddio</value>
+  </data>
+  <data name="AccessiblityExpandedSubMenu" xml:space="preserve">
+    <value>Is-ddewislen wedi'i hehangu</value>
+  </data>
+  <data name="AccExtendPaymentsMarchInfo" xml:space="preserve">
+    <value>Gwybodaeth am sut mae estyn cyfnod eich taliadau tan fis Mawrth</value>
+  </data>
+  <data name="AccItemReuseInfo" xml:space="preserve">
+    <value>Gwybodaeth am ailddefnyddio eich eitemau</value>
+  </data>
+  <data name="AccLblButton" xml:space="preserve">
+    <value>Botwm</value>
+  </data>
+  <data name="AccLiveInFlatInfo" xml:space="preserve">
+    <value>Gwybodaeth am archebu bagiau a chadis os ydych chi’n byw mewn fflat</value>
+  </data>
+  <data name="AccMapImage" xml:space="preserve">
+    <value>Delwedd o fap yn dangos lleoliad</value>
+  </data>
+  <data name="AccPayWeeklyInfo" xml:space="preserve">
+    <value>Gwybodaeth am sut mae talu’n wythnosol</value>
+  </data>
+  <data name="AccRemainingBookingsInfo" xml:space="preserve">
+    <value>Gweld sawl gwaith cewch archebu lle eto ar gyfer eich eiddo</value>
+  </data>
+  <data name="AccSearch" xml:space="preserve">
+    <value>Chwilio</value>
+  </data>
+  <data name="AccSummonsedDebtInfo" xml:space="preserve">
+    <value>Gwybodaeth am ddyled y cyflwynwyd gwŷs ar ei chyfer</value>
+  </data>
+  <data name="AddressSelected" xml:space="preserve">
+    <value>Y cyfeiriad a ddewiswyd, {0}</value>
+    <comment>{0} the selected address</comment>
+  </data>
+  <data name="AndroidChannelDescriptionCouncilTaxEbills" xml:space="preserve">
+    <value>Mae'r sianel hon ar gyfer biliau a hysbysiadau’r dreth gyngor a hysbysiadau eraill y cyfrif.</value>
+  </data>
+  <data name="AndroidChannelDescriptionWasteReminders" xml:space="preserve">
+    <value>Mae'r sianel hon ar gyfer atgoffa am gasgliadau ailgylchu a gwastraff.</value>
+  </data>
+  <data name="AndroidChannelNameCouncilTaxEbills" xml:space="preserve">
+    <value>Y Dreth Gyngor</value>
+  </data>
+  <data name="AndroidChannelNameDefault" xml:space="preserve">
+    <value>Sianel ddiofyn</value>
+  </data>
+  <data name="AndroidChannelNameWasteReminders" xml:space="preserve">
+    <value>Casgliadau ailgylchu a gwastraff</value>
+  </data>
+  <data name="AndroidNotificationChannelGroupYouNotifications" xml:space="preserve">
+    <value>Eich hysbysiadau</value>
+  </data>
+  <data name="AToZNo" xml:space="preserve">
+    <value>Peidiwch â defnyddio:</value>
+  </data>
+  <data name="AToZYes" xml:space="preserve">
+    <value>Defnyddiwch:</value>
+  </data>
+  <data name="BagsAndCaddiesMapMessage" xml:space="preserve">
+    <value>Mae’n ddrwg gennym, ni ellir gweld ein map. Caewch y map neu dewiswch cael cyfeiriadau.</value>
+  </data>
+  <data name="BtnAccountDetails" xml:space="preserve">
+    <value>Manylion cyfrif</value>
+  </data>
+  <data name="BtnAddImage" xml:space="preserve">
+    <value>Ychwanegu llun</value>
+  </data>
+  <data name="BtnAddRegistrationNumber" xml:space="preserve">
+    <value>Ychwanegu rhif cofrestru</value>
+  </data>
+  <data name="BtnAddReminderNow" xml:space="preserve">
+    <value>Ychwanegu nodyn atgoffa</value>
+  </data>
+  <data name="BtnAlwaysSend" xml:space="preserve">
+    <value>Rhoi gwybod i Gyngor Caerdydd am broblemau technegol bob amser</value>
+  </data>
+  <data name="BtnApplyForPermit" xml:space="preserve">
+    <value>Gwneud cais am drwydded</value>
+  </data>
+  <data name="BtnApplyOrRenewPermit" xml:space="preserve">
+    <value>Gwneud cais neu adnewyddu</value>
+  </data>
+  <data name="BtnBack" xml:space="preserve">
+    <value>Yn ôl</value>
+  </data>
+  <data name="BtnBackToBulky" xml:space="preserve">
+    <value>Nôl i eitemau swmpus</value>
+  </data>
+  <data name="BtnBalanceAndPayments" xml:space="preserve">
+    <value>Balans a thaliadau</value>
+  </data>
+  <data name="BtnBulkiesAddItem" xml:space="preserve">
+    <value>Ychwanegu eitem swmpus</value>
+  </data>
+  <data name="BtnBulkiesAddItemToCollection" xml:space="preserve">
+    <value>Ychwanegu eitem at y casgliad</value>
+  </data>
+  <data name="BtnBulkiesEditBooking" xml:space="preserve">
+    <value>Golygu archeb</value>
+  </data>
+  <data name="BtnCall" xml:space="preserve">
+    <value>Ffoniwch ni</value>
+  </data>
+  <data name="BtnCamera" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="BtnCancel" xml:space="preserve">
+    <value>Canslo</value>
+  </data>
+  <data name="BtnCancelBooking" xml:space="preserve">
+    <value>Canslo'r archeb?</value>
+  </data>
+  <data name="BtnCancelHWRCBooking" xml:space="preserve">
+    <value>A ydych yn siŵr eich bod am ganslo eich slot ar  {1} yn {0} am {2}?</value>
+    <comment>{0} is the date.  {1} is the recycling centre. {2} is the time</comment>
+  </data>
+  <data name="BtnChangeEmail" xml:space="preserve">
+    <value>Newid cyfeiriad e-bost</value>
+  </data>
+  <data name="BtnChangeSelectedItems" xml:space="preserve">
+    <value>Newid yr eitemau rydych wedi’u dewis</value>
+  </data>
+  <data name="BtnChgeBankDetails" xml:space="preserve">
+    <value>Newid manylion banc</value>
+  </data>
+  <data name="BtnChgePayDate" xml:space="preserve">
+    <value>Newid dyddiad talu</value>
+  </data>
+  <data name="BtnClose" xml:space="preserve">
+    <value>Cau</value>
+  </data>
+  <data name="BtnCollectionCalendar" xml:space="preserve">
+    <value>Gweld eich calendr casgliadau</value>
+  </data>
+  <data name="BtnCollections" xml:space="preserve">
+    <value>Casgliadau</value>
+  </data>
+  <data name="BtnContactUs" xml:space="preserve">
+    <value>Cysylltu â ni</value>
+  </data>
+  <data name="BtnContinueHomeScreen" xml:space="preserve">
+    <value>Parhau i'r hafan</value>
+  </data>
+  <data name="BtnCouncilTax" xml:space="preserve">
+    <value>Treth Gyngor</value>
+  </data>
+  <data name="BtnDDContinue" xml:space="preserve">
+    <value>Parhau</value>
+  </data>
+  <data name="BtnDDRequestCallback" xml:space="preserve">
+    <value>Gofyn am alwad yn ôl</value>
+  </data>
+  <data name="BtnDDRequestCallbackToDiscuss" xml:space="preserve">
+    <value>Hoffech chi wneud cais am alwad yn ôl i drafod eich dyledion sy'n destun gwŷs?</value>
+  </data>
+  <data name="BtnDisableAppHibernation" xml:space="preserve">
+    <value>Analluogi roi’r app i gysgu</value>
+  </data>
+  <data name="BtnDldCTAXform" xml:space="preserve">
+    <value>Ffurflen Debyd Uniongyrchol</value>
+  </data>
+  <data name="BtnDontKnowReg" xml:space="preserve">
+    <value>Ychwanegu rhif cofrestru yn nes ymlaen</value>
+  </data>
+  <data name="BtnDontSend" xml:space="preserve">
+    <value>Peidio ag anfon</value>
+  </data>
+  <data name="BtnEbilling" xml:space="preserve">
+    <value>E-filio</value>
+  </data>
+  <data name="BtnEbillUnsubscribe" xml:space="preserve">
+    <value>Dad-danysgrifio o'r gwasanaeth e-filiau</value>
+  </data>
+  <data name="BtnEnableAllNotificationChannels" xml:space="preserve">
+    <value>Galluogi pob sianel hysbysu</value>
+  </data>
+  <data name="BtnEnterDetailsNow" xml:space="preserve">
+    <value>Cyflwyno fy manylion nawr</value>
+  </data>
+  <data name="BtnGallery" xml:space="preserve">
+    <value>Oriel</value>
+  </data>
+  <data name="BtnGraffitiInformation" xml:space="preserve">
+    <value>Gwybodaeth am graffiti</value>
+  </data>
+  <data name="BtnGraffitiMoreInfo" xml:space="preserve">
+    <value>Mwy o wybodaeth am graffiti</value>
+  </data>
+  <data name="BtnImproveNotifications" xml:space="preserve">
+    <value>Sut i wella hysbysiadau</value>
+  </data>
+  <data name="BtnIssue" xml:space="preserve">
+    <value>Adrodd mater technegol</value>
+  </data>
+  <data name="BtnLookUp" xml:space="preserve">
+    <value>Chwilio am eiddo arall</value>
+  </data>
+  <data name="BtnMakeBooking" xml:space="preserve">
+    <value>Trefnu casgliad newydd</value>
+  </data>
+  <data name="BtnManageReminder" xml:space="preserve">
+    <value>Rheoli nodiadau atgoffa am gasgliadau</value>
+  </data>
+  <data name="BtnMarkAsRead" xml:space="preserve">
+    <value>Marcio bod pob un wedi’u darllen</value>
+  </data>
+  <data name="BtnNext" xml:space="preserve">
+    <value>Nesaf</value>
+  </data>
+  <data name="BtnNo" xml:space="preserve">
+    <value>Na</value>
+  </data>
+  <data name="BtnNotificationsCollectionsManage" xml:space="preserve">
+    <value>Rheoli hysbysiadau casglu</value>
+  </data>
+  <data name="BtnNotificationsCtaxManage" xml:space="preserve">
+    <value>Rheoli hysbysiadau’r Dreth Gyngor</value>
+  </data>
+  <data name="BtnNotificationsUsage" xml:space="preserve">
+    <value>Defnyddio hysbysiadau Cardiff Gov</value>
+  </data>
+  <data name="BtnNoWelshContext" xml:space="preserve">
+    <value>Nac Ydw</value>
+  </data>
+  <data name="BtnNoWelshContext2" xml:space="preserve">
+    <value>Na hoffwn</value>
+  </data>
+  <data name="BtnNoWelshContext3" xml:space="preserve">
+    <value>Nac ydy</value>
+  </data>
+  <data name="BtnOk" xml:space="preserve">
+    <value>Iawn</value>
+  </data>
+  <data name="BtnOpenSetting" xml:space="preserve">
+    <value>Agor gosodiadau</value>
+  </data>
+  <data name="BtnOrderItemsForDelivery" xml:space="preserve">
+    <value>Archebwch eitemau i gael eu dosbarthu</value>
+  </data>
+  <data name="BtnProblemParkingInformation" xml:space="preserve">
+    <value>Gwybodaeth am broblemau parcio</value>
+  </data>
+  <data name="BtnRecyclingAToZ" xml:space="preserve">
+    <value>Ailgylchu A i Y</value>
+  </data>
+  <data name="BtnRecyclingAZ" xml:space="preserve">
+    <value>A-Y Ailgylchu</value>
+  </data>
+  <data name="BtnRenewMyPermit" xml:space="preserve">
+    <value>Adnewyddu fy nhrwydded</value>
+  </data>
+  <data name="BtnReportAnotherMissedCollection" xml:space="preserve">
+    <value>Rhoi gwybod am gasgliad arall</value>
+  </data>
+  <data name="BtnReportIt" xml:space="preserve">
+    <value>Adrodd</value>
+  </data>
+  <data name="BtnReportMissedCollectionDisplayPage" xml:space="preserve">
+    <value>Adrodd am gasgliad na ddigwyddodd</value>
+  </data>
+  <data name="BtnReportWebsite" xml:space="preserve">
+    <value>Adrodd drwy’r wefan</value>
+  </data>
+  <data name="BtnSavePersonal" xml:space="preserve">
+    <value>Arbed manylion personol</value>
+  </data>
+  <data name="BtnSendCrash" xml:space="preserve">
+    <value>Rhoi gwybod i Gyngor Caerdydd am y broblem</value>
+  </data>
+  <data name="BtnSetReminder" xml:space="preserve">
+    <value>Gosod nodyn atgoffa ar gyfer casglu</value>
+  </data>
+  <data name="BtnSetting" xml:space="preserve">
+    <value>Gosodiadau</value>
+  </data>
+  <data name="BtnSetUpDD" xml:space="preserve">
+    <value>Sefydlu Debyd Uniongyrchol</value>
+  </data>
+  <data name="BtnSetUpNotifications" xml:space="preserve">
+    <value>Sefydlu hysbysiadau</value>
+  </data>
+  <data name="BtnSetUpNow" xml:space="preserve">
+    <value>Gosod nawr</value>
+  </data>
+  <data name="BtnSignUp" xml:space="preserve">
+    <value>Cofrestru</value>
+  </data>
+  <data name="BtnStreetLightingInformation" xml:space="preserve">
+    <value>Gwybodaeth am oleuadau stryd</value>
+  </data>
+  <data name="BtnSubmit" xml:space="preserve">
+    <value>Cyflwyno</value>
+  </data>
+  <data name="BtnSuggestion" xml:space="preserve">
+    <value>Awgrymu gwelliant ar gyfer yr app</value>
+  </data>
+  <data name="BtnTermsandConditionsAgree" xml:space="preserve">
+    <value>Rwy'n cytuno â'r telerau ac amodau</value>
+  </data>
+  <data name="BtnUpdate" xml:space="preserve">
+    <value>Diweddaru</value>
+  </data>
+  <data name="BtnUpdateEmail" xml:space="preserve">
+    <value>Diweddaru e-bost</value>
+  </data>
+  <data name="BtnUpdateNow" xml:space="preserve">
+    <value>Diweddaru nawr</value>
+  </data>
+  <data name="BtnViewInstalments" xml:space="preserve">
+    <value>Gweld rhandaliadau</value>
+  </data>
+  <data name="BtnViewStockist" xml:space="preserve">
+    <value>Gweld cyflenwyr</value>
+  </data>
+  <data name="BtnVisitWebsite" xml:space="preserve">
+    <value>Ewch i'n gwefan</value>
+  </data>
+  <data name="BtnWasteCollection" xml:space="preserve">
+    <value>Ailgylchu a gwastraff</value>
+  </data>
+  <data name="BtnYes" xml:space="preserve">
+    <value>Ie</value>
+  </data>
+  <data name="BtnYesWelshContext" xml:space="preserve">
+    <value>Ydw</value>
+  </data>
+  <data name="BtnYesWelshContext2" xml:space="preserve">
+    <value>Hoffwn</value>
+  </data>
+  <data name="BtnYesWelshContext3" xml:space="preserve">
+    <value>Ydy</value>
+  </data>
+  <data name="ButtonYourNotifications" xml:space="preserve">
+    <value>Eich hysbysiadau</value>
+  </data>
+  <data name="CharactersRemaining" xml:space="preserve">
+    <value>Wedi defnyddio {0} nod allan o {1}</value>
+  </data>
+  <data name="Checkbox" xml:space="preserve">
+    <value>Blwch gwirio</value>
+  </data>
+  <data name="Checked" xml:space="preserve">
+    <value>Gwiriwyd</value>
+  </data>
+  <data name="ContactNumber" xml:space="preserve">
+    <value>Rhif cyswllt:</value>
+  </data>
+  <data name="CtaxEbilDescription" xml:space="preserve">
+    <value>{0}, anfonwyd ar {1}, rhif cyfrif: {2}</value>
+    <comment>{0} - ebill type, {1} - sent date, {2} account number</comment>
+  </data>
+  <data name="CtaxInstalmentDescription" xml:space="preserve">
+    <value>Ar {0}, am {1}</value>
+    <comment>{0} - Date, {1} amount</comment>
+  </data>
+  <data name="CtaxNextYearsPayments" xml:space="preserve">
+    <value>Taliadau'r flwyddyn nesaf</value>
+  </data>
+  <data name="CtaxPaymentDescription" xml:space="preserve">
+    <value>Taliad wedi gwneud ar {0}, trwy {1}, am {2}</value>
+    <comment>{0} - Payment date, {1} - Payment method (e.g. Direct debit), {2} - Amount paid</comment>
+  </data>
+  <data name="CtaxPreviousYearsPayments" xml:space="preserve">
+    <value>Taliadau blynyddoedd blaenorol</value>
+  </data>
+  <data name="DisplayActionSheetEdit" xml:space="preserve">
+    <value>Golygu</value>
+  </data>
+  <data name="DisplayActionSheetReminder" xml:space="preserve">
+    <value>Golygu neu ddileu nodyn atgoffa</value>
+  </data>
+  <data name="DisplayActionSheetSelectAddress" xml:space="preserve">
+    <value>Dewiswch gyfeiriad</value>
+  </data>
+  <data name="DisplayAlertCheckDetails" xml:space="preserve">
+    <value>Gwnewch yn siŵr bod eich manylion yn gywir</value>
+  </data>
+  <data name="DisplayHWRCThankYouMessage" xml:space="preserve">
+    <value>Rydych wedi trefnu archeb ar gyfer {0}{1}{2} i ymweld â chanolfan ailgylchu {3} ar {4}.</value>
+    <comment>{0} is the vehicle type e.g. car, van. {1} is an optional space. {2} is 'with a trailer' if appropriate.  {3} is the recycling centre.  {4} is the date and time.</comment>
+  </data>
+  <data name="DisplayMessageBookingCancelled" xml:space="preserve">
+    <value>Cafodd eich archeb ei chanslo</value>
+  </data>
+  <data name="DisplayMessageBookingCancelledBody" xml:space="preserve">
+    <value>Ni chlywsom gennych am 20 munud felly rydym wedi canslo eich archeb. Rhowch gynnig arall arni.</value>
+  </data>
+  <data name="DisplayMessageDeleteReminder" xml:space="preserve">
+    <value>Ydych chi'n siŵr eich bod chi eisiau dileu'r nodyn atgoffa hwn?</value>
+  </data>
+  <data name="DisplayMessageDetailesSaved" xml:space="preserve">
+    <value>Arbedwyd eich manylion</value>
+  </data>
+  <data name="DisplayMessageDownloadEnotice" xml:space="preserve">
+    <value>A hoffech lawrlwytho a gweld y ddogfen hon?</value>
+  </data>
+  <data name="DisplayMessageEbillSignupNote" xml:space="preserve">
+    <value>Sylwch na fyddwch yn derbyn e-fil nes bod yr un nesaf wedi'i greu. Gall hyn fod yn ystod y flwyddyn ariannol nesaf neu os byddwch yn dweud wrthym am newid i'ch amgylchiadau.</value>
+  </data>
+  <data name="DisplayMessageEbillSignupThanks" xml:space="preserve">
+    <value>Diolch am gofrestru ar gyfer e-filiau a negeseuon atgoffa</value>
+  </data>
+  <data name="DisplayMessageEbillUnsubscribe" xml:space="preserve">
+    <value>Ydych chi'n siŵr eich bod am stopio derbyn biliau a hysbysiadau dros e-bost? Os ydych, bydd eich biliau a'ch hysbysiadau yn cael eu hanfon atoch yn y post.</value>
+  </data>
+  <data name="DisplayMessageEmptySearch" xml:space="preserve">
+    <value>Dim cyfeiriad wedi'i roi</value>
+  </data>
+  <data name="DisplayMessageEmptySearchBody" xml:space="preserve">
+    <value>Rhowch gyfeiriad</value>
+  </data>
+  <data name="DisplayMessageError" xml:space="preserve">
+    <value>Ymddiheuriadau</value>
+  </data>
+  <data name="DisplayMessageFileUnsupported" xml:space="preserve">
+    <value>Yn anffodus, ni dderbynnir y math hwn o ffeil.</value>
+  </data>
+  <data name="DisplayMessageGpsOff" xml:space="preserve">
+    <value>Aeth rhywbeth o'i le, a wnewch chi wirio bod eich System Leoli Fyd-eang (GPS) wedi'i throi ymlaen.</value>
+  </data>
+  <data name="DisplayMessageImageAlreadyAdded" xml:space="preserve">
+    <value>Mae delwedd eisoes wedi'i hychwanegu</value>
+  </data>
+  <data name="DisplayMessageImageAlreadyAddedBody" xml:space="preserve">
+    <value>Mae'r ddelwedd dan sylw eisoes wedi ei hychwanegu.</value>
+  </data>
+  <data name="DisplayMessageImageTooLarge" xml:space="preserve">
+    <value>Llun rhy fawr</value>
+  </data>
+  <data name="DisplayMessageImageTooLargeBody" xml:space="preserve">
+    <value>Rydym wedi lleihau maint eich llun ond mae’n rhy fawr o hyd.
+Wnewch chi plis leihau maint y ffeil neu ddefnyddio llun arall.</value>
+  </data>
+  <data name="DisplayMessageInProgress" xml:space="preserve">
+    <value>Nid ydym wedi bod yn eich eiddo yn casglu {0}. Mae casgliadau yn digwydd rhwng 6am a 3.30pm.</value>
+    <comment>{0} options are: Garden waste, General waste, Recycling, Recycling bags, Hygiene bag, Kerbside food caddy, Glass caddy</comment>
+  </data>
+  <data name="DisplayMessageLink" xml:space="preserve">
+    <value>Yn anffodus ni allwn agor y ddolen hon</value>
+  </data>
+  <data name="DisplayMessageMaximumImages" xml:space="preserve">
+    <value>3 delwedd yn unig</value>
+  </data>
+  <data name="DisplayMessageMaximumImagesBody" xml:space="preserve">
+    <value>Dim ond {0} o luniau y cewch eu huwchlwytho.</value>
+    <comment>{0} Add the maxium number of images</comment>
+  </data>
+  <data name="DisplayMessageMissedCollection" xml:space="preserve">
+    <value>Ni allwch roi gwybod am y casgliad hwn fel un a fethwyd.</value>
+  </data>
+  <data name="DisplayMessageNoCamera" xml:space="preserve">
+    <value>Dim camera</value>
+  </data>
+  <data name="DisplayMessageNoCameraBody" xml:space="preserve">
+    <value>Dim camera ar gael.</value>
+  </data>
+  <data name="DisplayMessageNoConnection" xml:space="preserve">
+    <value>Dim cysylltiad</value>
+  </data>
+  <data name="DisplayMessageNoConnectionBody" xml:space="preserve">
+    <value>Nid ydych wedi cysylltu â'r rhyngrwyd.</value>
+  </data>
+  <data name="DisplayMessageNoResultsFor" xml:space="preserve">
+    <value>Yn anffodus, ni ddaethpwyd o hyd i unrhyw ganlyniadau ar gyfer {0}</value>
+    <comment>{0} Add the search item</comment>
+  </data>
+  <data name="DisplayMessageNotFound" xml:space="preserve">
+    <value>Cyfeiriad heb ei ganfod.</value>
+  </data>
+  <data name="DisplayMessageNotificationExists" xml:space="preserve">
+    <value>Mae'r nodyn atgoffa hwn eisoes yn bodoli.</value>
+  </data>
+  <data name="DisplayMessageOptOutPaperBills" xml:space="preserve">
+    <value>A fyddai’n well gennych chi beidio â chael biliau papur?</value>
+  </data>
+  <data name="DisplayMessagePhotoNotSupport" xml:space="preserve">
+    <value>Ni chefnogir y lluniau</value>
+  </data>
+  <data name="DisplayMessagePhotoNotSupportBody" xml:space="preserve">
+    <value>Methu cael gafael ar y lluniau ar y ddyfais hon</value>
+  </data>
+  <data name="DisplayMessageReminderExists" xml:space="preserve">
+    <value>Mae'r nodyn atgoffa hwn eisoes yn bodoli.</value>
+  </data>
+  <data name="DisplayMessageReminderNotChanged" xml:space="preserve">
+    <value>Newidiwch y nodyn atogoffa i'w ddiweddaru</value>
+  </data>
+  <data name="DisplayMessageRemoveImage" xml:space="preserve">
+    <value>Ydych chi'n siŵr eich bod eisiau tynnu'r ddelwedd hon?</value>
+  </data>
+  <data name="DisplayMessageReportMissedCollection" xml:space="preserve">
+    <value>A hoffech adrodd eich {0} fel casgliad a fethwyd?</value>
+    <comment>{0} options are: Garden waste, General waste, Recycling, Recycling bags, Hygiene bag, Kerbside food caddy, Glass caddy</comment>
+  </data>
+  <data name="DisplayMessageSomethingWentWrong" xml:space="preserve">
+    <value>Mae rhywbeth wedi mynd o’i le gyda’n app.
+
+Ymddiheurwn am yr anghyfleustra.</value>
+  </data>
+  <data name="DisplayMessageSomethingWrong" xml:space="preserve">
+    <value>Yn anffodus, aeth rhywbeth o'i le.</value>
+  </data>
+  <data name="DisplayMessageSomethingWrongDates" xml:space="preserve">
+    <value>Nid yw eich eiddo wedi'i osod ar gyfer casgliadau eitemau swmpus. Bydd angen i ni ymchwilio. Rhowch gynnig arni yn hwyrach ymlaen.
+
+Nodwch mai gwasanaeth i breswylwyr yn unig yw hwn ac ni ddylid ei ddefnyddio ar gyfer eiddo masnachol.</value>
+  </data>
+  <data name="DisplayMessageSuccessFly2" xml:space="preserve">
+    <value>Rydym yn cymryd y mater hwn o ddifrif ac yn ceisio clirio tipio anghyfreithlon o fewn {0} diwrnod gwaith.
+
+Os yw'r tipio anghyfreithlon ar dir preifat, byddwn yn ymchwilio ac yn cysylltu â'r tirfeddiannwr sy'n gyfrifol.</value>
+    <comment>{0}  Number of days</comment>
+  </data>
+  <data name="DisplayMessageSuccessflySent" xml:space="preserve">
+    <value>Diolch i chi {0}am roi gwybod i ni am dipio anghyfreithlon.</value>
+    <comment>{0} Users name</comment>
+  </data>
+  <data name="DisplayMessageThankYou" xml:space="preserve">
+    <value>Diolch</value>
+  </data>
+  <data name="DisplayMessageTitleDeleteReminder" xml:space="preserve">
+    <value>Dileu nodyn atgoffa</value>
+  </data>
+  <data name="DisplayMessageTitleDetailesSaved" xml:space="preserve">
+    <value>Arbedwyd</value>
+  </data>
+  <data name="DisplayMessageTitleFileUnsupported" xml:space="preserve">
+    <value>Ni dderbynnir y math hwn o ffeil</value>
+  </data>
+  <data name="DisplayMessageTitleGpsOff" xml:space="preserve">
+    <value>System Leoli Fyd-eang (GPS) wedi'i diffodd</value>
+  </data>
+  <data name="DisplayMessageTitleNotificationExists" xml:space="preserve">
+    <value>Mae'r nodyn atgoffa eisoes yn bodoli</value>
+  </data>
+  <data name="DisplayMessageTitleReminderExists" xml:space="preserve">
+    <value>Mae'r nodyn atgoffa eisoes yn bodoli</value>
+  </data>
+  <data name="DisplayMessageTitleReminderNotChanged" xml:space="preserve">
+    <value>Ni newidiwyd y nodyn atgoffa</value>
+  </data>
+  <data name="DisplayMessageTitleRemoveImage" xml:space="preserve">
+    <value>Tynnu delwedd</value>
+  </data>
+  <data name="DisplayMessageTitleUpdateRequired" xml:space="preserve">
+    <value>Diweddariad ar gael ar gyfer ap Cardiff Gov</value>
+  </data>
+  <data name="DisplayMessageTryAgainLater" xml:space="preserve">
+    <value> Rhowch gynnig arall arni wedyn.</value>
+  </data>
+  <data name="DisplayMessageUpdateRequired" xml:space="preserve">
+    <value>Diweddarwch yr app i weld y gwasanaethau diweddaraf.</value>
+  </data>
+  <data name="DisplayMessageValidationErrors" xml:space="preserve">
+    <value>Gwiriwch am unrhyw wallau a chadw eto.</value>
+  </data>
+  <data name="DisplayPaymentDate" xml:space="preserve">
+    <value>Dewiswch ddyddiad talu</value>
+  </data>
+  <data name="DisplayTitleEbillUnsubscribe" xml:space="preserve">
+    <value>Dad-danysgrifio o'r gwasanaeth e-filiau</value>
+  </data>
+  <data name="DrpDnSelectOne" xml:space="preserve">
+    <value>Dewiswch reswm</value>
+  </data>
+  <data name="EmailValidationIsRequired" xml:space="preserve">
+    <value>Rhaid cadarnhau cyfeiriad e-bost</value>
+  </data>
+  <data name="EnableAllNotificationChannelsDescription" xml:space="preserve">
+    <value>Mae rhai neu'r cyfan o'ch sianeli hysbysu wedi cael eu analluogi.  Galluogwch y sianeli i gyd i sicrhau eich bod yn gallu derbyn hysbysiadau.</value>
+  </data>
+  <data name="ErrorHWRCNoDatesAvailable" xml:space="preserve">
+    <value>Does dim dyddiadau ar gael yn y ganolfan ailgylchu honno ar gyfer y math hwnnw o gerbyd ar hyn o bryd.</value>
+    <comment>{0} location,{1} vehicle type</comment>
+  </data>
+  <data name="ErrorMessageFailedToRetrieveMapPosition" xml:space="preserve">
+    <value>Nid ydym wedi gallu nodi eich lleoliad o ddewis. Symudwch y map gan roi cynnig arall arni.</value>
+  </data>
+  <data name="ErrorPageNotFound" xml:space="preserve">
+    <value>Heb ddod o hyd i’r dudalen</value>
+  </data>
+  <data name="GPSNotSupportedMessage" xml:space="preserve">
+    <value>Sori, nid yw’n ymddangos fod eich dyfais yn cefnogi GPS.</value>
+  </data>
+  <data name="GPSNotSupportedTitle" xml:space="preserve">
+    <value>Ni chefnogir GPS</value>
+  </data>
+  <data name="HeaderAccessDenied" xml:space="preserve">
+    <value>Methu gwneud archeb</value>
+  </data>
+  <data name="HeaderBookingLimit" xml:space="preserve">
+    <value>Terfyn uchaf yr archebion wedi'i gyrraedd</value>
+  </data>
+  <data name="HeaderBulkiesDate" xml:space="preserve">
+    <value>Dyddiad casglu</value>
+  </data>
+  <data name="HeaderBulkyEditCancel" xml:space="preserve">
+    <value>Golygu neu ganslo eich archeb</value>
+  </data>
+  <data name="HeaderBulkyItemCollection" xml:space="preserve">
+    <value>Casgliadau eitemau swmpus</value>
+  </data>
+  <data name="HeaderBulkyItemNotOnList" xml:space="preserve">
+    <value>Eitem nad yw ar y rhestr?</value>
+  </data>
+  <data name="HeaderBulkyWelcome" xml:space="preserve">
+    <value>Trefnu casgliad eitem swmpus</value>
+  </data>
+  <data name="HeaderCheckOrder" xml:space="preserve">
+    <value>Gwiriwch eich archeb cyn ei anfon</value>
+  </data>
+  <data name="HeaderHighspeedroutes" xml:space="preserve">
+    <value>Llwybrau cyflymder uchel</value>
+  </data>
+  <data name="HeaderLiveInFlat" xml:space="preserve">
+    <value>Ydych chi'n byw mewn fflat?</value>
+  </data>
+  <data name="HeaderParkingPermits" xml:space="preserve">
+    <value>Trwyddedau parcio</value>
+  </data>
+  <data name="HeaderParkingPermitsDigital" xml:space="preserve">
+    <value>Mae trwyddedau parcio yn mynd yn ddigidol.</value>
+  </data>
+  <data name="HeaderPickUp" xml:space="preserve">
+    <value>Casglu bagiau neu fagiau cadis</value>
+  </data>
+  <data name="HeaderReuseItems" xml:space="preserve">
+    <value>A ellid ailddefnyddio eich eitemau?</value>
+  </data>
+  <data name="HeaderSelectAnItem" xml:space="preserve">
+    <value>Dewiswch eitem</value>
+  </data>
+  <data name="HeaderYourDetails" xml:space="preserve">
+    <value>Eich manylion</value>
+  </data>
+  <data name="HeadingServiceDisruption" xml:space="preserve">
+    <value>Tarfu ar gasgliadau ailgylchu a gwastraff</value>
+  </data>
+  <data name="HomepageWelcome" xml:space="preserve">
+    <value>Sut gallwn eich helpu chi?</value>
+  </data>
+  <data name="HWRCCanceledBookingMsg" xml:space="preserve">
+    <value>Mae eich archeb wedi’i chanslo</value>
+  </data>
+  <data name="HWRCCarBookingsOnly" xml:space="preserve">
+    <value>Archebion car yn unig</value>
+  </data>
+  <data name="HWRCNoDatesTitle" xml:space="preserve">
+    <value>Dim dyddiadau ar gael</value>
+  </data>
+  <data name="HWRCPaymentRequired" xml:space="preserve">
+    <value>Angen talu</value>
+  </data>
+  <data name="HWRCPaymentUpdateMessage" xml:space="preserve">
+    <value>Rydym yn codi tâl bellach am ddod â'r math hwn o gerbyd i ganolfan ailgylchu. Bydd angen i chi ddiweddaru i fersiwn diweddaraf yr app i dalu.</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Gwybodaeth</value>
+  </data>
+  <data name="IntroNotificationsAbout" xml:space="preserve">
+    <value>Weithiau gall newidiadau i feddalwedd neu eich defnydd o'r app hwn effeithio ar hysbysiadau a anfonir o'r app hwn i'ch dyfais.
+
+I gael y gorau o hysbysiadau wrth ddefnyddio'r app hwn, darllenwch ein cyngor ar ddefnyddio hysbysiadau Cardiff Gov.</value>
+  </data>
+  <data name="Lbl2AppVersion" xml:space="preserve">
+    <value>Fersiwn App</value>
+  </data>
+  <data name="Lbl48Hours" xml:space="preserve">
+    <value>Efallai na fydd manylion am eich balans yn cynnwys taliadau a wnaed o fewn y 48 awr diwethaf.</value>
+  </data>
+  <data name="lbl48hrProgress" xml:space="preserve">
+    <value>Mae'n bosibl y bydd unrhyw daliadau sy'n ddyledus yn y 48 awr nesaf eisoes ar waith.</value>
+  </data>
+  <data name="LblAboutNotifications" xml:space="preserve">
+    <value>Ynglŷn â hysbysiadau</value>
+  </data>
+  <data name="LblAccessDenied" xml:space="preserve">
+    <value>Rydych yn methu gwneud archeb ar-lein i ddefnyddio canolfan ailgylchu.</value>
+  </data>
+  <data name="LblAccessDeniedContact" xml:space="preserve">
+    <value>Os hoffech drafod hyn â rhywun, cysylltwch â 02920872088.</value>
+  </data>
+  <data name="LblAccessDeniedEditContact" xml:space="preserve">
+    <value>Os hoffech siarad â rhywun am hyn cysylltwch â C2C ar 02920872088.</value>
+  </data>
+  <data name="LblAccessDeniedRegEdit" xml:space="preserve">
+    <value>Nid ydych yn gallu defnyddio’r rhif cofrestru hwn i archebu.</value>
+  </data>
+  <data name="LblAccountEndDate" xml:space="preserve">
+    <value>Dyddiad gorffen y cyfrif:</value>
+  </data>
+  <data name="LblAccountHolder" xml:space="preserve">
+    <value>Enw(au) Deiliad y Cyfrif:</value>
+  </data>
+  <data name="LblAccountInCredit" xml:space="preserve">
+    <value>Mae eich cyfrif mewn credyd: £{0}</value>
+    <comment>{0} total amount</comment>
+  </data>
+  <data name="LblAccountNumber" xml:space="preserve">
+    <value>Rhif cyfrif:</value>
+  </data>
+  <data name="LblAccountOverview" xml:space="preserve">
+    <value>Trosolwg o'r cyfrif</value>
+  </data>
+  <data name="LblAccountStartDate" xml:space="preserve">
+    <value>Dyddiad dechrau'r cyfrif:</value>
+  </data>
+  <data name="LblAdd3" xml:space="preserve">
+    <value>Gallwch ychwanegu hyd at 3 llun i'n helpu ni i asesu'r broblem.</value>
+  </data>
+  <data name="LblAdd3LocationProblem" xml:space="preserve">
+    <value>Gallwch ychwanegu hyd at 3 llun i’n helpu i ganfod lleoliad y broblem</value>
+  </data>
+  <data name="LblAddAnotherTime" xml:space="preserve">
+    <value>Gallwch ychwanegu hwn rhyw bryd arall.</value>
+  </data>
+  <data name="LblAdditionalInfo" xml:space="preserve">
+    <value>Er enghraifft, nodwch unrhyw dirnod neu adeilad cyfagos, gan gynnwys rhif tŷ neu farciau ar y ffordd.</value>
+  </data>
+  <data name="LblAdditionalInfoStreetLighting" xml:space="preserve">
+    <value>Er enghraifft nodwch unrhyw dirnod gerllaw neu adeilad, rhif tŷ neu farc ar yr heol.
+
+Os gallwch weld rhif ar y postyn, nodwch y rhif yma.</value>
+  </data>
+  <data name="LblAddReminder" xml:space="preserve">
+    <value>Ychwanegu nodyn atgoffa</value>
+  </data>
+  <data name="LblAddress" xml:space="preserve">
+    <value>Cyfeiriad:</value>
+  </data>
+  <data name="LblAddressManually" xml:space="preserve">
+    <value>Rhowch eich cyfeiriad</value>
+  </data>
+  <data name="LblAdvertisingBillboard" xml:space="preserve">
+    <value>Hysbysfwrdd hysbysebu</value>
+  </data>
+  <data name="LblAll" xml:space="preserve">
+    <value>Pob</value>
+  </data>
+  <data name="LblAmDue" xml:space="preserve">
+    <value>Swm sy'n ddyledus</value>
+  </data>
+  <data name="lblAmendDD" xml:space="preserve">
+    <value>Diwygio eich Debyd Uniongyrchol</value>
+  </data>
+  <data name="LblAmount" xml:space="preserve">
+    <value>Swm (£):</value>
+  </data>
+  <data name="LblAmountDue" xml:space="preserve">
+    <value>Swm sy'n ddyledus:</value>
+  </data>
+  <data name="lblAnyPaymentsDD" xml:space="preserve">
+    <value>Mae'n bosibl y bydd unrhyw daliadau sy'n ddyledus yn y 48 awr nesaf eisoes ar waith.</value>
+  </data>
+  <data name="LblAppBuild" xml:space="preserve">
+    <value>Rhif adeiladu:</value>
+  </data>
+  <data name="LblAppModule" xml:space="preserve">
+    <value>Modiwl App</value>
+  </data>
+  <data name="LblAppVersion" xml:space="preserve">
+    <value>Fersiwn app:</value>
+  </data>
+  <data name="LblAppVersion2" xml:space="preserve">
+    <value>Fersiwn {0}</value>
+  </data>
+  <data name="LblArrearsMessage" xml:space="preserve">
+    <value>Cysylltwch â ni os hoffech wneud ymholiad ynghylch unrhyw ôl-ddyledion sy'n ddarostyngedig i achos llys.</value>
+  </data>
+  <data name="LblAssessSituation" xml:space="preserve">
+    <value>Bydd angen i ni asesu'r sefyllfa i sicrhau cyn lleied o darfu â phosibl ar lif y traffig a'r risg i ddiogelwch y cyhoedd.</value>
+  </data>
+  <data name="LblAt" xml:space="preserve">
+    <value>am</value>
+  </data>
+  <data name="LblAuthorisation" xml:space="preserve">
+    <value>Awdurdodiad</value>
+  </data>
+  <data name="LblBagsCaddies" xml:space="preserve">
+    <value>Bagiau a chadis</value>
+  </data>
+  <data name="LblBagsCaddiesHeading" xml:space="preserve">
+    <value>Gallwch gasglu’r eitemau rydych wedi’u dewis o’ch cyflenwyr lleol.</value>
+  </data>
+  <data name="LblBagsCaddiesHeading2" xml:space="preserve">
+    <value>Ceisiwch chwilio pob eitem ar wahân i ddod o hyd i stoc gerllaw.</value>
+  </data>
+  <data name="LblBagsCaddiesLimitReached" xml:space="preserve">
+    <value>Ni allwch archebu mwy o fagiau neu gadis ar gyfer yr eiddo hwn. Cysylltwch â C2C ar 02920872088</value>
+  </data>
+  <data name="LblBagsCaddiesLiveInFlat" xml:space="preserve">
+    <value>Does dim bagiau na chadis yn gysylltiedig â’r eiddo hwn.
+​
+Gwiriwch y cyfeiriad a rhowch gynnig arall arni.​
+​
+Os ydych yn byw mewn fflat cysylltwch â’ch landlord neu gymdeithas tai. Mae’n bosibl y byddant yn gallu darparu’r hyn sydd ei angen.</value>
+  </data>
+  <data name="LblBalanceBroughtForward" xml:space="preserve">
+    <value>Balans a ddygwyd ymlaen:</value>
+  </data>
+  <data name="LblBalanceOut" xml:space="preserve">
+    <value>Balans sy'n weddill:</value>
+  </data>
+  <data name="LblBalancePopup" xml:space="preserve">
+    <value>Y cyfanswm sy'n weddill ar y cyfrif. Ym mis Mawrth, gall hyn gynnwys y tâl ar gyfer y flwyddyn ariannol sydd i ddod.</value>
+  </data>
+  <data name="LblBankAccountNumber" xml:space="preserve">
+    <value>Rhif Cyfrif Banc/Cymdeithas Adeiladu:</value>
+  </data>
+  <data name="lblBankSoicetyAccHolder" xml:space="preserve">
+    <value>Fi yw deiliad y cyfrif banc / cymdeithas adeiladu</value>
+  </data>
+  <data name="LblBasketItems1" xml:space="preserve">
+    <value>Gallwch ychwanegu hyd at 6 eitem at eich archeb.</value>
+  </data>
+  <data name="LblBasketItems2" xml:space="preserve">
+    <value>Costau casgliadau</value>
+  </data>
+  <data name="LblBenafits" xml:space="preserve">
+    <value>Budd-daliadau:</value>
+  </data>
+  <data name="LblBessemerClose" xml:space="preserve">
+    <value>Clos Bessemer</value>
+  </data>
+  <data name="LblBilingual" xml:space="preserve">
+    <value>Mae'r app hwn yn gwbl ddwyieithog.</value>
+  </data>
+  <data name="LblBilingualDescription" xml:space="preserve">
+    <value>Anfon data defnydd dienw</value>
+  </data>
+  <data name="LblBillAccount" xml:space="preserve">
+    <value>Cyfrif</value>
+  </data>
+  <data name="LblBinCollection" xml:space="preserve">
+    <value>Math o gasgliad</value>
+  </data>
+  <data name="LblBinDayIs" xml:space="preserve">
+    <value>Diwrnod casglu</value>
+  </data>
+  <data name="LblBinLookup" xml:space="preserve">
+    <value>Nodwch rif tŷ a chod post i weld eich dyddiadau casglu ailgylchu a gwastraff nesaf.</value>
+  </data>
+  <data name="LblBlueSack" xml:space="preserve">
+    <value>Sach las</value>
+  </data>
+  <data name="LblBookingDateTime" xml:space="preserve">
+    <value>dyddiad ac amser adrodd</value>
+  </data>
+  <data name="LblBookingDetails" xml:space="preserve">
+    <value>Gwiriwch fanylion eich archeb</value>
+  </data>
+  <data name="LblBookingFee" xml:space="preserve">
+    <value>Ffi archebu</value>
+  </data>
+  <data name="LblBulkiesNoOfItems" xml:space="preserve">
+    <value>Gallwch drefnu casgliad ar gyfer hyd at 6 eitem swmpus o eiddo preswyl yng Nghaerdydd.</value>
+  </data>
+  <data name="LblBulkiesTotalCharge" xml:space="preserve">
+    <value>Cyfanswm cost:</value>
+  </data>
+  <data name="LblBulkyBooked" xml:space="preserve">
+    <value>Trefnwyd eich casgliad eitem swmpus ar gyfer:</value>
+  </data>
+  <data name="LblBulkyBookedInfo" xml:space="preserve">
+    <value>Cewch e-bost yn cadarnhau manylion eich archeb â chyfarwyddiadau ar sut i gyflwyno eich eitemau.
+
+Gwnewch yn siŵr eich bod wedi darllen ein telerau ac amodau ar gyfer casglu eitemau swmpus.</value>
+  </data>
+  <data name="LblBulkyEditCancel" xml:space="preserve">
+    <value>Golygu neu ganslo archeb</value>
+  </data>
+  <data name="LblBulkyEmail" xml:space="preserve">
+    <value>Mae angen eich manylion cyswllt arnom i gadarnhau eich archeb neu i gysylltu â chi ynghylch trefniadau casglu.</value>
+  </data>
+  <data name="LblBulkyHeading" xml:space="preserve">
+    <value>Trefnu casgliad eitem swmpus i'r cyfeiriad canlynol:</value>
+  </data>
+  <data name="LblBulkyItemCount" xml:space="preserve">
+    <value>o 6 eitem</value>
+  </data>
+  <data name="LblBulkyItemLocation" xml:space="preserve">
+    <value>Dewiswch lle byddwch yn gadael yr eitem/eitemau i'w casglu.</value>
+  </data>
+  <data name="LblBulkyItemLocationPickerHeader" xml:space="preserve">
+    <value>Dewiswch leoliad:</value>
+  </data>
+  <data name="LblBulkyItemNotOnList" xml:space="preserve">
+    <value>Mae'n ddrwg gennym, ni allwn ddod o hyd i'r eitem hon ar ein rhestr.
+
+Efallai y bydd angen i chi wirio’r sillafiad neu roi cynnig ar eiriad gwahanol.
+
+Ceisiwch ddefnyddio'r tagiau i'ch helpu i ddod o hyd i eitemau yn ôl ystafell/gardd.
+
+Cofiwch fod eitem swmpus yn cael eu hystyried yn eitem na fydd yn ffitio mewn cist car ac na all un person ei chario'n ddiogel.
+
+I gael rhagor o wybodaeth am gael gwared ar wastraff y cartref, ewch i'n tudalen Ailgylchu A i Y.</value>
+  </data>
+  <data name="LblBulkyItemRequestImageMessage" xml:space="preserve">
+    <value>Gallwch ychwanegu hyd at 3 llun i'n helpu i nodi'r eitem.</value>
+  </data>
+  <data name="LblBulkyItemReuseInfo" xml:space="preserve">
+    <value>Os gellir defnyddio eich eitem eto, rydym yn argymell i chi ei rhoi  i elusen leol. Mae rhai elusennau'n cynnig gwasanaeth casglu. Bydd angen i chi wirio gyda'r elusennau unigol i weld beth maent yn ei dderbyn.</value>
+  </data>
+  <data name="LblBulkyItems" xml:space="preserve">
+    <value>Eitemau swmpus</value>
+  </data>
+  <data name="LblBulkyItemSelectMaterial" xml:space="preserve">
+    <value>Dewis y deunydd</value>
+  </data>
+  <data name="LblBulkyKnockAssistRequested" xml:space="preserve">
+    <value>Rydych wedi gofyn am gasgliad cnocio a chynorthwyo.
+
+Bydd aelod o'n tîm yn cysylltu â chi yn fuan.
+
+Cewch e-bost yn cadarnhau manylion eich cais.
+
+Gwnewch yn siŵr eich bod wedi darllen ein telerau ac amodau ar gyfer casglu eitemau swmpus.</value>
+  </data>
+  <data name="LblBulkyPay1" xml:space="preserve">
+    <value>Bydd angen i chi dalu i sicrhau eich archeb.</value>
+  </data>
+  <data name="LblBulkyPay2" xml:space="preserve">
+    <value>Cewch eich dargyfeirio i'n system dalu i sicrhau eich archeb.</value>
+  </data>
+  <data name="LblBulkyPleaseNote1" xml:space="preserve">
+    <value>Os dewiswch olygu eich slot, byddwch yn derbyn e-bost canslo.  Bydd yr e-bost hwn yn cadarnhau bod eich slot gwreiddiol wedi’i ganslo.  Byddwch hefyd yn derbyn e-bost i gadarnhau manylion eich slot newydd.</value>
+  </data>
+  <data name="LblBulkyPopularItems" xml:space="preserve">
+    <value>Eitemau poblogaidd</value>
+  </data>
+  <data name="LblBulkyPropertyDays" xml:space="preserve">
+    <value>{0} yw diwrnod casglu eich ardal.</value>
+    <comment>{0} gets replaced with the specific property days</comment>
+  </data>
+  <data name="LblBulkyRefundMessage" xml:space="preserve">
+    <value>Sylwer: Os byddwch yn trefnu casgliad sy’n llai na {0} diwrnod gwaith i ffwrdd, ni fyddwch yn gymwys am ad-daliad.</value>
+    <comment>place {0} where you want the number of days to display</comment>
+  </data>
+  <data name="LblBulkySearch" xml:space="preserve">
+    <value>Chwiliwch neu dewiswch eitem boblogaidd o'r rhestr.</value>
+  </data>
+  <data name="LblBulkySelectDate" xml:space="preserve">
+    <value>Dewiswch ddyddiad ar gyfer eich casgliad:</value>
+  </data>
+  <data name="LblBusShelters" xml:space="preserve">
+    <value>Lloches bysus</value>
+  </data>
+  <data name="LblCanBeCollected" xml:space="preserve">
+    <value>Gellir ei gasglu</value>
+  </data>
+  <data name="LblCancelBooking" xml:space="preserve">
+    <value>Canslo'r archeb</value>
+  </data>
+  <data name="LblCancelled" xml:space="preserve">
+    <value>Canslwyd</value>
+  </data>
+  <data name="LblCanGoInFoodBin" xml:space="preserve">
+    <value>Gellir ei roi yn eich bin bwyd.</value>
+  </data>
+  <data name="LblCanGoInGardenWaste" xml:space="preserve">
+    <value>Gellir ei roi gyda’ch gwastraff gardd.</value>
+  </data>
+  <data name="LblCanGoInGeneralWaste" xml:space="preserve">
+    <value>Gellir ei roi yn eich gwastraff cyffredinol.</value>
+  </data>
+  <data name="LblCanGoInRecyclingBags" xml:space="preserve">
+    <value>Gallwch ddefnyddio eich casgliad ailgylchu</value>
+  </data>
+  <data name="LblCanGoPodback" xml:space="preserve">
+    <value>Gallwch ddefnyddio eich casgliad Podback</value>
+  </data>
+  <data name="LblCanGoRecyclingZones" xml:space="preserve">
+    <value>Gellir mynd ag ef i bwynt ailgylchu</value>
+  </data>
+  <data name="LblCannotBeCollected" xml:space="preserve">
+    <value>Ni allwn gasglu’r eitem hon</value>
+  </data>
+  <data name="LblCannotGoInFoodBin" xml:space="preserve">
+    <value>Ni ellir ei roi yn eich bin bwyd</value>
+  </data>
+  <data name="LblCannotGoInGardenWaste" xml:space="preserve">
+    <value>Ni ellir ei roi gyda’ch gwastraff gardd.</value>
+  </data>
+  <data name="LblCannotGoInGeneralWaste" xml:space="preserve">
+    <value>Ni ellir ei roi yn eich gwastraff cyffredinol</value>
+  </data>
+  <data name="LblCannotGoInRecyclingBags" xml:space="preserve">
+    <value>Ni allwch ddefnyddio eich casgliad ailgylchu</value>
+  </data>
+  <data name="LblCannotGoRecyclingZones" xml:space="preserve">
+    <value>Ni ellir mynd ag ef i bwynt ailgylchu</value>
+  </data>
+  <data name="LblCannotReportMC" xml:space="preserve">
+    <value>Ni allwch adrodd casgliad a fethwyd</value>
+  </data>
+  <data name="Lblcanyouhelpusimprove" xml:space="preserve">
+    <value>Gallwch helpu ni i wella a datblygu'r app hwn gan anfon eich adborth atom.</value>
+  </data>
+  <data name="lblCardiffCo" xml:space="preserve">
+    <value>Sylwch: Bydd Debydau Uniongyrchol ar gyfer y Dreth Gyngor yn dangos ar eich datganiad banc fel 'Cardiff Co'.</value>
+  </data>
+  <data name="LblCash" xml:space="preserve">
+    <value>Arian Parod</value>
+  </data>
+  <data name="lblchangeBDetails" xml:space="preserve">
+    <value>Newid eich manylion banc</value>
+  </data>
+  <data name="LblChangeBooking" xml:space="preserve">
+    <value>Cewch olygu'ch rhif cofrestru a newid dyddiad ac amser eich archeb.
+
+Ni chewch newid math eich cerbyd.</value>
+  </data>
+  <data name="LblChangeColour" xml:space="preserve">
+    <value>Bydd hyn yn newid lliwiau'r app.</value>
+  </data>
+  <data name="LblChargeable" xml:space="preserve">
+    <value>Rhaid talu ffi</value>
+  </data>
+  <data name="LblCharges" xml:space="preserve">
+    <value>Ffioedd</value>
+  </data>
+  <data name="LblCheckBankDetails" xml:space="preserve">
+    <value>Sicrhewch eich bod wedi nodi’ch manylion banc yn gywir.</value>
+  </data>
+  <data name="LblCheckCollectionCalendar" xml:space="preserve">
+    <value>Edrychwch ar eich calendr casgliadau.</value>
+  </data>
+  <data name="LblCheckReport" xml:space="preserve">
+    <value>Gwiriwch eich adroddiad cyn i chi ei anfon</value>
+  </data>
+  <data name="LblChequeCleared" xml:space="preserve">
+    <value>Dyddiad clirio siec</value>
+  </data>
+  <data name="lblChkAmendmentsC" xml:space="preserve">
+    <value>Gwiriwch eich addasiadau cyn anfon os gwelwch yn dda</value>
+  </data>
+  <data name="lblChkAmndmnts" xml:space="preserve">
+    <value>Gwiriwch eich addasiadau cyn anfon</value>
+  </data>
+  <data name="lblChkDetailsBeforeSend" xml:space="preserve">
+    <value>Gwiriwch eich manylion cyn anfon</value>
+  </data>
+  <data name="lblChngeDDdate" xml:space="preserve">
+    <value>Newid dyddiad talu'r Debyd Uniongyrchol</value>
+  </data>
+  <data name="lblCityTown" xml:space="preserve">
+    <value>Dinas neu dref:</value>
+  </data>
+  <data name="LblCollected" xml:space="preserve">
+    <value>Wedi casglu o’ch stryd</value>
+  </data>
+  <data name="LblCollectionAddress" xml:space="preserve">
+    <value>Cyfeiriad y casgliad</value>
+  </data>
+  <data name="LblCollectionCalendar" xml:space="preserve">
+    <value>Calendr casgliadau</value>
+  </data>
+  <data name="LblCollectionDate" xml:space="preserve">
+    <value>Dyddiad y casgliad:</value>
+  </data>
+  <data name="LblCollectionDates" xml:space="preserve">
+    <value>Dyddiadau casglu</value>
+  </data>
+  <data name="LblConfirmAddressandEmail" xml:space="preserve">
+    <value>Cadarnhewch eich cyfeiriad a'ch e-bost</value>
+  </data>
+  <data name="LblConfirmAgree" xml:space="preserve">
+    <value>Rwyf wedi darllen ac yn cytuno</value>
+  </data>
+  <data name="LblConfirmation" xml:space="preserve">
+    <value>Cadarnhad</value>
+  </data>
+  <data name="LblConfirmEmail" xml:space="preserve">
+    <value>Cadarnhau cyfeiriad e-bost</value>
+  </data>
+  <data name="LblConfirmYourEmail" xml:space="preserve">
+    <value>Cadarnhewch eich cyfeiriad e-bost.</value>
+  </data>
+  <data name="LblContactDeets" xml:space="preserve">
+    <value>Eich manylion cyswllt</value>
+  </data>
+  <data name="LblContactDetails2" xml:space="preserve">
+    <value>Beth yw eich manylion cyswllt?</value>
+  </data>
+  <data name="LblContacted" xml:space="preserve">
+    <value>Pryd yr hoffech i ni gysylltu â chi?</value>
+  </data>
+  <data name="LblContactInfo" xml:space="preserve">
+    <value>Manylion cyswllt</value>
+  </data>
+  <data name="LblContactNumber" xml:space="preserve">
+    <value>Rhif cyswllt:</value>
+  </data>
+  <data name="LblContactPreference" xml:space="preserve">
+    <value>Yr amser gorau i'ch ffonio</value>
+  </data>
+  <data name="LblContactUs" xml:space="preserve">
+    <value>Ydych chi'n fodlon i ni gysylltu â chi?</value>
+  </data>
+  <data name="LblContactYou" xml:space="preserve">
+    <value>Os bydd angen rhagor o wybodaeth arnom, a allwn ni gysylltu â chi?</value>
+  </data>
+  <data name="LblCost" xml:space="preserve">
+    <value>Cost:</value>
+  </data>
+  <data name="LblCost1" xml:space="preserve">
+    <value>Cost</value>
+  </data>
+  <data name="lblCountry" xml:space="preserve">
+    <value>Gwlad:</value>
+  </data>
+  <data name="lblCountry1" xml:space="preserve">
+    <value>Gwlad:</value>
+  </data>
+  <data name="LblCourtSummonsAmountWarning" xml:space="preserve">
+    <value>Ôl-ddyledion yn ddarostyngedig i achos llys: {0:C}.</value>
+    <comment>{0:C} : Amount for summons</comment>
+  </data>
+  <data name="LblCourtSummonsIssued" xml:space="preserve">
+    <value>Achos llys</value>
+  </data>
+  <data name="LblCrashApoligy" xml:space="preserve">
+    <value>Mae'n ddrwg gennym, mae ein app wedi stopio gweithio.</value>
+  </data>
+  <data name="LblCTAX" xml:space="preserve">
+    <value>Beth yw eich rhif Treth Gyngor?</value>
+  </data>
+  <data name="LblCtaxAccClosed" xml:space="preserve">
+    <value>Cafodd y cyfrif hwn ei gau ar {0:d}.</value>
+    <comment>{0} closed date</comment>
+  </data>
+  <data name="LblCtaxAccClosedTop" xml:space="preserve">
+    <value>Cyfrif wedi cau</value>
+  </data>
+  <data name="LblCtaxAccDue" xml:space="preserve">
+    <value>A fyddech cystal â thalu'r swm sy'n weddill.</value>
+  </data>
+  <data name="LblCtaxAmendThankYou" xml:space="preserve">
+    <value>Diolch i chi am newid Debyd Uniongyrchol eich Treth Gyngor.</value>
+  </data>
+  <data name="LblCtaxConfirmViaEmail" xml:space="preserve">
+    <value>Byddwch yn derbyn cadarnhad o'r newidiadau hyn dros e-bost. Byddwn yn anfon bil sy'n dangos eich rhandaliadau.</value>
+  </data>
+  <data name="LblCtaxDDConfirmEmailMsg" xml:space="preserve">
+    <value>Byddwch yn derbyn cadarnhad o'ch cyfarwyddyd Debyd Uniongyrchol drwy e-bost. Byddwn yn anfon bil sy'n dangos eich rhandaliadau.</value>
+  </data>
+  <data name="LblCtaxDDConfirmEmailMsg2" xml:space="preserve">
+    <value>Byddwch yn derbyn cadarnhad o'r newidiadau hyn dros e-bost.</value>
+  </data>
+  <data name="LblCtaxDDThankYou" xml:space="preserve">
+    <value>Diolch i chi am greu Debyd Uniongyrchol i dalu eich Treth Gyngor.</value>
+  </data>
+  <data name="LblCtaxDDThankYouAmending" xml:space="preserve">
+    <value>Diolch i chi am newid Debyd Uniongyrchol eich Treth Gyngor.</value>
+  </data>
+  <data name="LblCTaxNo" xml:space="preserve">
+    <value>Rhif Treth Gyngor:</value>
+  </data>
+  <data name="LblCTaxUserInfo" xml:space="preserve">
+    <value>Mae’ch rhif cyfrif 8 digid ar eich bil Treth Gyngor.
+
+Sicrhewch eich bod yn rhoi’ch enw cyntaf, cyfenw a chod post yn union fel y maent ar eich bil.</value>
+  </data>
+  <data name="lblCTaxValidatePage" xml:space="preserve">
+    <value>Nodwch fanylion eich Treth Gyngor i gael gweld eich gwybodaeth cyfrif</value>
+  </data>
+  <data name="LblCurrentAddressDeets" xml:space="preserve">
+    <value>Nodwch god post eich cyfeiriad cartref presennol.</value>
+  </data>
+  <data name="LblDangerousParking" xml:space="preserve">
+    <value>barcio sy’n debygol o fod yn beryglus.</value>
+  </data>
+  <data name="LblDateandTime" xml:space="preserve">
+    <value>Dyddiad ac amser</value>
+  </data>
+  <data name="LblDatePaid" xml:space="preserve">
+    <value>Dyddiad talu</value>
+  </data>
+  <data name="LblDateTimeSlotNotAvailable" xml:space="preserve">
+    <value>Nid yw'r dyddiad a'r amser a ddewiswyd gennych ar gael mwyach. Dewiswch ddyddiad ac amser newydd ar gyfer eich archeb.</value>
+  </data>
+  <data name="LblDDbillconfirmation" xml:space="preserve">
+    <value>Byddwn yn anfon bil atoch yn dangos eich rhandaliadau.</value>
+  </data>
+  <data name="LblDDCallbackCouncilTaxThankyou2" xml:space="preserve">
+    <value>Bydd aelod o'r tîm Treth Gyngor yn cysylltu â chi cyn gynted â phosibl.</value>
+  </data>
+  <data name="LblDDCallbackRecoveryThankyou2" xml:space="preserve">
+    <value>Bydd aelod o'r tîm adennill yn cysylltu â chi cyn gynted â phosibl.</value>
+  </data>
+  <data name="LblDDCallbackThankyou" xml:space="preserve">
+    <value>Diolch am wneud cais am alwad yn ôl</value>
+  </data>
+  <data name="LblDDconfirmation" xml:space="preserve">
+    <value>Byddwch yn derbyn cadarnhad o'ch cyfarwyddiadau Debyd Uniongyrchol drwy e-bost.</value>
+  </data>
+  <data name="LblDDConfirmPhoneNumber" xml:space="preserve">
+    <value>Cadarnhewch eich rhif ffôn</value>
+  </data>
+  <data name="LblDDEnterPhoneNumber" xml:space="preserve">
+    <value>Nodwch eich rhif ffôn</value>
+  </data>
+  <data name="lblDDGuarnteeP1" xml:space="preserve">
+    <value>Cynigir y Warant gan bob banc a chymdeithas adeiladu sy'n derbyn cyfarwyddiadau i dalu Debyd Uniongyrchol.</value>
+  </data>
+  <data name="lblDDGuarnteeP2" xml:space="preserve">
+    <value>Os oes unrhyw newidiadau i gyfanswm, dyddiad neu amlder eich Debyd Uniongyrchol, bydd Cyngor Caerdydd yn rhoi gwybod i chi 10 diwrnod gwaith cyn i'r arian ddod allan o'ch cyfrif, neu fel y cytunwyd fel arall.</value>
+  </data>
+  <data name="lblDDGuarnteeP3" xml:space="preserve">
+    <value>Os ydych yn gofyn i Gyngor Caerdydd gasglu taliad, byddwch yn cael cadarnhad o'r swm a'r dyddiad ar adeg y cais.</value>
+  </data>
+  <data name="lblDDGuarnteeP4" xml:space="preserve">
+    <value>Os bydd Cyngor Caerdydd neu eich banc neu gymdeithas adeiladu yn gwneud camgymeriad o ran talu eich Debyd Uniongyrchol, mae gennych hawl i gael ad-daliad llawn ac ar unwaith o'r swm a dalwyd o'ch banc neu gymdeithas adeiladu.</value>
+  </data>
+  <data name="lblDDGuarnteeP5" xml:space="preserve">
+    <value>Os ydych yn derbyn ad-daliad nad ydych yn gymwys ar ei gyfer, mae'n rhaid i chi ei dalu nôl pan fydd Cyngor Caerdydd yn gofyn i chi wneud hynny.</value>
+  </data>
+  <data name="lblDDGuarnteeP6" xml:space="preserve">
+    <value>Gallwch ganslo Debyd Uniongyrchol ar unrhyw adeg drwy gysylltu â'ch banc neu gymdeithas adeiladu. Efallai y bydd angen cadarnhad ysgrifenedig. Dylech roi gwybod i ni hefyd.</value>
+  </data>
+  <data name="LblDDRefusal" xml:space="preserve">
+    <value>Ni allwch sefydlu Debyd Uniongyrchol ar gyfer y cyfrif treth gyngor hwn yn ystod y flwyddyn ariannol hon gan nad ydych wedi talu eich holl randaliadau Debyd Uniongyrchol blaenorol.
+
+Dysgwch am ffyrdd eraill o dalu'ch treth gyngor.</value>
+  </data>
+  <data name="LblDDSummonsedDebt" xml:space="preserve">
+    <value>Mae gennych ddyledion sy'n destun gwŷs ar y cyfrif hwn.</value>
+  </data>
+  <data name="LblDDSummonsedDebtCannotPay" xml:space="preserve">
+    <value>Sylwer na ellir sefydlu Debyd Uniongyrchol ar-lein i dalu am unrhyw ddyled sy’n destun gwŷs.</value>
+  </data>
+  <data name="LblDDSummonsedDebtContact" xml:space="preserve">
+    <value>Nodwch eich rhif ffôn os hoffech drafod y mater hwn.</value>
+  </data>
+  <data name="LblDDSummonsedDebtSetUp" xml:space="preserve">
+    <value>Gallwch drefnu Debyd Uniongyrchol i reoli taliadau'r Dreth Gyngor yn y dyfodol.</value>
+  </data>
+  <data name="LblDebugNotificationAllChannelsAreEnabled" xml:space="preserve">
+    <value>Mae'r holl sianeli hysbysiadau wedi'u galluogi.</value>
+  </data>
+  <data name="LblDebugNotificationDeviceToken" xml:space="preserve">
+    <value>Tocyn dyfais:</value>
+  </data>
+  <data name="LblDebugNotificationHasPushPermission" xml:space="preserve">
+    <value>Mae gan yr ap ganiatâd i anfon hysbysiadau.</value>
+  </data>
+  <data name="LblDebugNotificationHasRegistrationId" xml:space="preserve">
+    <value>Mae'r ddyfais wedi'i chofrestru gyda'n system.</value>
+  </data>
+  <data name="LblDebugNotificationHibernationIsDisabled" xml:space="preserve">
+    <value>Mae nodwedd cysgu'r app wedi cael ei analluogi.</value>
+  </data>
+  <data name="LblDebugNotificationHibernationIsNotDisabled" xml:space="preserve">
+    <value>Mae nodwedd cysgu'r app wedi cael ei hanalluogi.</value>
+  </data>
+  <data name="LblDebugNotificationIsRegisteredWithOs" xml:space="preserve">
+    <value>Mae'r ddyfais wedi'i chofrestru gyda {0}.</value>
+  </data>
+  <data name="LblDebugNotificationNoRegistrationId" xml:space="preserve">
+    <value>Mae'r ddyfais wedi'i chofrestru gyda'n system.</value>
+  </data>
+  <data name="LblDebugNotificationNotAllChannelsAreEnabled" xml:space="preserve">
+    <value>Nid yw pob un o'r sianeli hysbysiadau wedi'u galluogi.</value>
+  </data>
+  <data name="LblDebugNotificationNotHavePushPermission" xml:space="preserve">
+    <value>Nid oes gan yr ap ganiatâd i anfon hysbysiadau.</value>
+  </data>
+  <data name="LblDebugNotificationNotRegisteredWithOs" xml:space="preserve">
+    <value>Nid yw’r ddyfais wedi'i chofrestru gyda {0}.</value>
+  </data>
+  <data name="LblDebugNotificationRegistrationId" xml:space="preserve">
+    <value>Rhif Cofrestru:</value>
+  </data>
+  <data name="LblDebugNotificationTitle" xml:space="preserve">
+    <value>Statws gosodiadau hysbysu</value>
+  </data>
+  <data name="LblDelete" xml:space="preserve">
+    <value>Dileu</value>
+  </data>
+  <data name="LblDeliveryAddress" xml:space="preserve">
+    <value>Cyfeiriad danfon</value>
+  </data>
+  <data name="LblDescribeFlyTipLocation" xml:space="preserve">
+    <value>Rhowch wybod i ni am unrhyw beth a allai ein helpu i leoli’r tipio anghyfreithlon.</value>
+  </data>
+  <data name="LblDescribeItem" xml:space="preserve">
+    <value>Rhowch gynifer o fanylion â phosib, er enghraifft mesuriadau bras yr eitem a'i deunydd.</value>
+  </data>
+  <data name="LblDeviceinfo" xml:space="preserve">
+    <value>Gwybodaeth am y ddyfais</value>
+  </data>
+  <data name="LblDeviceManufacturer" xml:space="preserve">
+    <value>Gwneuthurwr:</value>
+  </data>
+  <data name="LblDeviceModel" xml:space="preserve">
+    <value>Model:</value>
+  </data>
+  <data name="LblDeviceOS" xml:space="preserve">
+    <value>Fersiwn OS:</value>
+  </data>
+  <data name="LblDevicePlatform" xml:space="preserve">
+    <value>Platfform:</value>
+  </data>
+  <data name="LblDeviceType" xml:space="preserve">
+    <value>Dyfais:</value>
+  </data>
+  <data name="LblDirectDebit" xml:space="preserve">
+    <value>Debyd Uniongyrchol</value>
+  </data>
+  <data name="LblDirectDebit1" xml:space="preserve">
+    <value>Debyd Uniongyrchol 1af</value>
+  </data>
+  <data name="LblDirectDebit15" xml:space="preserve">
+    <value>Debyd Uniongyrchol 15fed</value>
+  </data>
+  <data name="LblDirectDebit22" xml:space="preserve">
+    <value>Debyd Uniongyrchol 22ain</value>
+  </data>
+  <data name="LblDirectDebit8" xml:space="preserve">
+    <value>Debyd Uniongyrchol 8fed</value>
+  </data>
+  <data name="LblDirectDebitAddress1" xml:space="preserve">
+    <value>Mae arnom angen eich cyfeiriad cartref i sefydlu neu addasu Debyd Uniongyrchol.</value>
+  </data>
+  <data name="LblDirectDebitAddress2" xml:space="preserve">
+    <value>A fyddech cystal â chadarnhau eich bod yn byw yn yr eiddo hwn</value>
+  </data>
+  <data name="LblDirectDebitAuth" xml:space="preserve">
+    <value>Cadarnhewch fod gennych awdurdod i drefnu neu addasu Debyd Uniongyrchol.</value>
+  </data>
+  <data name="LblDirectDebitBlocked" xml:space="preserve">
+    <value>Debyd Uniongyrchol wedi’i flocio</value>
+  </data>
+  <data name="LblDirectDebitInstruction" xml:space="preserve">
+    <value>Cyfarwyddyd Debyd Uniongyrchol</value>
+  </data>
+  <data name="LblDirectDebitPaymentDeets" xml:space="preserve">
+    <value>Eich manylion talu</value>
+  </data>
+  <data name="LblDisabled" xml:space="preserve">
+    <value>Wedi'i ddiffodd</value>
+  </data>
+  <data name="LblDisabledBandReduction" xml:space="preserve">
+    <value>Gostyngiad band anabl:</value>
+  </data>
+  <data name="LblDiscounts" xml:space="preserve">
+    <value>Gostyngiadau:</value>
+  </data>
+  <data name="LblDoItLater2" xml:space="preserve">
+    <value>Fe wna'i hyn yn nes ymlaen</value>
+  </data>
+  <data name="LblDownload" xml:space="preserve">
+    <value>Lawrlwytho</value>
+  </data>
+  <data name="lblDownloadDD" xml:space="preserve">
+    <value>Lawrlwythwch ein ffurflen Debyd Uniongyrchol i wneud addasiad a'i hanfon drwy'r post.</value>
+  </data>
+  <data name="LblDueToBeCollected" xml:space="preserve">
+    <value>Disgwyl casgliad heddiw</value>
+  </data>
+  <data name="lblDwnldCTAX" xml:space="preserve">
+    <value>Lawrlwytho ffurflen DU y Dreth Gyngor</value>
+  </data>
+  <data name="LblDwnldDD" xml:space="preserve">
+    <value>Yn anffodus, ni allwn fwrw ymlaen â'ch cais ar-lein. Lawrlwythwch ein ffurflen Debyd Uniongyrchol a chyflwynwch gais drwy'r post.</value>
+  </data>
+  <data name="LblEbillAllowNotifcations" xml:space="preserve">
+    <value>Caniatáu hysbysiadau bilio?</value>
+  </data>
+  <data name="LblEbillDisabled" xml:space="preserve">
+    <value>wedi'u diffodd</value>
+  </data>
+  <data name="LblEbilling" xml:space="preserve">
+    <value>E-filio:</value>
+  </data>
+  <data name="LblEbillNotifications" xml:space="preserve">
+    <value>Byddwn yn anfon hysbysiad i'ch ffôn neu eich dyfais pan gaiff eich bil neu eich neges atgoffa ei anfon/hanfon.
+
+Gallwch ganslo'r hysbysiadau ar unrhyw adeg. Byddwn yn dal i anfon eich biliau a'ch negeseuon atgoffa oni bai eich bod chi'n dad-danysgrifio o'r gwasanaeth e-filiau.</value>
+  </data>
+  <data name="LblEbillPushNotifications" xml:space="preserve">
+    <value>Hoffech chi dderbyn hysbysiad i'ch ffôn neu eich dyfais pan gaiff eich bil neu neges atgoffa ei anfon/hanfon?</value>
+  </data>
+  <data name="LblEbillSignUpMessage" xml:space="preserve">
+    <value>Optio allan o'r biliau papur a dechrau cael eich biliau Treth Gyngor yn electronig.</value>
+  </data>
+  <data name="LblEbillSignUpTitle" xml:space="preserve">
+    <value>Cofrestru ar gyfer e-filio</value>
+  </data>
+  <data name="LblEbillStatusMessage" xml:space="preserve">
+    <value>Mae eich hysbysiadau e-filio {0} ar hyn o bryd</value>
+    <comment>{0} - On / Off</comment>
+  </data>
+  <data name="LblEbillTitle" xml:space="preserve">
+    <value>Rhowch gyfeiriad e-bost ar gyfer eich e-filiau a hysbysiadau.</value>
+  </data>
+  <data name="LblEditReminder" xml:space="preserve">
+    <value>Golygu nodyn atgoffa</value>
+  </data>
+  <data name="LblElectricityBoxes" xml:space="preserve">
+    <value>Blwch trydan</value>
+  </data>
+  <data name="LblEmail" xml:space="preserve">
+    <value>E-bost:</value>
+  </data>
+  <data name="LblEmailAddress" xml:space="preserve">
+    <value>Cyfeiriad e-bost</value>
+  </data>
+  <data name="LblEmailConfirm" xml:space="preserve">
+    <value>Nodwch eich cyfeiriad e-bost:</value>
+  </data>
+  <data name="LblEmailReceipt" xml:space="preserve">
+    <value>Ydych chi eisiau cael derbynneb e-bost ar gyfer yr adroddiad hwn?</value>
+  </data>
+  <data name="LblEmailReciept" xml:space="preserve">
+    <value>Hoffech chi gael derbynneb e-bost ar gyfer yr adroddiad hwn?</value>
+  </data>
+  <data name="LblEmailRecieptOrder" xml:space="preserve">
+    <value>Hoffech chi gael derbynneb e-bost ar gyfer yr archeb?</value>
+  </data>
+  <data name="LblEnabled" xml:space="preserve">
+    <value>Ymlaen</value>
+  </data>
+  <data name="LblENoticeEbill" xml:space="preserve">
+    <value>E-fil</value>
+  </data>
+  <data name="LblENoticeFinal" xml:space="preserve">
+    <value>Terfynol</value>
+  </data>
+  <data name="LblENoticeReminder" xml:space="preserve">
+    <value>Neges Atgoffa</value>
+  </data>
+  <data name="lblEnterBDetails" xml:space="preserve">
+    <value>Nodwch fanylion eich cyfrif banc</value>
+  </data>
+  <data name="LblErrVehicleColour" xml:space="preserve">
+    <value>Rhaid rhoi lliw y cerbyd</value>
+  </data>
+  <data name="LblErrVehicleDetails" xml:space="preserve">
+    <value>Rhaid rhoi rhif cofrestru neu wneuthuriad a lliw y cerbyd</value>
+  </data>
+  <data name="LblErrVehicleMake" xml:space="preserve">
+    <value>Rhaid rhoi gwneuthuriad y cerbyd</value>
+  </data>
+  <data name="Lbleverymonth" xml:space="preserve">
+    <value>o bob mis</value>
+  </data>
+  <data name="LblExcemptions" xml:space="preserve">
+    <value>Eithriadau:</value>
+  </data>
+  <data name="LblFaultsToHelpUs" xml:space="preserve">
+    <value>Dewiswch un neu fwy o opsiynau i'n helpu i adnabod y broblem:</value>
+  </data>
+  <data name="LblFeatureRescheduled" xml:space="preserve">
+    <value>Mae’r casgliad {0} hwn wedi'i aildrefnu ar gyfer {1}.
+
+Byddwn yn diweddaru eich calendr casgliadau.</value>
+    <comment>{ 0 } is type of missed collection (Garden waste, General waste, Recycling, Recycling bags, Hygiene bag, Kerbside food caddy, Glass caddy). { 1 } is the date.</comment>
+  </data>
+  <data name="LblFeedbackdeviceinfo" xml:space="preserve">
+    <value>I'n helpu ni i edrych ar eich adborth, rydym wedi casglu rhywfaint o wybodaeth am eich system a'ch dyfais.</value>
+  </data>
+  <data name="LblFeedbackScreenshot" xml:space="preserve">
+    <value>Gallwch ychwanegu hyd at 3 sgrinlun i'n helpu i asesu'r broblem.</value>
+  </data>
+  <data name="LblFirstName" xml:space="preserve">
+    <value>Enw cyntaf:</value>
+  </data>
+  <data name="LblFlatWarning" xml:space="preserve">
+    <value>Cysylltwch â'ch landlord neu gymdeithas tai cyn cyflwyno archeb.
+
+Efallai y byddant yn gallu rhoi'r hyn sydd ei angen i chi.</value>
+  </data>
+  <data name="LblForExample" xml:space="preserve">
+    <value>Er enghraifft:</value>
+  </data>
+  <data name="LblFree" xml:space="preserve">
+    <value>Am ddim</value>
+  </data>
+  <data name="LblGetDirections" xml:space="preserve">
+    <value>Cael cyfarwyddiadau</value>
+  </data>
+  <data name="LblGettingLocation" xml:space="preserve">
+    <value>Dod o hyd i'ch lleoliad</value>
+  </data>
+  <data name="LblGlassCaddy" xml:space="preserve">
+    <value>Cadi Gwydr</value>
+  </data>
+  <data name="LblGraffiti" xml:space="preserve">
+    <value>Graffiti</value>
+  </data>
+  <data name="LblGraffitiApproximateSize" xml:space="preserve">
+    <value>Beth yn fras yw maint y graffiti?</value>
+  </data>
+  <data name="LblGraffitiHeight" xml:space="preserve">
+    <value>A yw'n uwch nag 1.5m o’r llawr?</value>
+  </data>
+  <data name="LblGraffitiHigher" xml:space="preserve">
+    <value>Mae'r graffiti dros 1.5 metr o'r llawr</value>
+  </data>
+  <data name="LblGraffitiHigher2" xml:space="preserve">
+    <value>Dros 1.5 metr o'r llawr:</value>
+  </data>
+  <data name="LblGraffitiMillennumWalkWay" xml:space="preserve">
+    <value>Mae Rhodfa'r Mileniwm yn ardal ddynodedig ar gyfer celf stryd yn y ddinas.</value>
+  </data>
+  <data name="LblGraffitiNotResponsible" xml:space="preserve">
+    <value>Nid ein cyfrifoldeb ni yw rhai arwynebau yn y ddinas. Os dewch o hyd i graffiti ar un o'r canlynol er enghraifft, bydd angen i chi gysylltu â'r cwmni sy'n gyfrifol.</value>
+  </data>
+  <data name="LblGraffitiRacistAbusive" xml:space="preserve">
+    <value>Hiliol neu sarhaus:</value>
+  </data>
+  <data name="LblGraffitiRacistAbusiveQuestion" xml:space="preserve">
+    <value>Yn eich barn chi, ydy’r graffiti yn hiliol neu’n sarhaus?</value>
+  </data>
+  <data name="LblGraffitiSerious" xml:space="preserve">
+    <value>Rydym yn cymryd graffiti hiliol neu sarhaus o ddifrif a byddwn yn ei gwneud yn flaenoriaeth i'w ddileu.</value>
+  </data>
+  <data name="LblGraffitiSize" xml:space="preserve">
+    <value>Maint y graffiti</value>
+  </data>
+  <data name="LblGraffitiSurface" xml:space="preserve">
+    <value>Dewiswch un neu fwy o'r canlynol i'n helpu i nodi’r arwyneb:</value>
+  </data>
+  <data name="LblGraffitiSurfaceSingle" xml:space="preserve">
+    <value>Disgrifiwch yr arwyneb:</value>
+  </data>
+  <data name="LblGraffitiToHelpUs" xml:space="preserve">
+    <value>I'n helpu i asesu'r broblem mae angen i ni wybod am yr arwyneb dan sylw.</value>
+  </data>
+  <data name="LblGraffitiWebsite" xml:space="preserve">
+    <value>Dysgwch fwy am sut rydym yn delio â graffiti ar ein gwefan. &lt;a href="https://www.caerdydd.gov.uk/gwaredugraffiti"&gt;www.caerdydd.gov.uk/gwaredugraffiti&lt;/a&gt;</value>
+  </data>
+  <data name="LblGreenBags" xml:space="preserve">
+    <value>Bagiau ailgylchu</value>
+  </data>
+  <data name="LblHappy2B" xml:space="preserve">
+    <value>Ydych chi'n fodlon i ni gysylltu â chi?</value>
+  </data>
+  <data name="LblHello" xml:space="preserve">
+    <value>Helo</value>
+  </data>
+  <data name="LblHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="Lblhelpuswithissue" xml:space="preserve">
+    <value>I'n helpu ni gyda'r mater yr ydych yn ei adrodd, rydym wedi casglu rhywfaint o wybodaeth am eich system a'ch dyfais.</value>
+  </data>
+  <data name="LblHi" xml:space="preserve">
+    <value>Shwmae</value>
+  </data>
+  <data name="LblHighwaysEmergencyContinue" xml:space="preserve">
+    <value>Os nad yw'r mater yn un brys, cliciwch nesaf i symud ymlaen.</value>
+  </data>
+  <data name="LblHighwaysEmergencyNew" xml:space="preserve">
+    <value>Os ydych yn gweld problem ar y ffordd neu balmant sy'n debygol o achosi damwain neu anaf difrifol, ffoniwch 02920872088 i siarad â'r tîm brys</value>
+  </data>
+  <data name="LblHowdid" xml:space="preserve">
+    <value>Sut digwyddodd y broblem</value>
+  </data>
+  <data name="LblHowManyTimes" xml:space="preserve">
+    <value>Er enghraifft sawl gwaith mae hyn wedi digwydd</value>
+  </data>
+  <data name="LblHowToPayCouncilTax" xml:space="preserve">
+    <value>Sut i dalu’r Dreth Gyngor</value>
+  </data>
+  <data name="LblHWRCAddress" xml:space="preserve">
+    <value>Rhowch y cyfeiriad y daw eich eitemau ohono:</value>
+  </data>
+  <data name="LblHWRCBooking2" xml:space="preserve">
+    <value>Cewch wybodaeth am yr eitemau y gallwch ddod â nhw a mynediad i gerbydau yn &lt;a href="https://www.caerdydd.gov.uk/canolfannauailgylchu"&gt;www.caerdydd.gov.uk/canolfannauailgylchu&lt;/a&gt;</value>
+  </data>
+  <data name="LblHWRCBookingInfo" xml:space="preserve">
+    <value>Cewch gadarnhad drwy e-bost gyda manylion eich archeb.
+
+Dewch â phrawf o’ch archeb a’ch cyfeiriad pan fyddwch yn ymweld</value>
+  </data>
+  <data name="LblHWRCBookingRemainingInfo" xml:space="preserve">
+    <value>Gall mwy nag un preswylydd yn yr eiddo archebu slot mewn canolfan ailgylchu.</value>
+  </data>
+  <data name="LblHWRCBookings" xml:space="preserve">
+    <value>Canolfannau Ailgylchu</value>
+  </data>
+  <data name="LblHWRCCannotEditTimeSlot" xml:space="preserve">
+    <value>Ni allwch olygu'r archeb hon gan fod y slot amser yn y gorffennol. Gwnewch archeb arall.</value>
+  </data>
+  <data name="LblHygieneBags" xml:space="preserve">
+    <value>Bagiau hylendid</value>
+  </data>
+  <data name="LblIamgeMax" xml:space="preserve">
+    <value>Gallwch ychwanegu hyd at 3 llun i'n helpu i nodi lleoliad a math y gwastraff sydd wedi'i dipio'n anghyfreithlon.</value>
+  </data>
+  <data name="LblIncludesBookingFee" xml:space="preserve">
+    <value>Yn cynnwys ffi archebu o £{0:F2} na ellir ei ad-dalu</value>
+  </data>
+  <data name="LblInstalments" xml:space="preserve">
+    <value>Hoffech chi ymestyn eich rhandaliadau i fis Mawrth?</value>
+  </data>
+  <data name="LblInstalmentsMarch" xml:space="preserve">
+    <value>Hoffech chi ymestyn eich rhandaliadau tan fis Mawrth?</value>
+  </data>
+  <data name="LblIsOngoingProblem" xml:space="preserve">
+    <value>A yw hyn wedi digwydd o'r blaen neu a yw'n broblem barhaus?</value>
+  </data>
+  <data name="LblIsOngoingProblem2" xml:space="preserve">
+    <value>A yw hyn wedi digwydd o'r blaen neu a yw'n broblem barhaus?:</value>
+  </data>
+  <data name="LblIssueOccur" xml:space="preserve">
+    <value>Sut digwyddodd y mater hwn?</value>
+  </data>
+  <data name="LblIssueOccur2" xml:space="preserve">
+    <value>Sut digwyddodd y mater hwn</value>
+  </data>
+  <data name="LblItemLocation" xml:space="preserve">
+    <value>Lleoliad yr eitem</value>
+  </data>
+  <data name="LblItems" xml:space="preserve">
+    <value>Eitemau</value>
+  </data>
+  <data name="LblKerbsideFoodCaddy" xml:space="preserve">
+    <value>Cadi bwyd ymyl y ffordd</value>
+  </data>
+  <data name="LblKitchenCaddyLiners" xml:space="preserve">
+    <value>Bagiau cadis</value>
+  </data>
+  <data name="LblKitchenFoodCaddies" xml:space="preserve">
+    <value>Cadi cegin</value>
+  </data>
+  <data name="LblLambyWay" xml:space="preserve">
+    <value>Ffordd Lamby</value>
+  </data>
+  <data name="LblLastName" xml:space="preserve">
+    <value>Cyfenw:</value>
+  </data>
+  <data name="LblLastPaymentMade" xml:space="preserve">
+    <value>Derbyniwyd y taliad diwethaf ar {0:dd/MM/yyyy}:  {1:C}</value>
+    <comment>{0:dd/MM/yyyy} - Date of payment, {1:C} - Amount paid</comment>
+  </data>
+  <data name="LblLikedToBeContacted" xml:space="preserve">
+    <value>Os gwelsoch chi pwy dipiodd yn anghyfreithlon, allwn ni gysylltu â chi?</value>
+  </data>
+  <data name="LblLoading" xml:space="preserve">
+    <value>Wrthi'n llwytho...</value>
+  </data>
+  <data name="LblLoadingAccessibility" xml:space="preserve">
+    <value>Wrthi'n llwytho</value>
+  </data>
+  <data name="LblLoadingCollections" xml:space="preserve">
+    <value>Rydym yn chwilio am y wybodaeth ddiweddaraf am y casgliadau ar gyfer eich eiddo.
+Efallai y bydd angen ychydig o amser arnom i wneud hyn.  Diolch am eich amynedd.</value>
+  </data>
+  <data name="LblLocateProblem" xml:space="preserve">
+    <value>Nodwch unrhyw beth arall yr ydych chi'n meddwl allai fod o gymorth i ni i leoli a datrys y broblem hon.</value>
+  </data>
+  <data name="LblLocationOfVehicle" xml:space="preserve">
+    <value>Lleoliad y cerbyd:</value>
+  </data>
+  <data name="LblLocatioOfPost" xml:space="preserve">
+    <value>Lleoliad Swyddfa Bost neu Paypoint</value>
+  </data>
+  <data name="LblMakeAPayment" xml:space="preserve">
+    <value>Gwneud taliad</value>
+  </data>
+  <data name="LblMakeBooking" xml:space="preserve">
+    <value>Trefnu archeb newydd</value>
+  </data>
+  <data name="LblMapKey" xml:space="preserve">
+    <value>Allwedd i’r Map</value>
+  </data>
+  <data name="LblMaxBooking" xml:space="preserve">
+    <value>Nifer uchaf yr archebion wedi'i chyrraedd</value>
+  </data>
+  <data name="LblMaxBookingExplanation" xml:space="preserve">
+    <value>Rydych chi wedi cyrraedd terfyn uchaf yr archebion a ganiateir ar gyfer yr eiddo hwn.
+
+Gellir gwneud archebion i'r ganolfan ailgylchu gan fwy nag un preswylydd yn y r eiddo.
+
+Os oes gennych ymholiadau am eich terfyn uchaf o archebion, cysylltwch â ni ar 02920872088.</value>
+  </data>
+  <data name="Lblmaxthreeimages" xml:space="preserve">
+    <value>Os ydych yn adrodd mater technegol, efallai y dymunwch atodi sgrinluniau. Sicrhewch fod y delweddau wrth law cyn cychwyn y ffurflen. Gallwch ychwanegu uchafswm o 3 delwedd.</value>
+  </data>
+  <data name="LblMenuClosed" xml:space="preserve">
+    <value>Dewislen wedi cau</value>
+  </data>
+  <data name="LblMenuOpen" xml:space="preserve">
+    <value>Dewislen ar agor</value>
+  </data>
+  <data name="LblMessageAndroidHibernation" xml:space="preserve">
+    <value>I wneud yn siŵr eich bod yn derbyn hysbysiadau pwysig, analluogwch y gosodiad &lt;strong&gt;"{0}"&lt;/strong&gt; yn &lt;strong&gt;"{1}"&lt;/strong&gt;.
+
+Mae'r gosodiad hwn yn dileu caniatâd yn awtomatig gan apiau nad ydynt yn cael eu defnyddio am gyfnod hir. Trwy analluogi hwn byddwch yn parhau i dderbyn hysbysiadau er nad ydych yn defnyddio’r ap.
+
+Gallwch ddysgu mwy am y gosodiad hwn yma - &lt;a href='https://developer.android.com/topic/performance/app-hibernation'&gt;Android App Hibernation&lt;/a&gt;</value>
+  </data>
+  <data name="LblMessageNotSetupForNotifications" xml:space="preserve">
+    <value>Nid yw eich dyfais a'ch ap wedi'u sefydlu ar gyfer hysbysiadau.</value>
+  </data>
+  <data name="LblMessageSetupButNotReliable" xml:space="preserve">
+    <value>Mae eich dyfais a'ch ap wedi'u sefydlu i dderbyn hysbysiadau, ond gellid eu gwella.</value>
+  </data>
+  <data name="LblMessageSetupForNotifications" xml:space="preserve">
+    <value>Mae eich dyfais a'ch ap wedi'u sefydlu i dderbyn hysbysiadau.</value>
+  </data>
+  <data name="LblMissCollRejected" xml:space="preserve">
+    <value>Rydym wedi ystyried eich adroddiad ac ni fyddwn yn dychwelyd i gasglu'r eitem hon.
+
+Rhowch hi allan ar eich dyddiad casglu nesaf a drefnwyd.</value>
+  </data>
+  <data name="LblMissedCollectionAddress" xml:space="preserve">
+    <value>Rhowch y cyfeiriad lle methwyd y casgliad.</value>
+  </data>
+  <data name="LblMissedCollectionAlreadyReported" xml:space="preserve">
+    <value>Rhoddwyd gwybod bod yr eitem hon wedi’i methu {0} am {1}.
+
+Os mai chi roddodd wybod i ni am hyn byddwn yn cysylltu â chi dros e-bost gyda chyfarwyddiadau.</value>
+    <comment>{0} is the date and {1} is the time</comment>
+  </data>
+  <data name="LblMissedCollectionEmail" xml:space="preserve">
+    <value>Byddwn yn anfon cyfarwyddiadau drwy e-bost felly mae eich cyfeiriad e-bost yn bwysig iawn.</value>
+  </data>
+  <data name="LblMissedCollectionLatestCollection" xml:space="preserve">
+    <value>Eich dyddiad casglu diweddaraf</value>
+  </data>
+  <data name="LblMissedCollectionNoPreviousCollection" xml:space="preserve">
+    <value>Ni allwn ddod o hyd i wybodaeth am eich casgliad diwethaf.</value>
+  </data>
+  <data name="LblMissedCollectionNoPreviousCollectionLink" xml:space="preserve">
+    <value>Gwiriwch ddyddiad eich casgliad nesaf.</value>
+  </data>
+  <data name="LblMissedCollectionNoPreviousCollectionTitle" xml:space="preserve">
+    <value>Ni allwch adrodd casgliad a fethwyd</value>
+  </data>
+  <data name="LblMissedCollectionReported" xml:space="preserve">
+    <value>Mae'r eitem hon wedi'i nodi fel un a fethwyd</value>
+  </data>
+  <data name="LblMissedCollectionsEscalate" xml:space="preserve">
+    <value>Mae’n debyg eich bod wedi rhoi gwybod bod sawl casgliad wedi’i fethu o’r eiddo hwn.
+
+Bydd ein tîm yn ymchwilio i’r sefyllfa ac yn cysylltu â chi os oes angen.</value>
+  </data>
+  <data name="LblMissedCollectionThankYou" xml:space="preserve">
+    <value>Rydych wedi adrodd casgliad {0} a gollwyd am {1} {2}.
+
+Cewch e-bost gyda chyfarwyddiadau ynghylch beth i'w wneud gyda'ch ailgylchu neu'ch gwastraff o fewn {3}.</value>
+    <comment>{0} is type of missed collection (Garden waste, General waste, Recycling, Recycling bags, Hygiene bag, Kerbside food caddy, Glass caddy).  {1} is the time reported.  {2} is the date reported.  {3} is the number of days the customer will receive an email by.</comment>
+  </data>
+  <data name="LblMissingPaymentThanks" xml:space="preserve">
+    <value>Diolch am adrodd taliad coll.</value>
+  </data>
+  <data name="LblMissPayCTAX" xml:space="preserve">
+    <value>Byddwn yn anfon e-bost cadarnhau atoch.</value>
+  </data>
+  <data name="LblMonthlyDateDD" xml:space="preserve">
+    <value>Hoffech chi newid eich dyddiad talu Debyd Uniongyrchol i'r</value>
+  </data>
+  <data name="LblMoreInfo" xml:space="preserve">
+    <value>Mae'n bosibl y bydd angen ychydig o wybodaeth gennych er mwyn lleoli a datrys y broblem yr ydych yn adrodd amdani.</value>
+  </data>
+  <data name="LblMoveMap" xml:space="preserve">
+    <value>Symudwch y map nes bod y pin ar y lleoliad cywir</value>
+  </data>
+  <data name="LblName2" xml:space="preserve">
+    <value>Beth yw eich enw?</value>
+  </data>
+  <data name="LblNewBillNotReady" xml:space="preserve">
+    <value>Mae eich bil newydd wrthi'n cael ei gyfrifo</value>
+  </data>
+  <data name="LblNoAppReport" xml:space="preserve">
+    <value>Yn anffodus ni allwch roi gwybod i ni am y broblem hon drwy'r app. Defnyddiwch ein gwefan.</value>
+  </data>
+  <data name="LblNoBookings" xml:space="preserve">
+    <value>Nid oes gennych unrhyw archebion</value>
+  </data>
+  <data name="LblNoCalendarAssosiated" xml:space="preserve">
+    <value>Ni allwn ddangos unrhyw ddyddiadau casglu ar gyfer yr eiddo hwn. Os ydych yn byw yn y cyfeiriad hwn, cysylltwch â C2C ar 02920872088.</value>
+  </data>
+  <data name="LblNoCollection" xml:space="preserve">
+    <value>Dim dyddiadau casglu ar gyfer yr eiddo hwn</value>
+  </data>
+  <data name="LblNoENotices" xml:space="preserve">
+    <value>Dim biliau na hysbysiadau i'w gweld.</value>
+  </data>
+  <data name="LblNoENoticesYet" xml:space="preserve">
+    <value>(Bydd biliau a hysbysiadau newydd yn ymddangos yma)</value>
+  </data>
+  <data name="LblNoNearestStockists" xml:space="preserve">
+    <value>Yn anffodus, nid oes gan eich cyflenwyr agosaf yr holl eitemau sydd eu hangen arnoch.</value>
+  </data>
+  <data name="LblNoPaymentsForYear" xml:space="preserve">
+    <value>Ni wnaethpwyd unrhyw daliadau ar gyfer y flwyddyn ariannol hon</value>
+  </data>
+  <data name="LblNoPaymentsFound" xml:space="preserve">
+    <value>Ni ddaethpwyd o hyd i unrhyw daliadau</value>
+  </data>
+  <data name="LblNoRecentNotifications" xml:space="preserve">
+    <value>Dim hysbysiadau diweddar</value>
+  </data>
+  <data name="LblNoReg" xml:space="preserve">
+    <value>Gallwch barhau gyda'ch archeb ond rhaid i chi ddiweddaru eich rhif cofrestru cyn i chi ddod.
+
+Os na rowch eich rhif cofrestru byddwn yn gwrthod mynediad i'r safle i chi.</value>
+  </data>
+  <data name="LblNoResults" xml:space="preserve">
+    <value>Yn anffodus, does dim canlyniadau perthnasol.</value>
+  </data>
+  <data name="LblNotCollected" xml:space="preserve">
+    <value>Heb ei gasglu</value>
+  </data>
+  <data name="LblNotCollectedMessage" xml:space="preserve">
+    <value>Ni wnaethom gasglu eich {0} oherwydd {1}
+
+I gael gwybodaeth am beth i’w roi yn eich bagiau a biniau ewch i &lt;a href="https://www.caerdydd.gov.uk/mathauogasgliadau"&gt;www.caerdydd.gov.uk/mathauogasgliadau&lt;/a&gt;</value>
+    <comment>{0} is the waste type (general, garden etc) and {1} is the event/reason why it was not collected</comment>
+  </data>
+  <data name="LblNotCollectedMessagePilot" xml:space="preserve">
+    <value>Ni wnaethom gasglu eich {0} oherwydd {1}</value>
+    <comment>{0} is the waste type (general, garden etc) and {1} is the event/reason why it was {0} is the waste type (general, garden etc) and {1} is the event/reason why it was not collected</comment>
+  </data>
+  <data name="LblNotice" xml:space="preserve">
+    <value>Hysbysiad</value>
+  </data>
+  <data name="LblNotifcationsIssueText" xml:space="preserve">
+    <value>Os ydych wedi ceisio datrys problem gyda hysbysiadau gan ddefnyddio'r cyngor a ddarparwyd gennym ond nad ydych yn derbyn eich hysbysiadau o hyd, rhowch wybod i ni am y broblem hon.</value>
+  </data>
+  <data name="LblNotificationGuidance" xml:space="preserve">
+    <value>Canllawiau hysbysiadau</value>
+  </data>
+  <data name="LblNotificationIssues" xml:space="preserve">
+    <value>Cael problemau wrth dderbyn hysbysiadau?</value>
+  </data>
+  <data name="LblNotProvided" xml:space="preserve">
+    <value>Ni roddwyd</value>
+  </data>
+  <data name="LblOngoing" xml:space="preserve">
+    <value>Parhaus</value>
+  </data>
+  <data name="LblOngoingProblem" xml:space="preserve">
+    <value>Problem barhaus?</value>
+  </data>
+  <data name="LblOptionTip" xml:space="preserve">
+    <value>Os ydych yn sefydlu Debyd Uniongyrchol, bydd yn berthnasol tan fis Ionawr. Gallwch ddewis i ymestyn y taliadau tan fis Mawrth.</value>
+  </data>
+  <data name="LblOrderItemsForDelivery" xml:space="preserve">
+    <value>Mae cadis bwyd ymyl y ffordd a chadis gwydr ond ar gael i’w dosbarthu.</value>
+  </data>
+  <data name="LblOther" xml:space="preserve">
+    <value>Disgrifiwch yr eitem(au):</value>
+  </data>
+  <data name="LblOtherProperty" xml:space="preserve">
+    <value>Chwilio am eiddo arall</value>
+  </data>
+  <data name="LblParkingPermitsAddressSearch" xml:space="preserve">
+    <value>Cewch wybod a yw eich eiddo'n gymwys ar gyfer trwydded barcio i breswylwyr a pha fath o drwydded y bydd angen i chi wneud cais amdani.</value>
+  </data>
+  <data name="LblParkingProblem" xml:space="preserve">
+    <value>Y broblem parcio</value>
+  </data>
+  <data name="LblPay" xml:space="preserve">
+    <value>Talu</value>
+  </data>
+  <data name="LblPayment" xml:space="preserve">
+    <value>Taliad</value>
+  </data>
+  <data name="LblPaymentDate" xml:space="preserve">
+    <value>Dyddiad Talu:</value>
+  </data>
+  <data name="LblPaymentMethod" xml:space="preserve">
+    <value>Dull talu:</value>
+  </data>
+  <data name="LblPaymentRecievedPopup" xml:space="preserve">
+    <value>Angen taliad er mwyn i'ch cyfrif fod yn gyfredol. Nid yw'n cynnwys unrhyw ôl-daliadau sy'n ddarostyngedig i achos llys.</value>
+  </data>
+  <data name="LblPaymentsrecieved" xml:space="preserve">
+    <value>Taliadau a dderbyniwyd:</value>
+  </data>
+  <data name="LblPaymentType" xml:space="preserve">
+    <value>Math o daliad</value>
+  </data>
+  <data name="LblPayWeekly" xml:space="preserve">
+    <value>Hoffwn dalu'n wythnosol</value>
+  </data>
+  <data name="LblPayWeeklyBankDetails" xml:space="preserve">
+    <value>Hoffwn dalu'n wythnosol</value>
+  </data>
+  <data name="lblpayweeklyDD" xml:space="preserve">
+    <value>Hoffwn dalu bob wythnos</value>
+  </data>
+  <data name="lblPc" xml:space="preserve">
+    <value>Cod post:</value>
+  </data>
+  <data name="LblPersonalDetails" xml:space="preserve">
+    <value>Manylion personol</value>
+  </data>
+  <data name="LblPersonalDetailsMessageNew" xml:space="preserve">
+    <value>Gallwch nodi eich manylion personol i gael eu storio'n ddiogel a'u hail-ddefnyddio ledled y gwasanaethau gwahanol yn yr app.
+
+Golyga hyn na fyddwch yn gorfod cyflwyno eich manylion ar gyfer bob gwasanaeth.
+
+Ni fyddwn yn defnyddio eich manylion at unrhyw ddiben arall.</value>
+  </data>
+  <data name="LblPhone" xml:space="preserve">
+    <value>Rhif ffôn:</value>
+  </data>
+  <data name="LblPickUpAtLocalStockist" xml:space="preserve">
+    <value>Gallwch gasglu cynwysyddion ailgylchu a gwastraff gan eich cyflenwyr lleol.</value>
+  </data>
+  <data name="LblPleaseNote" xml:space="preserve">
+    <value>Sylwer:</value>
+  </data>
+  <data name="lblPleaseProvideDetails" xml:space="preserve">
+    <value>Yn anffodus ni allwn ddod o hyd i'r cyfeiriad hwnnw. Nodwch fanylion.</value>
+  </data>
+  <data name="LblPleaseSelectADate" xml:space="preserve">
+    <value>Dewiswch ddyddiad</value>
+  </data>
+  <data name="LblPleaseTellUsVehicle" xml:space="preserve">
+    <value>Ynglŷn â’r cerbyd</value>
+  </data>
+  <data name="LblPleaseTryAgain" xml:space="preserve">
+    <value>Rhowch gynnig arall arni.</value>
+  </data>
+  <data name="LblPositionOfGraffiti" xml:space="preserve">
+    <value>Lleoliad y graffiti</value>
+  </data>
+  <data name="LblPostBoxes" xml:space="preserve">
+    <value>Blwch post</value>
+  </data>
+  <data name="LblPostCode" xml:space="preserve">
+    <value>Cod post:</value>
+  </data>
+  <data name="LblPreferPhone" xml:space="preserve">
+    <value>Os byddai'n well gennych i ni gysylltu â chi dros y ffôn, nodwch eich rhif:</value>
+  </data>
+  <data name="LblPrivateLand" xml:space="preserve">
+    <value>Mae hwn yn dir preifat. Perchennog y tir sy’n gyfrifol am ddelio â’r broblem.</value>
+  </data>
+  <data name="LblProblemParking2" xml:space="preserve">
+    <value>Rydyn ni’n delio â phroblemau parcio sy'n ymwneud â chyfyngiadau parcio, fel llinellau melyn neu farciau eraill ar y ffordd.</value>
+  </data>
+  <data name="LblProblemParkingFindOutMore" xml:space="preserve">
+    <value>Cewch ragor o wybodaeth am sut rydym yn delio â phroblemau parcio ar ein gwefan
+&lt;a href="https://www.caerdydd.gov.uk/problemauparcio"&gt;www.caerdydd.gov.uk/problemauparcio&lt;/a&gt;</value>
+  </data>
+  <data name="LblProblemParkingServiceInformation" xml:space="preserve">
+    <value>Nid ein cyfrifoldeb ni yw rhai problemau parcio yn y ddinas. Ffoniwch 101 i roi gwybod am:</value>
+  </data>
+  <data name="LblProperty" xml:space="preserve">
+    <value>Gosodwch nodyn atgoffa ar gyfer yr eiddo hwn</value>
+  </data>
+  <data name="LblPropParkingPleaseTellUs" xml:space="preserve">
+    <value>Nodwch unrhyw beth arall a allai ein helpu i asesu’r sefyllfa.</value>
+  </data>
+  <data name="LblProvideContactDetails" xml:space="preserve">
+    <value>Mae angen eich manylion cyswllt arnom i gadarnhau eich archeb.</value>
+  </data>
+  <data name="LblProvideImage" xml:space="preserve">
+    <value>Atodwch luniau sy'n dangos y lleoliad, natur a difrifoldeb y broblem.</value>
+  </data>
+  <data name="LblPutOutNextCollection" xml:space="preserve">
+    <value>Rhowch hwn allan ar gyfer eich casgliad nesaf.</value>
+  </data>
+  <data name="LblQuantity" xml:space="preserve">
+    <value>Nifer:</value>
+  </data>
+  <data name="LblReceiveReminders" xml:space="preserve">
+    <value>Sefydlu neges atgoffa casgliad ailgylchu a gwastraff i gael hysbysiadau ar eich ffôn.</value>
+  </data>
+  <data name="LblRecyclingAZ" xml:space="preserve">
+    <value>A-Y Ailgylchu</value>
+  </data>
+  <data name="LblRecyclingTargets" xml:space="preserve">
+    <value>Helpwch ni i fwrw ein targedau ailgylchu drwy ddefnyddio bagiau a chadis yn gywir. &lt;a href="https://www.caerdydd.gov.uk/mathauogasgliadau" target="_blank"&gt;Rhagor o wybodaeth am finiau a bagiau&lt;/a&gt;</value>
+  </data>
+  <data name="LblRedSack" xml:space="preserve">
+    <value>Sach goch</value>
+  </data>
+  <data name="LblRefunds" xml:space="preserve">
+    <value>Ad-daliadau:</value>
+  </data>
+  <data name="LblReminders" xml:space="preserve">
+    <value>Nodiadau atgoffa</value>
+  </data>
+  <data name="LblRemoveItem" xml:space="preserve">
+    <value>Gwaredu Eitem</value>
+  </data>
+  <data name="LblReport1" xml:space="preserve">
+    <value>Rydych wedi adrodd am broblem</value>
+  </data>
+  <data name="LblReport2" xml:space="preserve">
+    <value>ar un o lwybrau cyflymder uchel Caerdydd.</value>
+  </data>
+  <data name="LblReportAMissingPayment" xml:space="preserve">
+    <value>Adrodd taliad coll</value>
+  </data>
+  <data name="LblReportGraffiti" xml:space="preserve">
+    <value>Adrodd graffiti</value>
+  </data>
+  <data name="LblReportProblemParking" xml:space="preserve">
+    <value>Rhoi gwybod am broblem parcio</value>
+  </data>
+  <data name="LblRescheduled" xml:space="preserve">
+    <value>Wedi'i ail-drefnu</value>
+  </data>
+  <data name="LblRescheduledFor" xml:space="preserve">
+    <value>Wedi'i aildrefnu ar gyfer</value>
+  </data>
+  <data name="LblRoadsANDPavements" xml:space="preserve">
+    <value>Ffyrdd a Phalmentydd</value>
+  </data>
+  <data name="LblSchoolLand" xml:space="preserve">
+    <value>Mae hwn yn dir ysgol. Bydd angen i chi roi gwybod i’r ysgol am y broblem.</value>
+  </data>
+  <data name="lblSecondSign" xml:space="preserve">
+    <value>Mae angen llofnod arall er mwyn awdurdodi Debyd Uniongyrchol o'r cyfrif hwn</value>
+  </data>
+  <data name="LblSelectBagOrBin" xml:space="preserve">
+    <value>Dewiswch statws bag neu fin am ragor o wybodaeth.</value>
+  </data>
+  <data name="LblSelectedTrailer" xml:space="preserve">
+    <value>gyda threlar</value>
+  </data>
+  <data name="LblSelectItemsFromList" xml:space="preserve">
+    <value>Dewiswch yr eitemau sydd eu hangen arnoch o’r rhestr:</value>
+  </data>
+  <data name="LblSelectLocation" xml:space="preserve">
+    <value>Dewiswch arwyneb</value>
+  </data>
+  <data name="LblSelectProblemType" xml:space="preserve">
+    <value>Dewiswch y math o broblem</value>
+  </data>
+  <data name="LblSelectVehicleType" xml:space="preserve">
+    <value>Dewiswch fath eich cerbyd:</value>
+  </data>
+  <data name="LblServiceDisruption" xml:space="preserve">
+    <value>Ewch i'n gwefan am ragor o gyngor ar beth i'w wneud gyda'ch bagiau a'ch biniau.
+Diolch am gydweithredu â ni.</value>
+  </data>
+  <data name="LblServiceUnavailable" xml:space="preserve">
+    <value>Yn anffodus nid yw’r gwasanaeth hwn ar gael. Ymddiheuriadau am hyn.</value>
+  </data>
+  <data name="LblServiceUnavailble" xml:space="preserve">
+    <value>Mae'n ddrwg gennym, nid yw'r gwasanaeth hwn ar gael ar hyn o bryd. Rhowch gynnig arall arni wedyn.</value>
+  </data>
+  <data name="LblSetUp" xml:space="preserve">
+    <value>Mae'ch Debyd Uniongyrchol wedi'i drefnu ar gyfer</value>
+  </data>
+  <data name="LblSetupADirectDebit" xml:space="preserve">
+    <value>Debyd Uniongyrchol</value>
+  </data>
+  <data name="lblsetupDD" xml:space="preserve">
+    <value>Gallwch sefydlu Debyd Uniongyrchol i dalu'r Dreth Gyngor yn uniongyrchol o'ch cyfrif banc bob mis.</value>
+  </data>
+  <data name="LblSize" xml:space="preserve">
+    <value>Maint</value>
+  </data>
+  <data name="LblSize2" xml:space="preserve">
+    <value>Maint:</value>
+  </data>
+  <data name="LblSizeOptions" xml:space="preserve">
+    <value>Dewiswch faint</value>
+  </data>
+  <data name="LblSizePosition" xml:space="preserve">
+    <value>Maint a safle:</value>
+  </data>
+  <data name="LblSmallLitter" xml:space="preserve">
+    <value>Ychydig o sbwriel</value>
+  </data>
+  <data name="LblSortCode" xml:space="preserve">
+    <value>Cod Didoli:</value>
+  </data>
+  <data name="LblSortCodeNo" xml:space="preserve">
+    <value>Ddim yn adnabod y cod didoli</value>
+  </data>
+  <data name="LblSpecificDay" xml:space="preserve">
+    <value>Bydd eich taliadau wythnosol yn mynd allan ar y 1af, yr 8ed, y 15ed a'r 22ain o bob mis.</value>
+  </data>
+  <data name="LblSpecificDayBankDetails" xml:space="preserve">
+    <value>Bydd eich taliadau wythnosol yn mynd allan ar y 1af, yr 8ed, y 15ed a'r 22ain o bob mis.</value>
+  </data>
+  <data name="LblStreetCleansingMoreInfoEntry" xml:space="preserve">
+    <value>Disgrifiwch yr eitem neu eitemau:</value>
+  </data>
+  <data name="LblStreetLightingExposedWires" xml:space="preserve">
+    <value>gwifrau'n dangos</value>
+  </data>
+  <data name="LblStreetLightingLooseParts" xml:space="preserve">
+    <value>rhannau rhydd</value>
+  </data>
+  <data name="LblStreetLightingUnstablePost" xml:space="preserve">
+    <value>postyn sigledig</value>
+  </data>
+  <data name="LblStreetLightingWarningInformation" xml:space="preserve">
+    <value>Os gwelwch broblem gyda golau stryd sy'n debygol o beri damwain neu anaf difrifol, fel:</value>
+  </data>
+  <data name="LblStreetLightingWarningInformation2" xml:space="preserve">
+    <value>Ffoniwch 02920872088 i siarad â'n tîm ymateb brys.</value>
+  </data>
+  <data name="LblStretName" xml:space="preserve">
+    <value>Enw'r stryd a rhif y tŷ:</value>
+  </data>
+  <data name="LblSubTotal" xml:space="preserve">
+    <value>Cyfanswm yr eitemau</value>
+  </data>
+  <data name="LblSuccMissingPayment" xml:space="preserve">
+    <value>Mae eich achos wedi'i anfon i dîm y Dreth Gyngor.  Byddwn yn cysylltu â chi o fewn 72 awr.</value>
+  </data>
+  <data name="LblSuggestion" xml:space="preserve">
+    <value>Diolch i chi am gymryd yr amser i awgrymu gwelliannau ar gyfer ein app. Defnyddiwch y blwch sylwadau isod:</value>
+  </data>
+  <data name="LblSummonsDDBlock" xml:space="preserve">
+    <value>Ni allwch drefnu Debyd Uniongyrchol ar gyfer y cyfrif treth gyngor hwn. Cysylltwch â ni i drefnu ffordd arall o dalu.</value>
+  </data>
+  <data name="LblSurface" xml:space="preserve">
+    <value>Arwyneb:</value>
+  </data>
+  <data name="LblSwitchTheme" xml:space="preserve">
+    <value>Newid y thema</value>
+  </data>
+  <data name="LblTelephoneBox" xml:space="preserve">
+    <value>Blwch ffôn</value>
+  </data>
+  <data name="LblTellAboutIssue" xml:space="preserve">
+    <value>Dywedwch wrthym am y mater:</value>
+  </data>
+  <data name="Lbltellusaboutissue" xml:space="preserve">
+    <value>Ynglŷn â'r broblem</value>
+  </data>
+  <data name="LblTellUsFaults" xml:space="preserve">
+    <value>Dwedwch wrthym am broblem gyda'r golau stryd.</value>
+  </data>
+  <data name="LblTellUsParkingProblem" xml:space="preserve">
+    <value>Ynglŷn â’r broblem parcio</value>
+  </data>
+  <data name="LblTellUsVehicle" xml:space="preserve">
+    <value>Ynglŷn â’r cerbyd</value>
+  </data>
+  <data name="LblTermsandConditions" xml:space="preserve">
+    <value>Telerau ac Amodau</value>
+  </data>
+  <data name="LblThankYouFeedbackMessage" xml:space="preserve">
+    <value>Diolch i chi am eich adborth.</value>
+  </data>
+  <data name="LblThankYouPersonalDetails" xml:space="preserve">
+    <value>Diolch am gyflwyno eich manylion personol.</value>
+  </data>
+  <data name="LblThnkYou1" xml:space="preserve">
+    <value>Mae eich archeb yn cael ei brosesu.</value>
+  </data>
+  <data name="LblThnkYou4" xml:space="preserve">
+    <value>Bydd yr eitemau'n cael eu gadael y tu allan i'r eiddo a ddewisoch.</value>
+  </data>
+  <data name="LblTime" xml:space="preserve">
+    <value>Amser</value>
+  </data>
+  <data name="LblTimeDate" xml:space="preserve">
+    <value>{0} ar {1}</value>
+  </data>
+  <data name="LblTimeSlot" xml:space="preserve">
+    <value>Dewiswch ddyddiad i weld y slotiau amser sydd ar gael.</value>
+  </data>
+  <data name="LblTimeSlotAlternative" xml:space="preserve">
+    <value>Dewiswch ddyddiad arall i weld slotiau amser sydd ar gael.</value>
+  </data>
+  <data name="LblTimeSlotFullyBooked" xml:space="preserve">
+    <value>Mae'r slot amser a ddewiswyd gennych bellach wedi'i llenwi. Dewiswch slot amser arall.</value>
+  </data>
+  <data name="LblTimeSlotsAvailable" xml:space="preserve">
+    <value>Slotiau amser ar gael ar gyfer </value>
+  </data>
+  <data name="LblTimeSlotsNotAvailable" xml:space="preserve">
+    <value>Nid oes rhagor o slotiau amser ar gael ar y dyddiad hwn. Dewiswch ddyddiad arall.</value>
+  </data>
+  <data name="LblTitleAndroidHibernation" xml:space="preserve">
+    <value>Gwella dibynadwyedd hysbysiadau</value>
+  </data>
+  <data name="LblTitleNotSetupForNotifications" xml:space="preserve">
+    <value>Hysbysiadau ddim wedi'u sefydlu</value>
+  </data>
+  <data name="LblTitleSetupButNotReliable" xml:space="preserve">
+    <value>Gellid gwella hysbysiadau</value>
+  </data>
+  <data name="LblTitleSetupForNotifications" xml:space="preserve">
+    <value>Hysbysiadau ddim wedi'u sefydlu</value>
+  </data>
+  <data name="LblTotalCost" xml:space="preserve">
+    <value>Cyfanswm cost</value>
+  </data>
+  <data name="LblTransitionalRelief" xml:space="preserve">
+    <value>Rhyddhad Trosiannol:</value>
+  </data>
+  <data name="LblType" xml:space="preserve">
+    <value>Math</value>
+  </data>
+  <data name="LblTypeOfProblem" xml:space="preserve">
+    <value>Math o broblem yr adroddwyd amdani</value>
+  </data>
+  <data name="lblUnableProceed" xml:space="preserve">
+    <value>Yn anffodus, ni allwn fwrw ymlaen â'ch cais ar-lein.</value>
+  </data>
+  <data name="LblUnableToReturnBagInfo" xml:space="preserve">
+    <value>Ni allwn gael gwybodaeth am fagiau a biniau ar gyfer yr eiddo hwn.
+
+Os mai chi sy'n byw yn y cyfeiriad hwn, cysylltwch â C2C ar 02920872088 am gyngor pellach am gasgliadau yn yr eiddo hwn.</value>
+  </data>
+  <data name="LblUnCollectable" xml:space="preserve">
+    <value>Eitem na ellir ei chasglu</value>
+  </data>
+  <data name="Lblunder16" xml:space="preserve">
+    <value>Os ydych dan 16 oed bydd angen caniatâd arnoch gan eich rhiant neu'ch gwarcheidwad cyn i chi roi eich cyfeiriad e-bost.</value>
+  </data>
+  <data name="LblUsage" xml:space="preserve">
+    <value>Bydd y data hwn yn dangos i ni sut rydych yn defnyddio’r app ac ar ba ddyfais a system weithredu. Mae’n ein helpu i wneud gwelliannau i’r app yn y dyfodol.
+
+Nid ydym yn cadw’ch manylion personol.</value>
+  </data>
+  <data name="LblUsingApp" xml:space="preserve">
+    <value>Gobeithiwn eich bod chi'n mwynhau defnyddio'r app.</value>
+  </data>
+  <data name="LblUsuallyEmail" xml:space="preserve">
+    <value>Fel arfer, byddwn yn cysylltu â chi dros e-bost.</value>
+  </data>
+  <data name="LblValuationBand" xml:space="preserve">
+    <value>Band Prisio:</value>
+  </data>
+  <data name="LblVanMessage" xml:space="preserve">
+    <value>Dysgwch am y cerbydau y gallwch ddod â nhw i'r ganolfan ailgylchu yn &lt;a href="https://www.caerdydd.gov.uk/mynediadcerbydau" target="_blank"&gt;www.caerdydd.gov.uk/mynediadcerbydau&lt;/a&gt;.</value>
+  </data>
+  <data name="LblVehicleColour" xml:space="preserve">
+    <value>Lliw y cerbyd</value>
+  </data>
+  <data name="LblVehicleColour2" xml:space="preserve">
+    <value>Lliw y cerbyd:</value>
+  </data>
+  <data name="LblVehicleDetails" xml:space="preserve">
+    <value>Math o gerbyd</value>
+  </data>
+  <data name="LblVehicleLocation" xml:space="preserve">
+    <value>Mae ymweliad wedi’i drefnu i’ch {0} {1}{3}yng nghanolfan ailgylchu {2}.</value>
+    <comment>{0} gets replaced with the specific vehicle type e.g. car, van etc.  {1} gets replaced with trailer if appropriate.  {2} gets replaced with the specific recycling centre location. {3} is a space if required</comment>
+  </data>
+  <data name="LblVehicleMake" xml:space="preserve">
+    <value>Gwneuthuriad y cerbyd</value>
+  </data>
+  <data name="LblVehicleMake2" xml:space="preserve">
+    <value>Gwneuthuriad y cerbyd:</value>
+  </data>
+  <data name="LblVehicleModel" xml:space="preserve">
+    <value>Model y cerbyd</value>
+  </data>
+  <data name="LblVehicleModel2" xml:space="preserve">
+    <value>Model y cerbyd:</value>
+  </data>
+  <data name="LblVehicleRegIfKnown" xml:space="preserve">
+    <value>Rhif cofrestru’r cerbyd (os yw’n hysbys)</value>
+  </data>
+  <data name="LblVehicleRegistration" xml:space="preserve">
+    <value>Rhif cofrestru’r cerbyd:</value>
+  </data>
+  <data name="LblVehicleRegistrationNumber" xml:space="preserve">
+    <value>Rhif cofrestru'r cerbyd</value>
+  </data>
+  <data name="LblVehicleRegNeededInfo" xml:space="preserve">
+    <value>Rhaid i chi roi eich rhif cofrestru cyn i chi ddod neu ni chewch fynediad i'r safle.</value>
+  </data>
+  <data name="LblVehicleRegUpdate" xml:space="preserve">
+    <value>Mae eich rhif cofrestru wedi'i newid i {0}</value>
+  </data>
+  <data name="LblVehicleSlotUpdate" xml:space="preserve">
+    <value>Mae dyddiad ac amser eich slot wedi'u diweddaru i {0}</value>
+    <comment>{0} is the datetime</comment>
+  </data>
+  <data name="LblVehiclesOnThePavement" xml:space="preserve">
+    <value>gerbydau ar y palmant, neu</value>
+  </data>
+  <data name="LblVehicleToHelpUs" xml:space="preserve">
+    <value>A yw’r cerbyd wedi’i barcio ar un o’r canlynol?</value>
+  </data>
+  <data name="LblVehicleTrailer" xml:space="preserve">
+    <value>Ydych chi'n dod â threlar gyda'ch cerbyd?</value>
+  </data>
+  <data name="LblVehicleTrailerExplanation" xml:space="preserve">
+    <value>Os ydych yn dod â threlar gyda'ch cerbyd byddwn yn ystyried mai fan ydyw oherwydd ei faint.</value>
+  </data>
+  <data name="LblVehicleTypeNote" xml:space="preserve">
+    <value>Sylwer y gellir gwrthod mynediad i'r ganolfan i chi os nad yw'r cerbyd fel y'i disgrifiwyd ar adeg archebu.</value>
+  </data>
+  <data name="LblVersion" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="LblViewBooking" xml:space="preserve">
+    <value>Gweld archebion</value>
+  </data>
+  <data name="LblViewInstalments" xml:space="preserve">
+    <value>Gweld rhandaliadau</value>
+  </data>
+  <data name="LblViewOurTermsAndConditions" xml:space="preserve">
+    <value>Gweler ein Telerau ac Amodau</value>
+  </data>
+  <data name="LblWarning" xml:space="preserve">
+    <value>Rhybudd</value>
+  </data>
+  <data name="LblWeekly" xml:space="preserve">
+    <value>Rydych yn talu bob wythnos drwy ddebyd uniongyrchol</value>
+  </data>
+  <data name="lblWeeklyDD" xml:space="preserve">
+    <value>Hoffech newid i Ddebyd Uniongyrchol wythnosol</value>
+  </data>
+  <data name="LblWelshLang" xml:space="preserve">
+    <value>Gweld yr app yn Gymraeg</value>
+  </data>
+  <data name="LblWhatIsTheProblem" xml:space="preserve">
+    <value>Beth yw'r broblem?</value>
+  </data>
+  <data name="LblWhatToReport" xml:space="preserve">
+    <value>Beth hoffech chi ei adrodd?</value>
+  </data>
+  <data name="LblWhen" xml:space="preserve">
+    <value>Pryd</value>
+  </data>
+  <data name="LblWhenPhone" xml:space="preserve">
+    <value>Pryd hoffech chi i ni eich ffonio?</value>
+  </data>
+  <data name="LblWhereDoYouLive" xml:space="preserve">
+    <value>Ble ydych chi'n byw?</value>
+  </data>
+  <data name="LblWhereGraffiti" xml:space="preserve">
+    <value>Dywedwch wrthym ble rydych wedi gweld y graffiti</value>
+  </data>
+  <data name="LblWhereissue" xml:space="preserve">
+    <value>Lle gwnaethoch chi ddarganfod y mater?</value>
+  </data>
+  <data name="LblWhereissue2" xml:space="preserve">
+    <value>Lle gwnaethoch chi ddarganfod y mater</value>
+  </data>
+  <data name="LblWhiteBags" xml:space="preserve">
+    <value>Bagiau gwyn</value>
+  </data>
+  <data name="LblWouldPayWeeklyTick" xml:space="preserve">
+    <value>Hoffwn dalu bob wythnos</value>
+  </data>
+  <data name="LblWriteOffOn" xml:space="preserve">
+    <value>Dileu dyledion / ychwanegu dyledion:</value>
+  </data>
+  <data name="LblYear" xml:space="preserve">
+    <value>Blwyddyn</value>
+  </data>
+  <data name="LblYearlyCharge" xml:space="preserve">
+    <value>Tâl blynyddol:</value>
+  </data>
+  <data name="LblYourAccount" xml:space="preserve">
+    <value>Eich cyfrif</value>
+  </data>
+  <data name="LblYourAddress" xml:space="preserve">
+    <value>Eich cyfeiriad</value>
+  </data>
+  <data name="LblYourCollectionReminders" xml:space="preserve">
+    <value>Eich negeseuon atgoffa casgliadau</value>
+  </data>
+  <data name="LblYourItems" xml:space="preserve">
+    <value>Eich eitemau</value>
+  </data>
+  <data name="List2DaysBefore" xml:space="preserve">
+    <value>2 ddiwrnod cyn</value>
+  </data>
+  <data name="List3DaysBefore" xml:space="preserve">
+    <value>3 diwrnod cyn</value>
+  </data>
+  <data name="List4DaysBefore" xml:space="preserve">
+    <value>4 diwrnod cyn</value>
+  </data>
+  <data name="List5DaysBefore" xml:space="preserve">
+    <value>5 diwrnod cyn</value>
+  </data>
+  <data name="ListADayBefore" xml:space="preserve">
+    <value>Diwrnod cyn</value>
+  </data>
+  <data name="ListAfternoon" xml:space="preserve">
+    <value>12pm - 6pm</value>
+  </data>
+  <data name="ListAllDay" xml:space="preserve">
+    <value>Unrhyw bryd</value>
+  </data>
+  <data name="ListItemPrivacy" xml:space="preserve">
+    <value>Preifatrwydd</value>
+  </data>
+  <data name="ListItemReportIssue" xml:space="preserve">
+    <value>Adroddwch am broblem</value>
+  </data>
+  <data name="ListItemSettings" xml:space="preserve">
+    <value>Gosodiadau</value>
+  </data>
+  <data name="ListLiveAtPropertyNo" xml:space="preserve">
+    <value>Nid wyf yn byw yn yr eiddo hwn</value>
+  </data>
+  <data name="ListLiveAtPropertyYes" xml:space="preserve">
+    <value>Rwy'n byw yn yr eiddo hwn</value>
+  </data>
+  <data name="ListMorning" xml:space="preserve">
+    <value>8am - 12pm</value>
+  </data>
+  <data name="ListOnTheDay" xml:space="preserve">
+    <value>Ar y diwrnod</value>
+  </data>
+  <data name="LoaderCheckingPayment" xml:space="preserve">
+    <value>Gwirio taliad</value>
+  </data>
+  <data name="MapHelpMessage" xml:space="preserve">
+    <value>Defnyddiwch y map i ddangos lleoliad y mater.
+
+Llusgwch y map â’ch bys nes bod y pin yn pwyntio ar y lleoliad cywir. Defnyddiwch ddau fys i binsio a mynd i mewn ac allan o’r map.
+
+Gallwch hefyd chwilio am gyfeiriad neu ddefnyddio’r botwm GPS i ffocysu ar leoliad.</value>
+  </data>
+  <data name="MapHelpTitle" xml:space="preserve">
+    <value>Sut i ddefnyddio’r map</value>
+  </data>
+  <data name="MapKeyBulky" xml:space="preserve">
+    <value>Mae casgliad eitem swmpus wedi'i archebu ar gyfer yr eiddo hwn</value>
+  </data>
+  <data name="MapKeyFlyTip" xml:space="preserve">
+    <value>Mae adroddiad am dipio anghyfreithlon eisoes wedi'i gofnodi</value>
+  </data>
+  <data name="MapM4Message" xml:space="preserve">
+    <value>Nid yw traffordd yr M4 yn cael ei rheoli gan Gyngor Caerdydd.</value>
+  </data>
+  <data name="MaybeLater" xml:space="preserve">
+    <value>Yn nes ymlaen efallai</value>
+  </data>
+  <data name="MenuAccessibility" xml:space="preserve">
+    <value>Hygyrchedd</value>
+  </data>
+  <data name="MenuGroupAbout" xml:space="preserve">
+    <value>Amdanom ni</value>
+  </data>
+  <data name="MenuPrivacy" xml:space="preserve">
+    <value>Preifatrwydd</value>
+  </data>
+  <data name="MissingMapsApp" xml:space="preserve">
+    <value>I gael cyfarwyddiadau bydd angen i chi droi’r swyddogaeth mapiau ymlaen ar eich dyfais.</value>
+  </data>
+  <data name="NoInternet" xml:space="preserve">
+    <value>Nid yw’n ymddangos eich bod wedi’ch cysylltu â’r we
+Ceisiwch gysylltu a rhoi cynnig arall arni.</value>
+  </data>
+  <data name="NotChecked" xml:space="preserve">
+    <value>Heb ei wirio</value>
+  </data>
+  <data name="NoThanks" xml:space="preserve">
+    <value>Dim diolch</value>
+  </data>
+  <data name="NotificationsEbill" xml:space="preserve">
+    <value>Hysbysiadau e-filio</value>
+  </data>
+  <data name="PageHeaderCouncilTax" xml:space="preserve">
+    <value>Treth Gyngor</value>
+  </data>
+  <data name="PageHeaderDDCallback" xml:space="preserve">
+    <value>Gwneud cais am alwad yn ôl</value>
+  </data>
+  <data name="PageHeadingBulkiesSummary" xml:space="preserve">
+    <value>Gwiriwch eich archeb cyn trefnu casgliad.</value>
+  </data>
+  <data name="PageHeadingCheckYourReport" xml:space="preserve">
+    <value>Gwiriwch eich adroddiad cyn ei anfon</value>
+  </data>
+  <data name="PageHeadingImages" xml:space="preserve">
+    <value>Lluniau</value>
+  </data>
+  <data name="PageHeadingTypeofFlytipping" xml:space="preserve">
+    <value>Math o dipio anghyfreithlon</value>
+  </data>
+  <data name="PageTitleAccessibilityStatement" xml:space="preserve">
+    <value>Datganiad Hygyrchedd</value>
+  </data>
+  <data name="PageTitleAccountDetails" xml:space="preserve">
+    <value>Manylion cyfrif</value>
+  </data>
+  <data name="PageTitleAdditionalInformation" xml:space="preserve">
+    <value>Gwybodaeth Ychwanegol</value>
+  </data>
+  <data name="PageTitleAppSettings" xml:space="preserve">
+    <value>Gosodiadau'r app</value>
+  </data>
+  <data name="PageTitleBalanceAndPayments" xml:space="preserve">
+    <value>Balans a thaliadau</value>
+  </data>
+  <data name="PageTitleByPost" xml:space="preserve">
+    <value>Gwnewch gais drwy'r post</value>
+  </data>
+  <data name="PageTitleConProp" xml:space="preserve">
+    <value>Cadarnhau eiddo</value>
+  </data>
+  <data name="PageTitleDD" xml:space="preserve">
+    <value>Debyd Uniongyrchol</value>
+  </data>
+  <data name="PageTitleDetailsPage" xml:space="preserve">
+    <value>Manylion</value>
+  </data>
+  <data name="PageTitleDirectDebit" xml:space="preserve">
+    <value>Debyd Uniongyrchol</value>
+  </data>
+  <data name="PageTitleEbills" xml:space="preserve">
+    <value>E-filiau</value>
+  </data>
+  <data name="PageTitleEbillsSettings" xml:space="preserve">
+    <value>Gosodiadau e-filiau</value>
+  </data>
+  <data name="PageTitleEbillsSignup" xml:space="preserve">
+    <value>Cofrestru ar gyfer e-filiau</value>
+  </data>
+  <data name="PageTitleEnterAddress" xml:space="preserve">
+    <value>Rhowch eich cyfeiriad</value>
+  </data>
+  <data name="PageTitleFlyTippingContactDetails" xml:space="preserve">
+    <value>Cyswllt</value>
+  </data>
+  <data name="PageTitleFlyTippingDump" xml:space="preserve">
+    <value>Pa eitemau sydd wedi eu tipio'n anghyfreithlon?</value>
+  </data>
+  <data name="PageTitleFlyTippingDumpItems" xml:space="preserve">
+    <value>Eitemau wedi'u dympio</value>
+  </data>
+  <data name="PageTitleFlyTippingMap" xml:space="preserve">
+    <value>Ble mae'r tipio anghyfreithlon?</value>
+  </data>
+  <data name="PageTitleGraffiti" xml:space="preserve">
+    <value>Graffiti</value>
+  </data>
+  <data name="PageTitleHome" xml:space="preserve">
+    <value>Hafan</value>
+  </data>
+  <data name="PageTitleHWRCEditMyBooking" xml:space="preserve">
+    <value>Golygu fy archeb</value>
+  </data>
+  <data name="PageTitleHWRCMyBooking" xml:space="preserve">
+    <value>Fy archebion</value>
+  </data>
+  <data name="PageTitleImagePage" xml:space="preserve">
+    <value>Ychwanegu llun</value>
+  </data>
+  <data name="PageTitleInstallmentsPage" xml:space="preserve">
+    <value>Rhandaliadau</value>
+  </data>
+  <data name="PageTitleMenu" xml:space="preserve">
+    <value>Dewislen</value>
+  </data>
+  <data name="PageTitleMissingPayments" xml:space="preserve">
+    <value>Taliadau coll</value>
+  </data>
+  <data name="PageTitlePaymentDateDD" xml:space="preserve">
+    <value>Dyddiad talu</value>
+  </data>
+  <data name="PageTitlePeopertyPostCode" xml:space="preserve">
+    <value>Nodwch god post</value>
+  </data>
+  <data name="PageTitlePersonalDetails" xml:space="preserve">
+    <value>Manylion personol</value>
+  </data>
+  <data name="PageTitlePrivacyStatement" xml:space="preserve">
+    <value>Datganiad preifatrwydd</value>
+  </data>
+  <data name="PageTitleProblemLocation" xml:space="preserve">
+    <value>Ble mae’r broblem?</value>
+  </data>
+  <data name="PageTitleProblemParking" xml:space="preserve">
+    <value>Problem parcio</value>
+  </data>
+  <data name="PageTitleReminderList" xml:space="preserve">
+    <value>Eich casgliadau</value>
+  </data>
+  <data name="PageTitleReportDetails" xml:space="preserve">
+    <value>Gwiriwch fanylion eich adroddiad</value>
+  </data>
+  <data name="PageTitleReportPayments" xml:space="preserve">
+    <value>Adrodd taliad coll</value>
+  </data>
+  <data name="PageTitleReportReceipt" xml:space="preserve">
+    <value>Derbynneb e-bost</value>
+  </data>
+  <data name="PageTitleSuggestionsForImprovement" xml:space="preserve">
+    <value>Awgrymiadau</value>
+  </data>
+  <data name="PageTitleSummary" xml:space="preserve">
+    <value>Crynodeb</value>
+  </data>
+  <data name="PageTitleSummaryDD" xml:space="preserve">
+    <value>Crynodeb</value>
+  </data>
+  <data name="PageTitleVehicleDetails" xml:space="preserve">
+    <value>Manylion y cerbyd</value>
+  </data>
+  <data name="PageTitleWasteCalendarReminderAdd" xml:space="preserve">
+    <value>Ychwanegu nodyn atgoffa</value>
+  </data>
+  <data name="PermissionNeeded" xml:space="preserve">
+    <value>Angen caniatâd</value>
+  </data>
+  <data name="PermissionNeededCamera" xml:space="preserve">
+    <value>Mae angen eich caniatâd arnom i fynd i’ch camera a’ch lluniau ar y ddyfais hon. Diweddarwch y caniatâd ar gyfer yr ap yma.</value>
+  </data>
+  <data name="PermissionNeededGallery" xml:space="preserve">
+    <value>Mae angen eich caniatâd arnom i fynd i’ch lluniau ar y ddyfais hon. Diweddarwch y caniatâd ar gyfer yr ap yma.</value>
+  </data>
+  <data name="PermissionNeededLocation" xml:space="preserve">
+    <value>Mae angen eich caniatâd arnom i gael mynediad i'ch lleoliad ar y ddyfais hon. Diweddarwch hawliau'r app hwn.</value>
+  </data>
+  <data name="PermissionNeededNotification" xml:space="preserve">
+    <value>Mae angen eich caniatâd arnom i anfon hysbysiadau.  Diweddarwch osodiadau eich dyfais.</value>
+  </data>
+  <data name="PickerDefault" xml:space="preserve">
+    <value>Dewiswch o’r rhestr</value>
+  </data>
+  <data name="PlaceHolderAddress" xml:space="preserve">
+    <value>Rhowch ran o’r cyfeiriad</value>
+  </data>
+  <data name="PlaceholderDescribeItem" xml:space="preserve">
+    <value>Disgrifiwch yr eitem</value>
+  </data>
+  <data name="PlaceholderEnterReg" xml:space="preserve">
+    <value>Rhowch rif cofrestru'r cerbyd</value>
+  </data>
+  <data name="PlaceholderFlyTippingDetails" xml:space="preserve">
+    <value>Rhowch fanylion</value>
+  </data>
+  <data name="PlaceholderLocationInfo" xml:space="preserve">
+    <value>Er enghraifft, soniwch am unrhyw dirnod neu adeilad, rhif tŷ neu farciau ffordd cyfagos.</value>
+  </data>
+  <data name="PlaceholderSearchItem" xml:space="preserve">
+    <value>Chwilio am eitem</value>
+  </data>
+  <data name="PlaceholderSuggestions" xml:space="preserve">
+    <value>Nodwch awgrymiadau</value>
+  </data>
+  <data name="PopupDoNotNeedPermitHeader" xml:space="preserve">
+    <value>Ni allwch wneud cais am drwydded parcio i breswylwyr</value>
+  </data>
+  <data name="PopUpHWRCCommercialHeader" xml:space="preserve">
+    <value>Eitemau'r cartref yn unig</value>
+  </data>
+  <data name="PopUpHWRCCommercialMessage" xml:space="preserve">
+    <value>Mae'r gwasanaeth hwn ar gyfer gwaredu eitemau'r cartref na ellir cael gwared arnynt drwy gasgliadau ymyl y ffordd.
+
+Mae angen i fusnesau ddefnyddio ein canolfan ailgylchu masnachol
+&lt;a href="https://www.caerdydd.gov.uk/ailgylchumasnachol" target="_blank"&gt;www.caerdydd.gov.uk/ailgylchumasnachol&lt;/a&gt;
+</value>
+  </data>
+  <data name="PopupNoParkingScheme" xml:space="preserve">
+    <value>Nid yw eich eiddo yn gymwys ar gyfer y cynllun trwyddedau parcio.
+
+I gael rhagor o wybodaeth am gymhwysedd a mwy am barcio i breswylwyr, ewch i:
+&lt;a href="http://www.caerdydd.gov.uk/parcio" target="_blank"&gt;www.caerdydd.gov.uk/parcio&lt;/a&gt;
+</value>
+  </data>
+  <data name="PopUpThankYou" xml:space="preserve">
+    <value>Diolch am roi gwybod am y broblem hon. Bydd ein tîm technegol yn darllen yr adborth ac yn cysylltu â chi i gael fwy o wybodaeth fel y bo angen.</value>
+  </data>
+  <data name="StoringYourData" xml:space="preserve">
+    <value>Storio eich data</value>
+  </data>
+  <data name="StoringYourDataText" xml:space="preserve">
+    <value>Pan fyddwch chi'n defnyddio'r ap hwn ni fyddwch yn creu cyfrif defnyddiwr o unrhyw fath. Caiff unrhyw ddata sydd wedi ei storio ar draws y gwasanaethau yn yr ap hwn ei storio ar eich dyfais.
+
+Ar gyfer y gwasanaeth Treth Gyngor rydym yn gofyn i chi ddarparu eich manylion i gael mynediad at wybodaeth ar ein system treth gyngor.
+
+Os dewiswch ddileu'r ap hwn ni fydd eich manylion personol yn cael eu cadw na'u storio gan Gyngor Caerdydd.
+
+Os byddwch yn penderfynu ailosod yr ap bydd angen i chi roi eich manylion personol eto (i'w storio ar eich dyfais).</value>
+  </data>
+  <data name="StreetCleansingItems" xml:space="preserve">
+    <value>Eitemau:</value>
+  </data>
+  <data name="StreetCleansingItemsDescription" xml:space="preserve">
+    <value>Disgrifiad o’r eitemau:</value>
+  </data>
+  <data name="SubHeadAccident" xml:space="preserve">
+    <value>Perygl o gael damwain neu anaf</value>
+  </data>
+  <data name="SubHeaderYourOrder" xml:space="preserve">
+    <value>Eich archeb:</value>
+  </data>
+  <data name="SubHeadTypeofProblemReported" xml:space="preserve">
+    <value>Math y broblem a adroddwyd</value>
+  </data>
+  <data name="SubTitleDDGte" xml:space="preserve">
+    <value>Gwarant Debyd Uniongyrchol</value>
+  </data>
+  <data name="SuccessButtonTextBulkyItemRequest" xml:space="preserve">
+    <value>Yn ôl i eitemau swmpus</value>
+  </data>
+  <data name="SuccessGraffitiTitle" xml:space="preserve">
+    <value>Diolch am roi gwybod am graffiti</value>
+  </data>
+  <data name="SuccessHeaderBulkyItemRequest" xml:space="preserve">
+    <value>Eitem a awgrymwyd</value>
+  </data>
+  <data name="SuccessMessageBulkyItemRequest" xml:space="preserve">
+    <value>Diolch am roi gwybod i ni am eitem nad yw ar y rhestr.
+
+Gan y bydd angen i ni adolygu eich awgrymiad ni chaiff yr eitem hon ei hychwanegu at eich archeb.
+
+Byddwn yn cysylltu â chi cyn bo hir i roi gwybod i chi sut i gael gwared â’ch eitem.</value>
+  </data>
+  <data name="TextNoticiationsCollectionsNone" xml:space="preserve">
+    <value>Heb drefnu hysbysiadau casglu.</value>
+  </data>
+  <data name="TextNoticiationsCtaxNone" xml:space="preserve">
+    <value>Heb drefnu hysbysiadau am y Dreth Gyngor.</value>
+  </data>
+  <data name="TextNotificationIntro" xml:space="preserve">
+    <value>Gallwch osod hysbysiadau yn yr app hwn i helpu i gael yr wybodaeth ddiweddaraf am wasanaethau'r cyngor.</value>
+  </data>
+  <data name="TextNotificationsReportProblem" xml:space="preserve">
+    <value>Adrodd am broblem gyda hysbysiadau</value>
+  </data>
+  <data name="TextNotReceivingNotifications" xml:space="preserve">
+    <value>Ddim yn derbyn eich hysbysiadau?</value>
+  </data>
+  <data name="TitleAdditionalInfo" xml:space="preserve">
+    <value>Gwybodaeth ychwanegol</value>
+  </data>
+  <data name="TitleAddress" xml:space="preserve">
+    <value>Cyfeiriad</value>
+  </data>
+  <data name="TitleApplyOrRenew" xml:space="preserve">
+    <value>Gwneud cais neu adnewyddu</value>
+  </data>
+  <data name="TitleCentreDetails" xml:space="preserve">
+    <value>Manylion y ganolfan</value>
+  </data>
+  <data name="TitleCollectionCancelled" xml:space="preserve">
+    <value>Casgliad wedi’i ganslo</value>
+  </data>
+  <data name="TitleCompleteBooking" xml:space="preserve">
+    <value>Cwblhau’r archeb</value>
+  </data>
+  <data name="TitleConfirmReport" xml:space="preserve">
+    <value>Cadarnhewch eich adroddiad</value>
+  </data>
+  <data name="TitleConPhoneNo" xml:space="preserve">
+    <value>Cadarnhau rhif ffôn</value>
+  </data>
+  <data name="TitleContactDetails" xml:space="preserve">
+    <value>Manylion cyswllt</value>
+  </data>
+  <data name="TitleCTAXLogin" xml:space="preserve">
+    <value>Treth Gyngor</value>
+  </data>
+  <data name="TitleEbillNotifications" xml:space="preserve">
+    <value>Hysbysiadau e-filiau</value>
+  </data>
+  <data name="TitleEditDateTime" xml:space="preserve">
+    <value>Golygu dyddiad ac amser</value>
+  </data>
+  <data name="TitleFaults" xml:space="preserve">
+    <value>Beth yw'r broblem</value>
+  </data>
+  <data name="TitleGraffitiNotResponsible" xml:space="preserve">
+    <value>Y graffiti dydyn ni ddim yn gyfrifol amdano</value>
+  </data>
+  <data name="TitleGraffitiSizeandPosition" xml:space="preserve">
+    <value>Maint a safle y graffiti</value>
+  </data>
+  <data name="TitleLitterBuildUp" xml:space="preserve">
+    <value>Croniad o sbwriel</value>
+  </data>
+  <data name="TitleMissedCollection" xml:space="preserve">
+    <value>Casgliad a fethwyd</value>
+  </data>
+  <data name="TitleMissedCollectionsStatus" xml:space="preserve">
+    <value>Statws y casgliad</value>
+  </data>
+  <data name="TitleMissingPayments" xml:space="preserve">
+    <value>Taliadau coll</value>
+  </data>
+  <data name="TitleNoReg" xml:space="preserve">
+    <value>Dim rhif cofrestru?</value>
+  </data>
+  <data name="TitleNotifcationCtaxYours" xml:space="preserve">
+    <value>Eich hysbysiadau am y Dreth Gyngor:</value>
+  </data>
+  <data name="TitleNotificationCtax" xml:space="preserve">
+    <value>Gallwch osod hysbysiadau i roi gwybod i chi pan fyddwch yn cael bil, nodyn atgoffa neu hysbysiad ar eich cyfrif.</value>
+  </data>
+  <data name="TitleNotificationRecycling" xml:space="preserve">
+    <value>Gallwch osod a rheoli hysbysiadau i roi gwybod i chi pryd i roi eich bagiau a'ch biniau allan.</value>
+  </data>
+  <data name="TitleNotificationRecylingYours" xml:space="preserve">
+    <value>Eich hysbysiadau casglu:</value>
+  </data>
+  <data name="TitleNotifications" xml:space="preserve">
+    <value>Hysbysiadau</value>
+  </data>
+  <data name="TitleNotificationsAbout" xml:space="preserve">
+    <value>Ynglŷn â hysbysiadau</value>
+  </data>
+  <data name="TitleOrderBagsAndCaddies" xml:space="preserve">
+    <value>Archebu bagiau a chadis</value>
+  </data>
+  <data name="TitleRacistOrAbusive" xml:space="preserve">
+    <value>Hiliol neu sarhaus</value>
+  </data>
+  <data name="TitleRacistOrAbusiveGraffiti" xml:space="preserve">
+    <value>Graffiti hiliol neu sarhaus</value>
+  </data>
+  <data name="TitleRecyclingCentre" xml:space="preserve">
+    <value>Canolfan ailgylchu</value>
+  </data>
+  <data name="TitleRecyclingCentreSelection" xml:space="preserve">
+    <value>Rydych yn trefnu ymweliad ar gyfer {0}{1}{2}.
+Gallwch ddefnyddio ein canolfan ailgylchu:</value>
+    <comment>{0} gets replaced with the specific vehicle type e.g. car, van etc.  {2} gets replaced with trailer if appropriate. {1} is a space if required</comment>
+  </data>
+  <data name="TitleRegOfVehicle" xml:space="preserve">
+    <value>Rhowch y rhif cofrestru:</value>
+  </data>
+  <data name="TitleRegOfVehicle2" xml:space="preserve">
+    <value>Rhowch rif cofrestru'r cerbyd y byddwch yn dod ag ef:</value>
+  </data>
+  <data name="TitleRegOfVehicleUnknown" xml:space="preserve">
+    <value>Gallwch drefnu ymweliad hyd yn oed os nad ydych yn gwybod rhif cofrestru'r cerbyd eto.</value>
+  </data>
+  <data name="TitleReportAProblem" xml:space="preserve">
+    <value>Adroddwch am broblem</value>
+  </data>
+  <data name="TitleReportIssue" xml:space="preserve">
+    <value>Adrodd am broblem i ni</value>
+  </data>
+  <data name="TitleReportTechIssue" xml:space="preserve">
+    <value>Adrodd am broblem dechnegol</value>
+  </data>
+  <data name="TitleRoads" xml:space="preserve">
+    <value>Ffyrdd a Phalmentydd</value>
+  </data>
+  <data name="TitleSendFeedback" xml:space="preserve">
+    <value>Anfon adborth</value>
+  </data>
+  <data name="TitleSizePosition" xml:space="preserve">
+    <value>Maint a safle</value>
+  </data>
+  <data name="TitleStreetLighting" xml:space="preserve">
+    <value>Goleuadau stryd</value>
+  </data>
+  <data name="TitleSummaryBags" xml:space="preserve">
+    <value>Crynodeb</value>
+  </data>
+  <data name="TitleSurface" xml:space="preserve">
+    <value>Arwyneb</value>
+  </data>
+  <data name="TitleVehicleReg" xml:space="preserve">
+    <value>Rhif cofrestru'r cerbyd</value>
+  </data>
+  <data name="TitleVehicleType" xml:space="preserve">
+    <value>Math o gerbyd</value>
+  </data>
+  <data name="TitleVehicleWhatIsTheProblem" xml:space="preserve">
+    <value>Beth yw’r broblem?</value>
+  </data>
+  <data name="TitleWarningPage" xml:space="preserve">
+    <value>Rhybudd</value>
+  </data>
+  <data name="TitleWhereProblem" xml:space="preserve">
+    <value>Ble mae'r broblem?</value>
+  </data>
+  <data name="ValidateEmailandContactNumber" xml:space="preserve">
+    <value>Mae angen cyfeiriad e-bost neu rif cyswllt</value>
+  </data>
+  <data name="ValidationAmount1To1m" xml:space="preserve">
+    <value>Rhaid i'r swm fod rhwng 1 a 1,000,000</value>
+  </data>
+  <data name="ValidationBankNumber" xml:space="preserve">
+    <value>Rhaid i rif cyfrif banc fod yn 8 digid</value>
+  </data>
+  <data name="ValidationContactNumber" xml:space="preserve">
+    <value>Mae angen nodi rhif cyswllt</value>
+  </data>
+  <data name="ValidationCTaxNumber" xml:space="preserve">
+    <value>Rhaid i rif y dreth gyngor fod yn 8 digid</value>
+  </data>
+  <data name="ValidationEmail" xml:space="preserve">
+    <value>Cyfeiriad e-bost annilys</value>
+  </data>
+  <data name="ValidationEmailMatch" xml:space="preserve">
+    <value>Nid yw'r cyfeiriadau e-bost yn cyfateb</value>
+  </data>
+  <data name="ValidationInvalidCharacters" xml:space="preserve">
+    <value>Nodau annilys</value>
+  </data>
+  <data name="ValidationInvalidRegistration" xml:space="preserve">
+    <value>Rhif cofrestru cerbyd annilys</value>
+  </data>
+  <data name="ValidationIsRequired" xml:space="preserve">
+    <value>gofynnol</value>
+  </data>
+  <data name="ValidationMaxCharacters" xml:space="preserve">
+    <value>Rydych wedi mynd y tu hwnt i'r uchafswm nodau</value>
+  </data>
+  <data name="ValidationMultiSelect1IsRequired" xml:space="preserve">
+    <value>Dewiswch o leiaf 1 eitem</value>
+  </data>
+  <data name="ValidationNumbersOnly" xml:space="preserve">
+    <value>Defnyddiwch rifau'n unig</value>
+  </data>
+  <data name="ValidationOutsideCardiff" xml:space="preserve">
+    <value>Mae'r ardal yma tu allan i Gaerdydd</value>
+  </data>
+  <data name="ValidationPaymentDate" xml:space="preserve">
+    <value>Dewiswch ddyddiad talu.</value>
+  </data>
+  <data name="ValidationPhoneNumber" xml:space="preserve">
+    <value>Rhif ffôn annilys</value>
+  </data>
+  <data name="ValidationPhoneNumberMatch" xml:space="preserve">
+    <value>Nid yw’r rhifau ffôn yn cyfateb</value>
+  </data>
+  <data name="ValidationPrivateLand" xml:space="preserve">
+    <value>Tir preifat yw hwn. Y tirfeddiannwr sy’n debygol o fod yn gyfrifol am ddelio â’r mater hwn.</value>
+  </data>
+  <data name="ValidationSelectLocation" xml:space="preserve">
+    <value>Dewiswch leoliad ar y map</value>
+  </data>
+  <data name="ValidationVehicleTypeRequired" xml:space="preserve">
+    <value>Dewiswch y math o gerbyd</value>
+  </data>
+  <data name="YourBankDetailsPage" xml:space="preserve">
+    <value>Eich manylion banc</value>
+  </data>
+</root>

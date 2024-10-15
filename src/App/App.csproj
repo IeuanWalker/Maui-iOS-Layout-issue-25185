@@ -1,0 +1,132 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net8.0-android;net8.0-ios</TargetFrameworks>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">11.0</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">23.0</SupportedOSPlatformVersion>
+		<OutputType>Exe</OutputType>
+		<UseMaui>true</UseMaui>
+		<SingleProject>true</SingleProject>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<NeutralLanguage>en-GB</NeutralLanguage>
+		<RootNamespace>App</RootNamespace>
+		
+		<!-- Display name -->
+		<ApplicationTitle>Cardiff Gov</ApplicationTitle>
+
+		<!-- Versions -->
+    <ApplicationVersion>3</ApplicationVersion>
+    <ApplicationDisplayVersion>3.0.0</ApplicationDisplayVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- App Icon -->
+		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#053C3D" Resize="True" ForegroundScale="0.65" BaseSize="600,600" />
+
+		<!-- Splash Screen -->
+		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#053C3D" BaseSize="256,256" />
+
+		<!-- Images -->
+		<MauiImage Include="Resources\Images\*" />
+
+		<!-- Custom Fonts -->
+		<MauiFont Include="Resources\Fonts\*" />
+
+		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
+		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+	</ItemGroup>
+	
+	<!-- Android specific settings -->
+	<PropertyGroup Condition="$(TargetFramework.Contains('-android'))">
+		<ApplicationId>uk.gov.cardiff.CardiffGov.Android</ApplicationId>
+	</PropertyGroup>
+	<ItemGroup Condition="$(TargetFramework.Contains('-android'))">
+		<GoogleServicesJson Include="Platforms\Android\google-services.json" />
+	</ItemGroup>
+
+	<!-- iOS specific settings -->
+	<PropertyGroup Condition="$(TargetFramework.Contains('-ios'))">
+		<ApplicationId>uk.gov.cardiff.CardiffGov</ApplicationId>
+    <BuildIpa>True</BuildIpa>
+  </PropertyGroup>
+	<ItemGroup Condition="$(RuntimeIdentifier.StartsWith('iossimulator')) == true">
+	  <None Remove="Platforms\iOS\Entitlements.plist" />
+	</ItemGroup>
+  <ItemGroup Condition="$(RuntimeIdentifier.StartsWith('iossimulator')) == false">
+    <None Include="Platforms\iOS\Entitlements.plist" />
+  </ItemGroup>
+	<ItemGroup Condition="$(TargetFramework.Contains('-ios')) AND $(RuntimeIdentifier.StartsWith('iossimulator')) == false">
+		<CustomEntitlements Include="aps-environment" Type="string" Value="development" Condition="'$(Configuration)' == 'Debug'" />
+		<CustomEntitlements Include="aps-environment" Type="string" Value="production" Condition="'$(Configuration)' == 'Release'" />
+	</ItemGroup>
+
+  <PropertyGroup Condition="$(TargetFramework.Contains('-ios')) AND '$(Configuration)' == 'Debug' ">
+    <ProvisioningType>manual</ProvisioningType>
+    <CodesignKey>Apple Development: Ieuan Walker (R4SVVV33HW)</CodesignKey>
+    <CodesignProvision>CardiffGov-Developement</CodesignProvision>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="$(TargetFramework.Contains('-ios')) AND '$(Configuration)' == 'Release' ">
+    <ProvisioningType>manual</ProvisioningType>
+    <CodesignKey>iPhone Distribution: CARDIFF COUNTY COUNCIL (RHSME4M265)</CodesignKey>
+    <CodesignProvision>CardiffGov-AdHoc</CodesignProvision>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<MauiImage Update="Resources\Images\cardiff_logo.svg">
+			<Resize>True</Resize>
+			<Color>#053C3D</Color>
+			<BaseSize>400,467</BaseSize>
+		</MauiImage>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CommunityToolkit.Maui" Version="9.0.3" />
+		<PackageReference Include="IeuanWalker.Maui.StateButton" Version="1.1.1" />
+    <PackageReference Include="IeuanWalker.Maui.Breadcrumb" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Maui.Controls" Version="8.0.90" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="Resources\Languages\AppResources.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>AppResources.resx</DependentUpon>
+		</Compile>
+		<Compile Update="Routes\BasicRepoPage.xaml.cs">
+		  <DependentUpon>BasicRepoPage.xaml</DependentUpon>
+		</Compile>
+		<Compile Update="Routes\FullRepoPage.xaml.cs">
+		  <DependentUpon>FullRepoPage.xaml</DependentUpon>
+		</Compile>
+		<EmbeddedResource Update="Resources\Languages\AppResources.resx">
+			<Generator>PublicResXFileCodeGenerator</Generator>
+			<LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+ 		</EmbeddedResource>
+	</ItemGroup>
+
+  <!-- Remove '.android.cs' files if target framework does not contain '-android' -->
+  <ItemGroup Condition="$(TargetFramework.StartsWith('net')) == true AND $(TargetFramework.Contains('-android')) != true">
+    <Compile Remove="**\**\*.android.cs" />
+    <None Include="**\**\*.android.cs" Exclude="$(DefaultItemExcludes);$(DefaultExcludesInProjectFolder)" />
+  </ItemGroup>
+
+  <!-- Remove '.ios.cs' files if target framework does not contain '-ios' -->
+  <ItemGroup Condition="$(TargetFramework.StartsWith('net')) == true AND $(TargetFramework.Contains('-ios')) != true">
+    <Compile Remove="**\**\*.ios.cs" />
+    <None Include="**\**\*.ios.cs" Exclude="$(DefaultItemExcludes);$(DefaultExcludesInProjectFolder)" />
+  </ItemGroup>
+  <ItemGroup>
+    <MauiXaml Update="Controls\Buttons\CircleButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Routes\BasicRepoPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Routes\FullRepoPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="true" ?>
+<ResourceDictionary x:Class="App.Resources.Styles.Text"
+                    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <!-- Headline -->
+    <Style x:Key="TextHeadline" TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource TextSecondaryColour}" />
+        <Setter Property="FontSize" Value="Title" />
+        <Setter Property="FontFamily" Value="InterRegular" />
+    </Style>
+
+    <!-- Sub Title -->
+    <Style x:Key="TextTitle" TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource TextPrimaryColour}" />
+        <Setter Property="FontSize" Value="Medium" />
+        <Setter Property="FontFamily" Value="InterRegular" />
+    </Style>
+
+    <!-- Summary -->
+    <!-- TODO: Need removing only use on CAmendPaymentDate -->
+    <Style x:Key="TextSummary" TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource TextPrimaryColour}" />
+        <Setter Property="FontSize" Value="Large" />
+        <Setter Property="FontFamily" Value="InterRegular" />
+    </Style>
+
+    <!-- Body -->
+    <Style x:Key="TextBody" TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource TextPrimaryColour}" />
+        <Setter Property="FontSize" Value="Small" />
+        <Setter Property="FontFamily" Value="InterRegular" />
+    </Style>
+    <Style x:Key="TextBodySpan" TargetType="Span">
+        <Setter Property="TextColor" Value="{DynamicResource TextPrimaryColour}" />
+        <Setter Property="FontSize" Value="Small" />
+        <Setter Property="FontFamily" Value="InterRegular" />
+    </Style>
+
+    <!-- Text Inverted -->
+    <Style x:Key="TextInverted" TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource TextButtonColour}" />
+        <Setter Property="FontSize" Value="Small" />
+        <Setter Property="FontFamily" Value="InterRegular" />
+    </Style>
+
+    <!-- Highlight text -->
+    <Style x:Key="TextHighlight" TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource TextPrimaryColour}" />
+        <Setter Property="FontSize" Value="Small" />
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+        <Setter Property="FontFamily" Value="InterRegular" />
+    </Style>
+
+    <Style x:Key="TextNote" TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource TextAccentColour}" />
+        <Setter Property="FontSize" Value="Small" />
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+        <Setter Property="FontFamily" Value="InterRegular" />
+    </Style>
+
+    <!-- Icon button - white -->
+    <Style x:Key="IconButton" TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource TextButtonColour}" />
+        <Setter Property="FontSize" Value="Large" />
+        <Setter Property="FontFamily" Value="FontAwesomeRegular" />
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+    </Style>
+
+    <!-- Icon large - colour -->
+    <Style x:Key="Icon" TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource AccentColour}" />
+        <Setter Property="FontSize" Value="35" />
+        <Setter Property="FontFamily" Value="FontAwesomeLight" />
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+    </Style>
+
+    <!-- HOMEPAGE SECTIONS -->
+    <!-- Section - Icon - Highlight Colour -->
+    <Style x:Key="IconSection" TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource AccentColour}" />
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="FontFamily" Value="FontAwesomeRegular" />
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+    </Style>
+
+    <Style x:Key="IconInline" TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource AccentColour}" />
+        <Setter Property="FontSize" Value="18" />
+        <Setter Property="FontFamily" Value="FontAwesomeLight" />
+    </Style>
+
+    <!-- TODO: Remove and add to alert control -->
+    <Style x:Key="IconWarning" TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource AccentColour}" />
+        <Setter Property="FontSize" Value="70" />
+        <Setter Property="FontFamily" Value="FontAwesomeRegular" />
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+    </Style>
+
+    <!-- Section - Heading -->
+    <Style x:Key="TextSection" TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource TextAccentColour}" />
+        <Setter Property="FontSize" Value="Medium" />
+        <Setter Property="LineHeight" Value=".9" />
+        <Setter Property="FontFamily" Value="InterRegular" />
+    </Style>
+
+    <Style x:Key="TextSectionSpan" TargetType="Span">
+        <Setter Property="TextColor" Value="{DynamicResource TextAccentColour}" />
+        <Setter Property="FontSize" Value="Medium" />
+        <Setter Property="LineHeight" Value=".9" />
+        <Setter Property="FontFamily" Value="InterRegular" />
+    </Style>
+
+    <Style x:Key="TextSubHeading" TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource TextAccentColour}" />
+        <Setter Property="FontSize" Value="Small" />
+        <Setter Property="FontFamily" Value="InterRegular" />
+    </Style>
+</ResourceDictionary>

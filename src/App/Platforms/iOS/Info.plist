@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>LSRequiresIPhoneOS</key>
+        <true/>
+        <key>UIDeviceFamily</key>
+        <array>
+            <integer>1</integer>
+            <integer>2</integer>
+        </array>
+        <key>UIRequiredDeviceCapabilities</key>
+        <array>
+            <string>arm64</string>
+        </array>
+        <key>UISupportedInterfaceOrientations</key>
+        <array>
+            <string>UIInterfaceOrientationPortrait</string>
+        </array>
+        <key>UISupportedInterfaceOrientations~ipad</key>
+        <array>
+            <string>UIInterfaceOrientationPortrait</string>
+        </array>
+        <key>XSAppIconAssets</key>
+        <string>Assets.xcassets/appicon.appiconset</string>
+        <key>UIBackgroundModes</key>
+        <array>
+            <string>fetch</string>
+            <string>remote-notification</string>
+        </array>
+        <key>CFBundleIdentifier</key>
+        <string></string>
+        <key>NSCameraUsageDescription</key>
+        <string>Photographs help our teams assess the issue that you are reporting to us. We need access to your camera to allow you to take a photograph of the issue while using the app.</string>
+        <key>NSPhotoLibraryUsageDescription</key>
+        <string>Photographs help our teams assess the issue that you are reporting to us. We need access to your Photo Library to allow you to upload a photograph as part of your report.</string>
+        <key>NSPhotoLibraryAddUsageDescription</key>
+        <string>Photographs help our teams assess the issue that you are reporting to us. Once you have used your camera to take a photograph of the issue we will need access to your Photo Library to save it.</string>
+        <key>NSLocationWhenInUseUsageDescription</key>
+        <string>One way for you to inform us where the issue you are reporting has taken place is to use your current location. To allow you to do this we need access to the location of your device.</string>
+    </dict>
+</plist>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView x:Class="App.Controls.Sections.HeaderIcon"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentView.ControlTemplate>
+        <ControlTemplate>
+            <Grid Margin="0,0,0,40"
+                  AutomationProperties.IsInAccessibleTree="True"
+                  BackgroundColor="{DynamicResource BackgroundGradientStartColor}"
+                  RowDefinitions="auto,1"
+                  RowSpacing="15"
+                  SemanticProperties.Description="{TemplateBinding HeadLabel}">
+                <Label Grid.Row="0"
+                       Margin="20,15"
+                       HorizontalTextAlignment="Center"
+                       Style="{DynamicResource TextBody}"
+                       Text="{TemplateBinding HeadLabel}" />
+                <BoxView Grid.Row="1"
+                         HeightRequest="1"
+                         Color="{DynamicResource BackgroundGradientEndColor}" />
+                <Border Grid.Row="0"
+                        Grid.RowSpan="2"
+                        BackgroundColor="{DynamicResource BackgroundGradientStartColor}"
+                        HeightRequest="40"
+                        HorizontalOptions="Center"
+                        Stroke="{DynamicResource BackgroundGradientEndColor}"
+                        TranslationY="20"
+                        VerticalOptions="End"
+                        WidthRequest="40">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="28" />
+                    </Border.StrokeShape>
+                    <Label x:Name="Icon"
+                           AutomationProperties.IsInAccessibleTree="False"
+                           FontAutoScalingEnabled="False"
+                           FontFamily="FontAwesomeLight"
+                           FontSize="24"
+                           HorizontalTextAlignment="Center"
+                           Loaded="HeaderIcon_Loaded"
+                           Opacity="0"
+                           Scale="0"
+                           Text="{TemplateBinding HeadIcon}"
+                           TextColor="{DynamicResource TextSecondaryColour}"
+                           VerticalTextAlignment="Center" />
+                </Border>
+            </Grid>
+        </ControlTemplate>
+    </ContentView.ControlTemplate>
+</ContentView>

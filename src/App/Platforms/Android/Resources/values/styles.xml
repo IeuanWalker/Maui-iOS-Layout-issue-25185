@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <!-- Android source code is the best place to find the attribute names - https://android.googlesource.com/platform/frameworks/base/+/lollipop-release/core/res/res/values/styles_material.xml -->
+  <!-- Splashscreen overrides - https://stackoverflow.com/a/78168169 -->
+  <style name="Maui.MainTheme" parent="Theme.MaterialComponents">
+    <item name="android:statusBarColor">#053C3D</item>
+    <item name="android:navigationBarColor">#053C3D</item>
+    <item name="android:windowBackground">#053C3D</item>
+
+    <item name="colorAccent">#053C3D</item>
+    <item name="colorSurface">#075556</item>
+    <item name="android:textColorPrimary">#fff</item>
+    <item name="android:textColorSecondary">#fff</item>
+    <item name="android:colorControlNormal">#fff</item>
+    <item name="colorControlActivated">#053C3D</item>
+
+    <!-- Sets the custom styles for the dialogs -->
+    <item name="alertDialogTheme">@style/CustomDarkAlertDialog</item>
+    <item name="android:datePickerStyle">@style/CustomDarkDatePicker</item>
+    <item name="android:timePickerStyle">@style/CustomDarkTimePicker</item>
+
+    <!-- Sets the color of Ok/ cancel on the dialogs -->
+    <item name="buttonBarButtonStyle">@style/CustomDarkDialogButton</item>
+
+    <!-- Adds corner radius -->
+    <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.MyApp.SmallComponent</item>
+    <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MyApp.MediumComponent</item>
+    <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.MyApp.LargeComponent</item>
+  </style>
+  <!-- Corner radius -->
+  <style name="ShapeAppearance.MyApp.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+    <item name="cornerFamily">cut</item>
+    <item name="cornerSize">4dp</item>
+  </style>
+  <style name="ShapeAppearance.MyApp.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+    <item name="cornerFamily">cut</item>
+    <item name="cornerSize">8dp</item>
+  </style>
+  <style name="ShapeAppearance.MyApp.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+    <item name="cornerFamily">rounded</item>
+    <item name="cornerSize">4dp</item>
+  </style>
+
+  <!--
+  ====================
+  DARK THEME
+  ====================
+  -->
+  <style name="Dark"  parent="Theme.MaterialComponents">
+    <item name="colorAccent">#053C3D</item>
+    <item name="colorSurface">#075556</item>
+    <item name="android:textColorPrimary">#fff</item>
+    <item name="android:textColorSecondary">#fff</item>
+    <item name="android:colorControlNormal">#fff</item>
+    <item name="colorControlActivated">#053C3D</item>
+
+    <!-- Sets the custom styles for the dialogs -->
+    <item name="alertDialogTheme">@style/CustomDarkAlertDialog</item>
+    <item name="android:datePickerStyle">@style/CustomDarkDatePicker</item>
+    <item name="android:timePickerStyle">@style/CustomDarkTimePicker</item>
+
+    <!-- Sets the color of Ok/ cancel on the dialogs -->
+    <item name="buttonBarButtonStyle">@style/CustomDarkDialogButton</item>
+
+    <!-- Adds corner radius -->
+    <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.MyApp.SmallComponent</item>
+    <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MyApp.MediumComponent</item>
+    <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.MyApp.LargeComponent</item>
+  </style>
+
+  <!-- Dialog (alert/ action sheet/ picker)-->
+  <style name="CustomDarkAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+    <item name="android:background">#053C3D</item>
+    <item name="android:textColor">#f4f4f4</item>
+    <item name="android:textColorPrimary">#fff</item>
+    <item name="android:textColorTertiary">#fff</item>
+    <item name="buttonBarPositiveButtonStyle">@style/CustomDarkDialogButton</item>
+    <item name="buttonBarNegativeButtonStyle">@style/CustomDarkDialogButton</item>
+    <item name="buttonBarNeutralButtonStyle">@style/CustomDarkDialogButton</item>
+  </style>
+
+  <!-- Time pickers -->
+  <style name="CustomDarkTimePicker" parent="@android:style/Widget.Material.TimePicker">
+    <item name="android:background">#075556</item>
+    <item name="android:headerBackground">#053C3D</item>
+    <item name="android:numbersTextColor">#fff</item>
+    <item name="android:headerTimeTextAppearance">@style/CustomDarkHeaderTimeTextAppearance</item>
+    <item name="android:numbersInnerTextColor">#000</item>
+    <item name="android:numbersSelectorColor">#075556</item>
+    <item name="android:numbersBackgroundColor">#053C3D</item>
+    <item name="android:colorAccent">#fff</item>
+    <item name="showTitle">false</item>
+  </style>
+  <style name="CustomDarkHeaderTimeTextAppearance" parent="@android:style/TextAppearance.Material">
+    <item name="android:textColor">#fff</item>
+  </style>
+
+  <!-- Date picker -->
+  <style name="CustomDarkDatePicker" parent="@android:style/Widget.Material.DatePicker">
+    <item name="android:background">#075556</item>
+    <item name="android:calendarTextColor">#FFFFFF</item>
+    <item name="android:datePickerMode">calendar</item>
+    <item name="android:headerBackground">#053C3D</item>
+    <item name="android:headerMonthTextAppearance">@style/CustomDarkHeaderTextAppearance</item>
+    <item name="android:headerDayOfMonthTextAppearance">@style/CustomDarkHeaderTextAppearance</item>
+    <item name="android:headerYearTextAppearance">@style/CustomDarkHeaderTextAppearance</item>
+  </style>
+  <style name="CustomDarkHeaderTextAppearance" parent="@android:style/TextAppearance.Material">
+    <item name="android:textColor">#FFFFFF</item>
+    <item name="android:textSize">18sp</item>
+    <item name="android:textStyle">italic</item>
+  </style>
+
+  <!-- Custom Dialog Button Style -->
+  <style name="CustomDarkDialogButton" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+    <item name="android:textColor">#fff</item>
+  </style>
+
+  <!--
+  ====================
+  LIGHT THEME
+  ====================
+  -->
+
+  <style name="Light"  parent="Theme.MaterialComponents.Light">
+    <item name="colorAccent">#FFFFFF</item>
+    <item name="colorSurface">#fff</item>
+    <item name="android:textColorPrimary">#000</item>
+    <item name="android:textColorSecondary">#000</item>
+    <item name="android:colorControlNormal">#000</item>
+    <item name="colorControlActivated">#086c6d</item>
+
+    <!-- Sets the custom styles for the dialogs -->
+    <item name="alertDialogTheme">@style/CustomLightAlertDialog</item>
+    <item name="android:datePickerStyle">@style/CustomLightDatePicker</item>
+    <item name="android:timePickerStyle">@style/CustomLightTimePicker</item>
+
+    <!-- Sets the color of Ok/ cancel on the dialogs -->
+    <item name="buttonBarButtonStyle">@style/CustomLightDialogButton</item>
+
+    <!-- Adds corner radius -->
+    <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.MyApp.SmallComponent</item>
+    <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MyApp.MediumComponent</item>
+    <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.MyApp.LargeComponent</item>
+  </style>
+
+  <!-- Dialog (alert/ action sheet/ picker)-->
+  <style name="CustomLightAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+    <item name="android:background">#FFFFFF</item>
+    <item name="android:textColor">#000</item>
+    <item name="android:textColorPrimary">#000</item>
+    <item name="android:textColorTertiary">#000</item>
+    <item name="buttonBarPositiveButtonStyle">@style/CustomLightDialogButton</item>
+    <item name="buttonBarNegativeButtonStyle">@style/CustomLightDialogButton</item>
+    <item name="buttonBarNeutralButtonStyle">@style/CustomLightDialogButton</item>
+  </style>
+
+  <!-- Time pickers -->
+  <style name="CustomLightTimePicker" parent="@android:style/Widget.Material.TimePicker">
+    <item name="android:background">#fff</item>
+    <item name="android:headerBackground">#086c6d</item>
+    <item name="android:numbersTextColor">#000</item>
+    <item name="android:headerTimeTextAppearance">@style/CustomLightHeaderTimeTextAppearance</item>
+    <item name="android:numbersInnerTextColor">#000</item>
+    <item name="android:numbersSelectorColor">#086c6d</item>
+    <item name="android:numbersBackgroundColor">#E7E7E7</item>
+    <item name="android:colorAccent">#000</item>
+    <item name="showTitle">false</item>
+  </style>
+  <style name="CustomLightHeaderTimeTextAppearance" parent="@android:style/TextAppearance.Material">
+    <item name="android:textColor">#fff</item>
+  </style>
+
+  <!-- Date picker -->
+  <style name="CustomLightDatePicker" parent="@android:style/Widget.Material.DatePicker">
+    <item name="android:background">#fff</item>
+    <item name="android:calendarTextColor">#000</item>
+    <item name="android:datePickerMode">calendar</item>
+    <item name="android:headerBackground">#086c6d</item>
+    <item name="android:headerMonthTextAppearance">@style/CustomLightHeaderTextAppearance</item>
+    <item name="android:headerDayOfMonthTextAppearance">@style/CustomLightHeaderTextAppearance</item>
+    <item name="android:headerYearTextAppearance">@style/CustomLightHeaderTextAppearance</item>
+  </style>
+  <style name="CustomLightHeaderTextAppearance" parent="@android:style/TextAppearance.Material">
+    <item name="android:textColor">#fff</item>
+  </style>
+
+  <!-- Custom Dialog Button Style -->
+  <style name="CustomLightDialogButton" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+    <item name="android:textColor">#000</item>
+  </style>
+</resources>

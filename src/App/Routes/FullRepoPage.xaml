@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="App.Routes.FullRepoPage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:breadcrumb="clr-namespace:Breadcrumb;assembly=Breadcrumb"
+             xmlns:buttons="clr-namespace:App.Controls.Buttons;assembly=App"
+             xmlns:inputs="clr-namespace:App.Controls.Inputs"
+             xmlns:resx="clr-namespace:App.Resources.Languages;assembly=App"
+             xmlns:sections="clr-namespace:App.Controls.Sections"
+             xmlns:styles="clr-namespace:App.Resources.Styles;assembly=App"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Name="this"
+             Title="Full repo"
+             BackgroundColor="{DynamicResource PrimaryBackgroundColour}"
+             HideSoftInputOnTapped="True"
+             NavigationPage.HasNavigationBar="False">
+    <Grid x:Name="MainGrid"
+          RowDefinitions="auto,auto,auto,*"
+          RowSpacing="0">
+        <Border Grid.Row="0"
+                Padding="5"
+                AutomationProperties.IsInAccessibleTree="False"
+                BackgroundColor="Red"
+                IsVisible="True"
+                StrokeThickness="0">
+            <Label Grid.Column="1"
+                   AutomationProperties.IsInAccessibleTree="False"
+                   FontAutoScalingEnabled="False"
+                   FontFamily="InterRegular"
+                   FontSize="20"
+                   HorizontalTextAlignment="Center"
+                   Text="TEST"
+                   TextColor="White" />
+        </Border>
+
+        <Grid x:Name="NavBar"
+              Grid.Row="1"
+              ColumnDefinitions="50,*,50"
+              RowDefinitions="auto,1">
+            <buttons:CircleButton Grid.Row="0"
+                                  Grid.Column="0"
+                                  Clicked="BtnBack_Clicked"
+                                  IconSize="20"
+                                  IconSource="{x:Static styles:IconFont.ArrowLeft}"
+                                  SemanticDescription="{resx:Translate BtnBack}"
+                                  VerticalOptions="Center" />
+            <Label Grid.Row="0"
+                   Grid.Column="1"
+                   FontFamily="InterRegular"
+                   FontSize="20"
+                   Loaded="LblTitle_Loaded"
+                   SemanticProperties.Hint="{resx:Translate AccessibilityHelpTextPageTitle}"
+                   Text="{Binding Title, Source={x:Reference this}}"
+                   TextColor="{DynamicResource TextPrimaryColour}"
+                   VerticalTextAlignment="Center" />
+
+            <buttons:CircleButton Grid.Row="0"
+                                  Grid.Column="2"
+                                  Clicked="BtnHome_Clicked"
+                                  FontFamily="CardiffLogo"
+                                  IconSize="30"
+                                  IconSource="{x:Static styles:IconFont.Drag}"
+                                  SemanticDescription="{resx:Translate AccessibilityHome}"
+                                  VerticalOptions="Center" />
+            <BoxView Grid.Row="1"
+                     Grid.Column="0"
+                     Grid.ColumnSpan="3"
+                     HeightRequest="1"
+                     Color="{DynamicResource BackgroundGradientEndColor}" />
+        </Grid>
+
+        <!-- Breadcrumb -->
+        <breadcrumb:Breadcrumb x:Name="Breadcrumb"
+                               Grid.Row="2"
+                               CornerRadius="6"
+                               FontFamily="InterRegular"
+                               FontSize="Small"
+                               LastBreadcrumbCornerRadius="6"
+                               LastBreadcrumbTextColor="{DynamicResource TextSilverColour}"
+                               TextColor="{DynamicResource TextAccentColour}">
+            <breadcrumb:Breadcrumb.FirstBreadcrumb>
+                <FontImageSource FontFamily="FontAwesomeLight"
+                                 Glyph="{x:Static styles:IconFont.Home}"
+                                 Size="18"
+                                 Color="{DynamicResource TextAccentColour}" />
+            </breadcrumb:Breadcrumb.FirstBreadcrumb>
+            <breadcrumb:Breadcrumb.Separator>
+                <FontImageSource FontFamily="FontAwesomeLight"
+                                 Glyph="&#xf054;"
+                                 Size="12"
+                                 Color="{DynamicResource TextAccentColour}" />
+            </breadcrumb:Breadcrumb.Separator>
+        </breadcrumb:Breadcrumb>
+
+        <ScrollView x:Name="PageScrollView"
+                    Grid.Row="3"
+                    AutomationProperties.IsInAccessibleTree="False"
+                    Scrolled="PageScrollView_Scrolled">
+            <Grid RowDefinitions="auto,auto,auto,*" RowSpacing="10">
+                <sections:HeaderIcon Grid.Row="0"
+                                     HeadIcon="{x:Static styles:IconFont.Wrench}"
+                                     HeadLabel="{x:Static resx:AppResources.Lblhelpuswithissue}" />
+
+                <Label Grid.Row="1"
+                       Margin="{StaticResource FormMargins}"
+                       HorizontalTextAlignment="Center"
+                       Style="{DynamicResource TextBody}"
+                       Text="{x:Static resx:AppResources.LblSuggestion}" />
+
+                <inputs:Editor Grid.Row="2"
+                               Margin="{StaticResource FormMargins}"
+                               AutoSize="TextChanges"
+                               MaxLength="500"
+                               Placeholder="{x:Static resx:AppResources.PlaceholderSuggestions}"
+                               ShowCharacterCount="True" />
+
+                <buttons:NextBack Grid.Row="3" VerticalOptions="End" />
+            </Grid>
+        </ScrollView>
+        <!-- Scroll down indicator -->
+        <Border x:Name="ScrollDownIndicator"
+                Grid.Row="3"
+                Margin="0,0,0,10"
+                AutomationProperties.IsInAccessibleTree="False"
+                BackgroundColor="#95000000"
+                HeightRequest="45"
+                HorizontalOptions="Center"
+                IsVisible="False"
+                Opacity="0"
+                TranslationY="60"
+                VerticalOptions="End"
+                WidthRequest="45">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="22" />
+            </Border.StrokeShape>
+            <Label AutomationProperties.IsInAccessibleTree="False"
+                   FontSize="18"
+                   Style="{StaticResource IconButton}"
+                   Text="{x:Static styles:IconFont.ChevronDownCircle}"
+                   TextColor="White" />
+            <Border.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+            </Border.GestureRecognizers>
+        </Border>
+    </Grid>
+</ContentPage>
